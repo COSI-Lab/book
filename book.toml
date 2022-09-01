@@ -1,0 +1,6 @@
+[book]
+authors = ["COSI Maintainers"]
+language = "en"
+multilingual = false
+src = "src"
+title = "COSI Documentation"
