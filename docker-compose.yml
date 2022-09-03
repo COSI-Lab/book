@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  web:
+    ports:
+      - 8012:80
+    environment:
+      VIRTUAL_PORT: 8012
+      VIRTUAL_HOST: book.cosi.clarkson.edu,book.cslabs.clarkson.edu,book
+      LETSENCRYPT_HOST: book.cosi.clarkson.edu, book.cslabs.clarkson.edu
+    build: .
+    restart: always
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
