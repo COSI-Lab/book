@@ -1,6 +1,6 @@
 From rust:1.63 as builder
 
-RUN cargo install mdbook
+RUN cargo install mdbook --no-default-features --features search --vers "^0.4"
 
 WORKDIR /book
 COPY . .
