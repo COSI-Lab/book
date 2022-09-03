@@ -1,4 +1,4 @@
-From rust:latest as builder
+From rust:1.63 as builder
 
 RUN cargo install mdbook
 
