@@ -16,11 +16,11 @@ crc-dns-0: 128.153.54.32
 crc-dns-1: 128.153.54.33
 ```
 
-Unbound is currently run as a VM under hydra. There are plans to migrate to a Docker container.
-
 ## Unbound
 
 We currently use [Unbound](https://en.wikipedia.org/wiki/Unbound_(DNS_server)) for DNS. If possible, other clients should do their best to have their own DNS caches to further decrease latency when repeatedly accessing the same sites. 
+
+Unbound is currently run as a VM named `unbound` on Hydra. There are plans to migrate to a Docker container.
 
 ### Configuration
 ```
