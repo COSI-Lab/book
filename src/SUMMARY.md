@@ -6,7 +6,7 @@
 # Infrastructure
 
 - [Network](./1_0_network.md)
-	- [Allocations](./1_1_ip_allocations)
+	- [Allocations](./1_1_ip_allocations.md)
 - [Servers]()
 	- [Bacon]()
 - [Racks]()
@@ -17,7 +17,7 @@
 
 - [Network]()
 	- [Authoritative DNS]()
-	- [Recursive DNS]()
+	- [Recursive DNS](./4_2_recursive_dns.md)
 	- [DHCP]()
 	- [Firewall]()
 - [Websites]()
