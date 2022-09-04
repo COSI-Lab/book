@@ -1,12 +1,12 @@
 # Summary
 
-[The COSI Book](./0_0_the_cosi_book.md)
-[Guiding Principles](./0_1_guiding_principles.md)
+[The COSI Book](./the_cosi_book.md)
+[Guiding Principles](./guiding_principles.md)
 
 # Infrastructure
 
-- [Network](./1_0_network.md)
-	- [Allocations](./1_1_ip_allocations.md)
+- [Network](./infrastructure/network/index.md)
+	- [Allocations](./infrastructure/network/ip_allocations.md)
 - [Servers]()
 	- [Bacon]()
 - [Racks]()
@@ -17,7 +17,7 @@
 
 - [Network]()
 	- [Authoritative DNS]()
-	- [Recursive DNS](./4_2_recursive_dns.md)
+	- [Recursive DNS](./services/network/recursive_dns.md)
 	- [DHCP]()
 	- [Firewall]()
 - [Websites]()
