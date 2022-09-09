@@ -17,7 +17,7 @@ This means we have control over `*.cosi.clarkson.edu.` and `*.cslabs.clarkson.ed
 
 ## [zones](https://gitea.cosi.clarkson.edu/COSI_Maintainers/zones)
 
-Our DNS [Zone files](https://en.wikipedia.org/wiki/Zone_file) are backed by a git repository on [gitea](../websites/gitea.md). While they started seperate in recent years we've strived to have the cosi.clarkson.edu and cslabs.clarkson.edu match.
+Our DNS [zone files](https://en.wikipedia.org/wiki/Zone_file) are backed by a git repository on [gitea](../websites/gitea.md). While they started seperate in recent years we've strived to have the cosi.clarkson.edu and cslabs.clarkson.edu match.
 
 When adding a new server to the network make sure you remember to add it's ip to the reverse zones.
 
@@ -27,11 +27,11 @@ COSI has two authoritative DNS servers and they are both running [NSD](https://e
 
 One server `dns1.cosi.clarkson.edu` is running on Talos. While `dns2.cosi.clarkson.edu` is Atlas. Talos is configured as the primary server and Atlas will recieve XFR updates from Talos when ever the zone changes.
 
-OIT's caching DNS servers are configured to cache the entire zone files over XFR. That is why we have XFR enabled for all of Clarkson. If we did some extra work we would be able to limit XFR to just their servers.
+OIT's caching DNS servers are configured to cache the entire zone files over XFR. That is why we have XFR enabled for OIT's name servers. If you notice DNS results are buggy within the Clarkson network it is probably this.
 
 ## Webhook
 
-Deploying updates to the dns zones is a great use for Webhooks. Currently there is a webhook server built into the [zones]((https://gitea.cosi.clarkson.edu/COSI_Maintainers/zones) repo.
+Deploying updates to the dns zones is a great use for Webhooks. Currently there is a webhook server built into the [zones](https://gitea.cosi.clarkson.edu/COSI_Maintainers/zones) repo.
 
 ## Current Configuration
 
@@ -80,14 +80,14 @@ pattern:
 	name: "xfr"
 
 	## OIT DNS SERVERS (maybe we should give them a key?)
-	#provide-xfr: 128.153.5.254 NOKEY
-	#provide-xfr: 128.153.0.254 NOKEY
-	#provide-xfr: 128.153.54.32 NOKEY
-	#provide-xfr: 128.153.54.33 NOKEY
+	provide-xfr: 128.153.5.254 NOKEY
+	provide-xfr: 128.153.0.254 NOKEY
+	provide-xfr: 128.153.54.32 NOKEY
+	provide-xfr: 128.153.54.33 NOKEY
 	
 	## Allow xfr for all of clarkson
-	provide-xfr: 128.153.0.0/16 NOKEY
-	provide-xfr: 2605:6480::1/32 NOKEY
+	#provide-xfr: 128.153.0.0/16 NOKEY
+	#provide-xfr: 2605:6480::1/32 NOKEY
 
 # Zones
 zone:
