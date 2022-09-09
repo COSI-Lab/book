@@ -16,7 +16,7 @@
 # Services
 
 - [Network]()
-	- [Authoritative DNS]()
+	- [Authoritative DNS](./services/network/authoritative_dns.md)
 	- [Recursive DNS](./services/network/recursive_dns.md)
 	- [DHCP]()
 	- [Firewall]()
