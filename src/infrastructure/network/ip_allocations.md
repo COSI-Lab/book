@@ -1,5 +1,7 @@
 # IP Address Allocations
 
+All links on this page should point at the underlying physical (or virtual) _infrastructure_. Links do **not** redirect towards _services_.
+
 ## IP Address Listing for 128.153.144.1/24 subnet
 
 _updated: Sept 4 2022_
@@ -31,11 +33,14 @@ _updated: Sept 4 2022_
 | 128.153.145.# | Name |
 | :--- | :---
 | 1 | OIT Gateway |
-| 2 | Ziltoid |
-| 53 | [Unbound](./4_2_recursive_dns.md) |
+| 2 | [Ziltoid](../servers/ziltoid.md) |
+| 3 | [Talos](../servers/talos.md) |
+| 4 | [Atlas](../vms.md#atlas) |
+| 53 | [Unbound](../vms.md#unbound) |
 
 ### Layout
 
-| IP | Name |
-| :--- | :---
+# Layout of 145/24 network
+
+_TODO: reallocate the entire network_
 
