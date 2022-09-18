@@ -27,8 +27,6 @@ _updated: _
 | RAM |
 | STORAGE |
 | CONNECTIVITY |
-| OTHER |
-- list hardware
 
 ## Operating System
 
