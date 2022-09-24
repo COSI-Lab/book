@@ -16,6 +16,7 @@
 
 - [Servers](./infrastructure/servers/index.md)
 	- [Bacon]()
+	- [Elephant](./infrastructure/servers/elephant.md)
 	- [Hydra](./infrastructure/servers/hydra.md)
 	- [Talos]()
 	- [Tiamat]()
@@ -28,8 +29,8 @@
 - [Services]()
 	- [Authoritative DNS](./services/authoritative_dns.md)
 	- [Recursive DNS](./services/recursive_dns.md)
-	- [DHCP](./services/dhcp.md)
-	- [Firewall](./services/firewall.md)
+	- [DHCP]()
+	- [Firewall]()
 	- [NFS]()
 
 - [Websites]()
