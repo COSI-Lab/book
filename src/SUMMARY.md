@@ -18,8 +18,8 @@
 	- [Bacon]()
 	- [Elephant](./infrastructure/servers/elephant.md)
 	- [Hydra](./infrastructure/servers/hydra.md)
-	- [Talos]()
-	- [Tiamat]()
+	- [Talos](./infrastructure/servers/talos.md)
+	- [Tiamat](./infrastructure/servers/tiamat.md)
 	- [Ziltoid]()
 
 - [Virtual Machines](./infrastructure/vms.md)
