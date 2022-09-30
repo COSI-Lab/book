@@ -1,12 +1,12 @@
 # Talos
 
-_updated: September 27th, 2022_
+_updated: September 30th, 2022_
 
 Will be summuarized later
 
 | | |
 | :--- | :--- |
-| Location | </infrastructure/racks/server_room.html#network-3> |
+| Location | [Server Room](../racks/server_room.md#network-3) |
 | IP Addresses | 128.153.145.3 |
 | Deployed | true |
 
@@ -14,7 +14,7 @@ Will be summuarized later
 
 | | |
 | :--- | :--- |
-| CPU | 
+| CPU | Intel(R) Xeon(R) CPU E3-1220 v3 @ 3.10GHz
 | RAM | 4GB DDR3 1333MHz
 | STORAGE | 250GB SSD
 | CONNECTIVITY | 1000MBit/s on motherboard
@@ -33,12 +33,10 @@ Will be summuarized later
 
 ## Services
 
-</services/authoritative_dns.html>
-DHCP
+[Authoritative DNS](../../services/authoritative_dns.md)
+[DHCP](../../services/dhcp.md)
 LDAP
 Kerberos
 
 ## Notes
-
-
 
