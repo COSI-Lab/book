@@ -29,7 +29,7 @@
 - [Services]()
 	- [Authoritative DNS](./services/authoritative_dns.md)
 	- [Recursive DNS](./services/recursive_dns.md)
-	- [DHCP]()
+	- [DHCP](./services/dhcp.md)
 	- [Firewall]()
 	- [NFS]()
 
