@@ -6,7 +6,7 @@ Host for a bunch of VMs
 
 | | |
 | :--- | :--- |
-| Location | </infrastructure/racks/server_room.html#left>
+| Location | [server room left] (/infrastructure/racks/server_room.html#left)
 | IP Addresses | 128.153.145.41
 | Deployed | true
 
