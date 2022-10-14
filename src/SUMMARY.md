@@ -32,6 +32,7 @@
 	- [DHCP](./services/dhcp.md)
 	- [Firewall]()
 	- [NFS]()
+	- [Print](./services/print.md)
 
 - [Websites]()
 	- [cslabs]()
