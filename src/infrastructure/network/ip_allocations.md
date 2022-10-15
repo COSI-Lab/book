@@ -44,3 +44,16 @@ _updated: Sept 4 2022_
 
 _TODO: reallocate the entire network_
 
+## IPv6 Address Listing for 2605:6480:c051::/48 network
+
+|
+
+### Subnet Allocations
+
+| 2605:6480:c051 | :XXXX: | YYYY:YYYY:YYYY:YYYY |
+| :-:            | :-:  | :-: |
+| network        | subnet | host |
+
+COSI has been allocated 2^16 ipv6 subnets. Each subnet can have up to _2^64_ hosts. 
+
+It is hard to come up with a reasonable way to allocate our subnets because we just have _so many_. 

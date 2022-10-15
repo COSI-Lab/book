@@ -44,3 +44,8 @@
 - [Mirror](./mirror/introduction.md)
 	- [Hardware]()
 	- [Software]()
+
+# Guides 
+
+- [Guides]() 
+	- [COSI Accounts](./guides/cosi_accounts.md)
