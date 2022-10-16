@@ -9,10 +9,7 @@
 	- [Allocations](./infrastructure/network/ip_allocations.md)
 	- [Topology]()
 
-- [Racks]()
-	- [COLO](./infrastructure/racks/colo.md)
-	- [Server Room](./infrastructure/racks/server_room.md)
-	- [Second Floor](./infrastructure/racks/second_floor.md)
+- [Racks](./infrastructure/racks.md)
 
 - [Servers](./infrastructure/servers/index.md)
 	- [Bacon]()
@@ -20,7 +17,7 @@
 	- [Hydra](./infrastructure/servers/hydra.md)
 	- [Talos](./infrastructure/servers/talos.md)
 	- [Tiamat](./infrastructure/servers/tiamat.md)
-	- [Ziltoid]()
+	- [Ziltoid](./infrastructure/servers/ziltoid.md)
 
 - [Virtual Machines](./infrastructure/vms.md)
 
@@ -30,7 +27,7 @@
 	- [Authoritative DNS](./services/authoritative_dns.md)
 	- [Recursive DNS](./services/recursive_dns.md)
 	- [DHCP](./services/dhcp.md)
-	- [Firewall]()
+	- [Firewall](./services/firewall.md)
 	- [NFS]()
 	- [Print](./services/print.md)
 
