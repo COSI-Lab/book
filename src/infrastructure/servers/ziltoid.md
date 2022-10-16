@@ -1,6 +1,6 @@
-# NAME
+# Ziltoid
 
-_updated: Oct. 16th 2022_
+_updated: Oct 16th 2022_
 
 Ziltoid acts as our firewall.
 
