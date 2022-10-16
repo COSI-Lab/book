@@ -6,5 +6,8 @@ src = "src"
 title = "COSI Documentation"
 
 [output.html]
-git-repository-url = "https://gitea.cosi.clarkson.edu/COSI_Maintainers/book"
+git-repository-url = "https://github.com/COSI-Lab/book"
+edit-url-template = "https://github.com/COSI-Lab/book/edit/main/{path}"
 
+[output.html.print]
+enable = false
