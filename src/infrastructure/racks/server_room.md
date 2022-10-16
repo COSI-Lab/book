@@ -11,10 +11,16 @@ There are 5 racks in use in the COSI server room (SC 334-A). In order from SC 33
 - [network 3](#network-3)
 
 ## Left
-_updated: Never_
+- [Tiamat](../servers/tiamat.md)
+- Norm
+- [Hydra](../servers/hydra.md)
+- Red Dwarf
+_updated: Oct. 16th, 2022_
 
 ## Right
-_updated: Never_
+- Prometheus
+- [Mirror](../mirror/introduction.md)
+_updated: Oct. 16th, 2022_
 
 ## Network 1
 _updated: Never_
@@ -23,5 +29,7 @@ _updated: Never_
 _updated: Never_
 
 ## Network 3
-_updated: Never_
+- [Ziltoid](../servers/ziltoid.md)
+- [Talos](../servers/talos)
+_updated: Oct. 16th, 2022_
 
