@@ -6,7 +6,7 @@ Hydra is COSI's default VM host.
 
 | | |
 | :--- | :--- |
-| Location | [server room: left](../racks/server_room.md#left) |
+| Location | [Server Room - Left](../racks.md#left) |
 | IP Addresses | 128.153.145.42 |
 | Deployed | true |
 

@@ -6,7 +6,7 @@ Will be summuarized later
 
 | | |
 | :--- | :--- |
-| Location | [Server Room](../racks/server_room.md#network-3) |
+| Location | [Server Room - Network 3](../racks.md#network-3) |
 | IP Addresses | 128.153.145.3 |
 | Deployed | true |
 

@@ -6,7 +6,7 @@ Elephant is a currently unused server with a similar form factor to [Bacon](./ba
 
 | | |
 | :--- | :--- |
-| Location | [COLO](../racks/colo.md)
+| Location | [COLO](../racks.md#colo)
 | IP Addresses | 
 | Deployed | Rack Mounted. No OS.
 

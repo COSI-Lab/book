@@ -1,8 +1,12 @@
-# Server Room
+# Racks
 
 _updated: Oct 16th 2022_
 
-There are 5 racks in use in the COSI server room (SC 334-A). In order from SC 334 enterance to SC 346 they are named:
+This page serves as an index of all of COSI server racks.
+
+**Server Room:**
+
+In order from SC 334 enterance to SC 346 they are named:
 
 - [left](#left)
 - [right](#right)
@@ -11,17 +15,24 @@ There are 5 racks in use in the COSI server room (SC 334-A). In order from SC 33
 - [network 2](#network-2)
 - [network 3](#network-3)
 
-Here are the named links for convenience
+**COLO:**
+- [COLO](#colo)
 
+**Second Floor:**
+
+TODO
+
+Here are some named links for convenience
 ```
-Replace PATH with the **relative** path to /src/infrastructure/racks
+Replace PATH with the **relative** path to /src/infrastructure/
 
-[Server Room - Left](PATH/server_room.md#left)
-[Server Room - Right](PATH/server_room.md#right)
-[Server Room - Network 0](PATH/server_room.md#network-0)
-[Server Room - Network 1](PATH/server_room.md#network-1)
-[Server Room - Network 2](PATH/server_room.md#network-2)
-[Server Room - Network 3](PATH/server_room.md#network-3)
+[Server Room - Left](PATH/racks.md#left)
+[Server Room - Right](PATH/racks.md#right)
+[Server Room - Network 0](PATH/racks.md#network-0)
+[Server Room - Network 1](PATH/racks.md#network-1)
+[Server Room - Network 2](PATH/racks.md#network-2)
+[Server Room - Network 3](PATH/racks.md#network-3)
+[COLO](PATH/racks.md#colo.md)
 ```
 
 ## Left
@@ -325,3 +336,59 @@ _updated: Oct 16th 2022_
 | 01 | OLD Router (Cisco 7000 series) |
 
 [top of rack](#network-3) - [top of page](#)
+
+## COLO
+
+_updated: Sept 24th 2022_
+
+COSI has 1 rack in the university colocation at Old Main.
+
+| RU | Device |
+| :- | :----- |
+| 45 | OIT Switch (unknown name) |
+| 44 | |
+| 43 | TPLink TL-SG1016 16 port 1G switch |
+| 42 | swf2 |
+| 41 | |
+| 40 | 7 Grand Dad |
+| 39 | 7 Grand Dad |
+| 38 | |
+| 37 | |
+| 36 | |
+| 35 | |
+| 34 | |
+| 33 | |
+| 32 | |
+| 31 | Monitor |
+| 30 | Monitor |
+| 29 | Monitor |
+| 28 | Monitor |
+| 27 | Monitor |
+| 26 | Monitor |
+| 25 | Monitor |
+| 24 | Monitor |
+| 23 | Shelf |
+| 22 | Shelf |
+| 21 | PowerDsine 9024G 24 port HIPOE injector 1G switch |
+| 20 | |
+| 19 | |
+| 18 | |
+| 17 | |
+| 16 | |
+| 15 | |
+| 14 | |
+| 13 | Eldwyn |
+| 12 | [Bacon](../servers/bacon.md) |
+| 11 | [Bacon](../servers/bacon.md) |
+| 10 | [Elephant](../servers/elephant.md) |
+| 09 | [Elephant](../servers/elephant.md) |
+| 08 | |
+| 07 | |
+| 06 | |
+| 05 | |
+| 04 | |
+| 03 | |
+| 02 | |
+| 01 | |
+
+[top of rack](#colo) - [top of page](#)
