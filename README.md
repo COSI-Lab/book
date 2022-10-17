@@ -16,9 +16,9 @@ The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Its h
 4. Within the repo run `mdbook serve` to preview your changes
 5. Document!
 
-It is not _strictly_ necessary to install mdbook to contribute to the book. However, you will most likely make formatting mistakes.
+It's highly recommended that preview your changes being submitting changes. It is very easy to make formatting mistakes. 
 
-We use [typos](https://github.com/crate-ci/typos) to check for typos.
+In CI we use [typos](https://github.com/crate-ci/typos) to check for typos. It's a good tool!
 
 ## Deployment
 
@@ -37,4 +37,3 @@ If you notice `mdbook` has been updated and it needs to be recompiled run:
 docker-compose build --no-cache
 docker-compose up -d
 ```
-
