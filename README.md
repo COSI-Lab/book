@@ -26,7 +26,7 @@ As long as the change isn't "trivial" you should always create a pull request. T
 
 ## Deployment
 
-Until we get a good webhook solution any updates to this repo must be manually deployed on dubsdot2. 
+Until we get a good webhook solution all updates to this repo must be manually deployed on [dubsdot2](https://book.cosi.clarkson.edu/infrastructure/vms.html#dubsdot2). 
 
 As **root** on dubsdot2 run:
 
