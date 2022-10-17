@@ -7,7 +7,7 @@ Creating a user requires 2 steps. First we must create a [Kerberos](../services/
 
 ### Creating a Kerberos Principal
 
-There are two ways of creating a Kerberos Principal. Perferrably use your _/admin_ principal to sign into `kadmin` on any service. Or if for some reason you don't have a _/admin_ principal; you should become root on Talos and sign into kadmin using the `kadmin.local` command.
+There are two ways of creating a Kerberos Principal. Preferably use your _/admin_ principal to sign into `kadmin` on any service. Or if for some reason you don't have a _/admin_ principal; you should become root on Talos and sign into kadmin using the `kadmin.local` command.
 
 
 Sign into [Talos](../infrastructure/servers/talos.md)

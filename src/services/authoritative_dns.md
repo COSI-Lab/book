@@ -13,11 +13,11 @@ cslabs.clarkson.edu.	3600	IN	NS	dns1.cosi.clarkson.edu.
 mirror.clarkson.edu.	3600	IN	A	128.153.145.19
 ```
 
-This means we have control over `*.cosi.clarkson.edu.` and `*.cslabs.clarkson.edu.` domains. Remember that this DNS is propogated back to the public DNS servers. Please keep the record names apropriate. If you even slightly question the name, please contact a lab director for their input.
+This means we have control over `*.cosi.clarkson.edu.` and `*.cslabs.clarkson.edu.` domains. Remember that this DNS is propagated back to the public DNS servers. Please keep the record names appropriate. If you even slightly question the name, please contact a lab director for their input.
 
 ## [zones](https://gitea.cosi.clarkson.edu/COSI_Maintainers/zones)
 
-Our DNS [zone files](https://en.wikipedia.org/wiki/Zone_file) are backed by a git repository on [gitea](../websites/gitea.md). While they started seperate in recent years we've strived to have the cosi.clarkson.edu and cslabs.clarkson.edu match.
+Our DNS [zone files](https://en.wikipedia.org/wiki/Zone_file) are backed by a git repository on [gitea](../websites/gitea.md). While they started separate in recent years we've strived to have the cosi.clarkson.edu and cslabs.clarkson.edu match.
 
 When adding a new server to the network make sure you remember to add it's ip to the reverse zones.
 
@@ -25,7 +25,7 @@ When adding a new server to the network make sure you remember to add it's ip to
 
 COSI has two authoritative DNS servers and they are both running [NSD](https://en.wikipedia.org/wiki/NSD).
 
-One server `dns1.cosi.clarkson.edu` is running on [Talos](../infrastructure/servers/talos.md). While `dns2.cosi.clarkson.edu` is [Atlas](../infrastructure/vms.md#atlas). Talos is configured as the primary server and Atlas will recieve XFR updates from Talos when ever the zone changes.
+One server `dns1.cosi.clarkson.edu` is running on [Talos](../infrastructure/servers/talos.md). While `dns2.cosi.clarkson.edu` is [Atlas](../infrastructure/vms.md#atlas). Talos is configured as the primary server and Atlas will receive XFR updates from Talos when ever the zone changes.
 
 OIT's caching DNS servers are configured to cache the entire zone files over XFR. That is why we have XFR enabled for OIT's name servers. If you notice DNS results are buggy within the Clarkson network it is probably this.
 

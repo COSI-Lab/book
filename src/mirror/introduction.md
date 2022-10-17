@@ -6,7 +6,7 @@ _updated Sept 17th 2022_
 
 ## What is a Mirror?
 
-An open source mirror volunteers for open source projects, such as Ubuntu, to provide a geographically local copy of their data. This way, users of that project can recieve faster, more efficient, downloads. All while providing less strain to the upstream project's limited resources. 
+An open source mirror volunteers for open source projects, such as Ubuntu, to provide a geographically local copy of their data. This way, users of that project can receive faster, more efficient, downloads. All while providing less strain to the upstream project's limited resources. 
 
 Mirrors were one of the first examples of Content Delivery Networks (CDNs) and they currently provide an important service to dozens of open source projects. 
 
