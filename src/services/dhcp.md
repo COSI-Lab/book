@@ -18,7 +18,7 @@ The Internet Systems Consortium's implementation of a DHCP server is good enough
 | Gateway | 128.153.144.1 | OIT Gateway |
 | Subnet Mask | 255.255.254.0 | |
 
-## Configuation 
+## Configuration 
 
 TODO
 

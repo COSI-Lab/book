@@ -6,7 +6,7 @@ This page serves as an index of all of COSI server racks.
 
 **Server Room:**
 
-In order from SC 334 enterance to SC 346 they are named:
+In order from SC 334 entrance to SC 346 they are named:
 
 - [left](#left)
 - [right](#right)
