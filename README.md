@@ -13,10 +13,12 @@ The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Its h
 1. [Install](https://rustup.rs/) the rust programming lanague.
 2. After setting up rust run `cargo install mdbook` to get the latest version of the tool.
 3. Clone this repo.
-4. Within the repo run `mdbook serve`
+4. Within the repo run `mdbook serve` to preview your changes
 5. Document!
 
-It is not strictly necessary to install mdbook to contribute to the book.
+It is not _strictly_ necessary to install mdbook to contribute to the book. However, you will most likely make formatting mistakes.
+
+We use [typos](https://github.com/crate-ci/typos) to check for typos.
 
 ## Deployment
 
