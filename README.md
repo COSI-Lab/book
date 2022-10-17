@@ -10,7 +10,7 @@ This repo is intended to be our new documentation solution for the labs. It's ea
 
 The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Skim over the [User Guide](https://rust-lang.github.io/mdBook/) to get a jist for how the tool works. Particularly the explanation on [SUMMARY.md](https://rust-lang.github.io/mdBook/format/summary.html).
 
-1. Install the [rust](https://rustup.rs/) programming lanague.
+1. Install the [rust](https://rustup.rs/) programming language.
 2. After setting up rust run `cargo install mdbook --vers "^0.4"` to get the tool.
 3. Clone this repo
 4. Within the repo run `mdbook serve` to preview your changes
@@ -22,7 +22,7 @@ In CI we use the [typos](https://github.com/crate-ci/typos) tool to check for ty
 
 ## Contributing
 
-As long as the change isn't "trivial" you should always create a pull request. There is no requirement to fork the project, using a branch is preferred. If you aren't yet a part of our github team you should reach out the a Lab Director for an invite.
+As long as the change isn't "trivial" you should always create a pull request. There is no requirement to fork the project, using a branch is preferred. If you aren't yet a part of our github team you should reach out to a Lab Director for an invite.
 
 ## Deployment
 
