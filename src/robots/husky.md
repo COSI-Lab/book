@@ -2,7 +2,7 @@
 
 _Last Updated: October 18, 2022_
 
-The Husky was made by Clearpath Robotics.
+The Husky was designed and made by Clearpath Robotics.
 
 ## Hardware:
 
@@ -29,7 +29,11 @@ The Husky was made by Clearpath Robotics.
 
 ## Other Information:
 
+WiFi connection needs  be transferred to COSI network
+
 |||
 |:--|:--|
+|Model|Husky A200|
 |Max Speed|2 m/s|
-|ROS Version| ROS2 Humble Hawksbill|
+|IP Address (eth)|128.153.x.x|
+|IP Address (WiFi)|128.153.144.117|
