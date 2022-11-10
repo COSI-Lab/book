@@ -45,7 +45,7 @@
 # Equipment
 
 - [Robots]()
-  - [Husky](./robots/husky.md)
+  - [Husky](./equipment/robots/husky.md)
 
 # Guides
 
