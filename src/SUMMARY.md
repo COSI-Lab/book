@@ -13,6 +13,7 @@
 
 - [Servers](./infrastructure/servers/index.md)
 	- [Bacon]()
+	- [Eldwyn](./infrastructure/servers/eldwyn.md)
 	- [Elephant](./infrastructure/servers/elephant.md)
 	- [Hydra](./infrastructure/servers/hydra.md)
 	- [Talos](./infrastructure/servers/talos.md)
