@@ -2,7 +2,7 @@
 
 _updated: Sept 4th 2022_
 
-The lab runs it's own caching DNS server located at `128.153.145.53`. If you need to set a static IP in COSI use `128.153.145.53` as the DNS entry.
+The lab runs it's own caching DNS server located at `128.153.145.53`. If you need to set a static IP in COSI use `128.153.145.53` as the DNS or "Name Server" entry.
 
 This service should not to be confused with our [authoritative](./authoritative_dns.md) dns services. The purpose of the cache is to improve latency when multiple people are trying to access the same sites. Currently we forward all unknown DNS queries to Clarkson's name servers.
 
