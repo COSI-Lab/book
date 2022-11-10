@@ -21,6 +21,11 @@
 
 - [Virtual Machines](./infrastructure/vms.md)
 
+# Equipment
+
+- [Robots]()
+  - [Husky](./equipment/robots/husky.md)
+
 # Services
 
 - [Services]()
@@ -41,11 +46,6 @@
 - [Mirror](./mirror/introduction.md)
   - [Hardware]()
   - [Software]()
-
-# Equipment
-
-- [Robots]()
-  - [Husky](./equipment/robots/husky.md)
 
 # Guides
 
