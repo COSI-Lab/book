@@ -33,9 +33,11 @@ _updated: Nov 11th 2022_
 
 ## Notes
 
-Eldwyn's BIOS is so old it cannot boot of an SSD. An attempt to find a newer version of the BIOS was _unsuccessful_. 
+**BIOS and Boot drive**
 
-Normally we use a boot SSD, but since we can't use a boot SSD we just use the normal hard drives. To increase the reliability the drives we set up the roots partitions in a [RAID 5](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5) using `mdadm`. 
+Eldwyn's BIOS is so old it cannot boot off an SSD. One attempt to find a newer version of the BIOS was _unsuccessful_. 
+
+Normally we use an SSD to boot our servers. Since we can't use a boot SSD we just use the normal hard drives. To increase the reliability the drives we set up the roots partitions in a [RAID 5](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5) using `mdadm`. 
 
 One of the drives is configured to be the boot drive. If that drive dies there are two options
 
@@ -43,3 +45,13 @@ One of the drives is configured to be the boot drive. If that drive dies there a
 - Boot a live disk and try to manually install grub on one of the other drives.
 
 Godspeed.
+
+**Floppy**
+
+We had to blacklist the floppy drive to suppress some errors.
+
+```
+# /etc/modprobe.d/blacklist-floppy.conf`
+
+blacklist floppy
+```
