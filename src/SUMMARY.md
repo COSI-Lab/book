@@ -41,6 +41,7 @@
 - [Mirror](./mirror/introduction.md)
 	- [Hardware]()
 	- [Software]()
+	- [Services](./mirror/services.md)
 
 # Guides 
 

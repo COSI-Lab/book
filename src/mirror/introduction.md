@@ -1,6 +1,6 @@
 # Introduction
 
-_updated Sept 17th 2022_
+_updated: Sept 17th 2022_
 
 > Actively contribute to the community where possible
 
