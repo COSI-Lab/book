@@ -35,7 +35,7 @@ _updated: Nov 11th 2022_
 
 Eldwyn's BIOS is so old it cannot boot of an SSD. An attempt to find a newer version of the BIOS was _unsuccessful_. 
 
-Normally we use a boot SSD, but since we can't use a boot SSD we just use the normal hard drives. To increase the reliablity the drives we set up the roots partitions in a [RAID 5](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5) using `mdadm`. 
+Normally we use a boot SSD, but since we can't use a boot SSD we just use the normal hard drives. To increase the reliability the drives we set up the roots partitions in a [RAID 5](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_5) using `mdadm`. 
 
 One of the drives is configured to be the boot drive. If that drive dies there are two options
 
