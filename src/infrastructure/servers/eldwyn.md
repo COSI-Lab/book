@@ -1,6 +1,6 @@
 # Eldwyn
 
-_updated: Nov 11th 2022_
+_updated: Nov 30th 2022_
 
 | | |
 | :--- | :--- |
@@ -30,6 +30,15 @@ _updated: Nov 11th 2022_
 | NFS Mount |
 
 ## Services
+
+Eldwyn is known as `comm.cslabs.clarkson.edu` officially; it has records for
+`comm.cosi.clarkson.edu` as well, and generally answers regardless of `Host`
+header (including to plain old `comm` or its IP address). Its LetsEncrypt
+certificate is only valid for the official name, however, as of this writing.
+
+- [Asterisk (VOIP)](../../services/asterisk.md)
+- [XMPP (Prosody)](../../services/xmpp.md)
+- [Murmur (Mumble)](../../services/murmur.md)
 
 ## Notes
 

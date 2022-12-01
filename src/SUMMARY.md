@@ -31,6 +31,9 @@
 	- [Firewall](./services/firewall.md)
 	- [NFS]()
 	- [Print](./services/print.md)
+	- [Asterisk (VOIP)](./services/asterisk.md)
+	- [XMPP (Prosody)](./services/xmpp.md)
+	- [Murmur (Mumble)](./services/murmur.md)
 
 - [Websites]()
 	- [cslabs]()
