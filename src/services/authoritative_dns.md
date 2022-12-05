@@ -35,6 +35,8 @@ Deploying updates to the dns zones is a great use for Webhooks. Currently there 
 
 ## Current Configuration
 
+Note: the `"REDACTED"` secret must be the same in both config files. You could create a reasonable secret with this command `dd if=/dev/random of=/dev/stdout count=1 bs=32 | base64`. Be careful not to leak the secret.
+
 `dns1.cosi.clarkson.edu` configuration:
 ```
 #
