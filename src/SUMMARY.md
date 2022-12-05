@@ -14,6 +14,7 @@
 - [Servers](./infrastructure/servers/index.md)
     - [Bacon]()
     - [Elephant](./infrastructure/servers/elephant.md)
+  	- [Eldwyn](./infrastructure/servers/eldwyn.md)
     - [Hydra](./infrastructure/servers/hydra.md)
     - [Talos](./infrastructure/servers/talos.md)
     - [Tiamat](./infrastructure/servers/tiamat.md)
@@ -49,6 +50,9 @@
     - [Firewall](./services/firewall.md)
     - [NFS]()
     - [Print](./services/print.md)
+    - [Asterisk (VOIP)](./services/asterisk.md)
+    - [XMPP (Prosody)](./services/xmpp.md)
+    - [Murmur (Mumble)](./services/murmur.md)
 
 - [Websites]()
     - [cslabs]()
