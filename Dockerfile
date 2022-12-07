@@ -1,4 +1,4 @@
-From rust:1.63 as builder
+FROM rust:1.63 as builder
 
 RUN cargo install mdbook --no-default-features --features search --vers "^0.4"
 
@@ -9,7 +9,7 @@ RUN mdbook build
 
 # stage 0
 
-From nginx:latest
+FROM nginx:latest
 
 COPY nginx.conf /etc/nginx/nginx.conf
 

@@ -1,6 +1,6 @@
 # Authoritative DNS
 
-_updated Sept 9th 2022_
+_updated: Sept 9th 2022_
 
 OIT has the following entries in their DNS tables. 
 
