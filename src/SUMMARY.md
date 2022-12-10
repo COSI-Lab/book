@@ -56,7 +56,7 @@
 
 - [Websites]()
     - [cslabs]()
-    - [book]()
+    - [book](./websites/book.md)
     - [files]()
     - [random]()
     - [talks]()
