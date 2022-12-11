@@ -1,5 +1,7 @@
 # Book
 
+_updated: Dec 10th 2022_
+
 > Invest in documentation and prefer simple solutions that are maintainable and transferable to others.
 
 You're likely already familiar with the [COSI Book](https://book.cosi.clarkson.edu) since you're currently reading it. The book is currently hosted as a [docker](https://www.docker.com/) container on [Dubsdot2](../infrastructure/vms.md#dubsdot2). The sources for the book are version controlled at <https://github.com/COSI-Lab/book>. 
