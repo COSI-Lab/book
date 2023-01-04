@@ -1,0 +1,19 @@
+/* Styles for the network topology diagrams (all in svg) */
+svg { width: 100%; }
+
+svg .node text, svg .edge polygon {
+	fill: var(--color);
+}
+svg .node ellipse, svg .edge path, svg .edge polygon {
+	stroke: var(--color);
+}
+
+svg .node, svg .edge { --color: #000; }
+svg .clarkson { --color: #777; }
+svg .host { --color: #f00; }
+svg .agg { --color: #70f; }
+svg .managed { --color: #00a; }
+svg .smf10 { --color: #f70; stroke-width: 2px; }
+svg .smf40 { --color: #f30; stroke-width: 4px; }
+svg .e10g { --color: #00f; stroke-width: 2px; }
+svg .room { --color: #070; }
