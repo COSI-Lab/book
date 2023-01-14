@@ -12,9 +12,11 @@ The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Skim 
 
 1. Install the [rust](https://rustup.rs/) programming language.
 2. After setting up rust run `cargo install mdbook --vers "^0.4"` to get the tool.
-3. Clone this repo
-4. Within the repo run `mdbook serve` to preview your changes
-5. Document!
+3. Optionally, install some dependencies:
+	- `cargo install mdbook-graphviz` will install the Graphviz processor for writing diagrams in text (requires [Graphviz](https://graphviz.org/) on your system)
+4. Clone this repo
+5. Within the repo run `mdbook serve` to preview your changes
+6. Document!
 
 It's **highly** recommended that you preview your changes before submitting them. It is very easy to make formatting mistakes, mdbook may not exactly match other markdown processors.
 

@@ -7,7 +7,7 @@
 
 - [Network](./infrastructure/network/index.md)
     - [Allocations](./infrastructure/network/ip_allocations.md)
-    - [Topology]()
+    - [Topology](./infrastructure/network/topology.md)
 
 - [Racks](./infrastructure/racks.md)
 
@@ -56,7 +56,7 @@
 
 - [Websites]()
     - [cslabs]()
-    - [book]()
+    - [book](./websites/book.md)
     - [files]()
     - [random]()
     - [talks]()
