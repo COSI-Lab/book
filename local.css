@@ -16,7 +16,7 @@ svg .clarkson { --color: #777; }
 svg .host { --color: #f00; }
 svg .agg { --color: #70f; }
 svg .managed { --color: #00a; }
-svg .unmanaged { --color: #007; }
+svg .unmanaged { }
 svg .smf10 { --color: #f70; stroke-width: 2px; }
 svg .smf40 { --color: #f30; stroke-width: 4px; }
 svg .e10g { --color: #00f; stroke-width: 2px; }
