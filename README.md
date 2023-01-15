@@ -20,7 +20,7 @@ The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Skim 
 
 It's **highly** recommended that you preview your changes before submitting them. It is very easy to make formatting mistakes, mdbook may not exactly match other markdown processors.
 
-In CI we use the [typos](https://github.com/crate-ci/typos) tool to check for typos. Highly recommended!
+In CI we use the [typos](https://github.com/crate-ci/typos) tool to check for typos. Recommended!
 
 ## Contributing
 
