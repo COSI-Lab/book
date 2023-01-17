@@ -1,4 +1,4 @@
-FROM rust:1.63 as builder
+FROM rust:latest as builder
 
 RUN cargo install mdbook --no-default-features --features search --vers "^0.4"
 
