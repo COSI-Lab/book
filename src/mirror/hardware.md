@@ -1,6 +1,6 @@
 # "Hardware"
 
-The most import form of maintaince preformed on Mirror is maintaining the physical hardware and operating system.
+The most import form of maintained preformed on Mirror is maintaining the physical hardware and operating system.
 
 ## Hardware 
 
