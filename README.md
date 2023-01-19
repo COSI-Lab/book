@@ -30,10 +30,10 @@ As long as the change isn't "trivial" you should always create a pull request. T
 
 Until we get a good webhook solution all updates to this repo must be manually deployed on [dubsdot2](https://book.cosi.clarkson.edu/infrastructure/vms.html#dubsdot2). 
 
-As **root** on dubsdot2 run:
+As **root** on tiamat run:
 
 ```
-cd /opt/book
+cd /docker/book
 git pull
 docker-compose up --build -d
 ```
