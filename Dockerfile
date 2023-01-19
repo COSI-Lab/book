@@ -1,6 +1,8 @@
 FROM rust:latest as builder
 
-RUN cargo install mdbook --no-default-features --features search --vers "^0.4"
+RUN apt install graphviz
+RUN cargo install mdbook --no-default-features --features search 
+RUN cargo install mdbook-graphviz
 
 WORKDIR /book
 COPY . .
