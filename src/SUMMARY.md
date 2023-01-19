@@ -62,7 +62,7 @@
     - [talks]()
 
 - [Mirror](./mirror/introduction.md)
-    - [Hardware]()
+    - [Hardware](./mirror/hardware.md)
     - [Software]()
     - [Services](./mirror/services.md)
 
