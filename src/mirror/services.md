@@ -214,6 +214,8 @@ data
 
 [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) is an open source agent that records system information and uploads it to any Influxdb server. This our configuration with the API key remove.
 
+**Configuration:**
+
 ```
 # Configuration for telegraf agent
 [agent]
