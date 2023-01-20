@@ -6,7 +6,7 @@ There are some services on Mirror whose documentation does not fit well in the d
 
 _updated: Jan 15th 2023_ 
 
-[NGINX](https://nginx.org/en/) is Mirror's web server listening on ports 80 (http) and 443 (https). NGINX is responisbile for servering project files, generating index pages (for example <https://mirror.clarkson.edu/blender>), and redirecting requests for the website to [Mirror Software](./software.md).
+[NGINX](https://nginx.org/en/) is Mirror's web server listening on ports 80 (http) and 443 (https). NGINX is responsible for serving project files, generating index pages (for example <https://mirror.clarkson.edu/blender>), and redirecting requests for the website to [Mirror Software](./software.md).
 
 **Configuration:**
 
@@ -163,7 +163,7 @@ server {
 
 _updated: Jan 15th 2023_ 
 
-[Influxdb](https://www.influxdata.com/products/influxdb-overview/) is an open source [time-series database](https://en.wikipedia.org/wiki/Time_series_database). [Mirror Software](./software.md) will process our [NGINX](#nginx) log files extracting interesting information, aggrate it, and then store the results in Influxdb. 
+[Influxdb](https://www.influxdata.com/products/influxdb-overview/) is an open source [time-series database](https://en.wikipedia.org/wiki/Time_series_database). [Mirror Software](./software.md) will process our [NGINX](#nginx) log files extracting interesting information, aggregating it, and then storing the results in Influxdb. 
 
 Data in Influxdb is stored in buckets.
 
@@ -212,7 +212,7 @@ data
 
 ## Telegraf 
 
-[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) is an open source agent that records system information and uploads it to any Influxdb server. This our configuration with the API key remove.
+[Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) is an open source agent that records system information and uploads it to any Influxdb server. This is our configuration with the API key removed.
 
 **Configuration:**
 
@@ -316,7 +316,7 @@ data
 
 _updated: Nov 6th 2022_
 
-[RKHunter](https://rkhunter.sourceforge.net/) or "Rootkit Hunter" is a script that checks linux systems for signs of known linux rootkits. Assuming other security measures are well followed we should not expect Mirror to become infected with a rootkit. It might be worth an investment in running the tool automaticaaly (maybe daily?) but we don't currently have satisfactory methods of sending mail when warnings occur. Until then (and maybe forever) here is some instructions on manually running RKHunter. 
+[RKHunter](https://rkhunter.sourceforge.net/) or "Rootkit Hunter" is a script that checks linux systems for signs of known linux rootkits. Assuming other security measures are well followed we don't expect Mirror to become infected with a rootkit. It might be worth running the tool automatically (maybe daily?), however, we don't currently have a satisfactory method of sending mail when warnings occur. Until then (and maybe forever) here are some instructions for manually running RKHunter. 
 
 
 **Install:**
@@ -351,5 +351,5 @@ sudo rkhunter --check --skip-keypress --report-warnings-only
 Warning: The command '/usr/bin/lwp-request' has been replaced by a script: /usr/bin/lwp-request: Perl script text executable
 ```
 
-This seems to be a wellknown issue on debian based machines. 2 attempts have been made to stop this error without success.
+This seems to be a well known issue on Debian based machines. So far two attempts have been made to stop this error, both without success.
 
