@@ -6,8 +6,6 @@ OIT has the following entries in their DNS tables.
 
 ```
 cosi.clarkson.edu.	3600	IN	NS	dns1.cosi.clarkson.edu.
-cosi.clarkson.edu.	3600	IN	NS	dns2.cosi.clarkson.edu.
-cslabs.clarkson.edu.	3600	IN	NS	dns2.cosi.clarkson.edu.
 cslabs.clarkson.edu.	3600	IN	NS	dns1.cosi.clarkson.edu.
 
 mirror.clarkson.edu.	3600	IN	A	128.153.145.19
@@ -23,9 +21,11 @@ When adding a new server to the network make sure you remember to add it's ip to
 
 ## NSD
 
-COSI has two authoritative DNS servers and they are both running [NSD](https://en.wikipedia.org/wiki/NSD).
+COSI has one authoritative DNS server and running [NSD](https://en.wikipedia.org/wiki/NSD).
 
-One server `dns1.cosi.clarkson.edu` is running on [Talos](../infrastructure/servers/talos.md). While `dns2.cosi.clarkson.edu` is [Atlas](../infrastructure/vms.md#atlas). Talos is configured as the primary server and Atlas will receive XFR updates from Talos when ever the zone changes.
+One server `dns1.cosi.clarkson.edu` is running on [Talos](../infrastructure/servers/talos.md). 
+
+In the recent past, COSI had two dns servers, the other being `dns2.cosi.clarkson.edu` [Atlas](../infrastructure/vms.md#atlas). It was determined inefficent to have Atlas during the time in which the COSI network had to be fixed. This page and other mentions of Atlas should be changed in the near future.
 
 OIT's caching DNS servers are configured to cache the entire zone files over XFR. That is why we have XFR enabled for OIT's name servers. If you notice DNS results are buggy within the Clarkson network it is probably this.
 
