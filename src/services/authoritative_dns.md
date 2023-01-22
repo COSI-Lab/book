@@ -115,4 +115,4 @@ zone:
 
 ## Notes
 
-In the recent past, COSI had two dns servers, the other being `dns2.cosi.clarkson.edu` [Atlas](../infrastructure/vms.md#atlas). It was determined inefficent to have Atlas during the time in which the COSI network had to be fixed. This page and other mentions of Atlas should be changed in the near future.
+In the recent past, COSI had two dns servers, the other being `dns2.cosi.clarkson.edu` [Atlas](../infrastructure/vms.md#atlas). It was determined inefficient to have Atlas during the time in which the COSI network had to be fixed. This page and other mentions of Atlas should be changed in the near future.
