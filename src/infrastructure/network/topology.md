@@ -36,7 +36,7 @@ If you have trouble distinguishing colors, you can read the source code.
 
 ## Current Topology
 
-_updated: Jan 15th 2023_
+_updated: Jan 31st 2023_
 
 ```dot process
 /* COSI network topology
@@ -58,7 +58,7 @@ graph {
 	mirror [class="host"];
 	ziltoid [class="host"];
 
-	subgraph {
+	subgraph switches {
 		node [shape="record"]
 
 		jgw [class="clarkson"];
@@ -70,7 +70,6 @@ graph {
 		m3 [class="managed"];
 
 		private [class="unmanaged"];
-		public [class="unmanaged"];
 		wifi [class="unmanaged"];
 
 		itl1 [class="unmanaged"];
@@ -83,7 +82,7 @@ graph {
 
 	talos [class="host"];
 	eldwyn [class="host"];
-	// hydra [class="host"];
+	hydra [class="host"];
 	tiamat [class="host"];
 	prometheus [class="host"];
 	COSI [class="room"];
@@ -98,27 +97,31 @@ graph {
 	jgw -- sc334 [class="clarkson"];
 	
 	sc334 -- f2 -- mirror [class="smf10",label="3"];
-	f2 -- public [label="3"];
 	f2 -- ziltoid [dir=forward,class="smf10",label="3"];
 	f2 -- ziltoid [dir=back,class="smf10",label="2"];
+	f2 -- tiamat [class="smf10",label="2"];
+
 	f2 -- private  [label="2"];
-	private -- {m2, m3};
-	f2 -- {tiamat} [class="smf10",label="2"];
-	private -- {cosi1, cosi2, itl1, itl2, itl3, itl4};
-	{cosi1, cosi2} -- COSI -- talos;
+	private -- {itl1, itl2, itl3, itl4, talos, hydra};
 	{itl1, itl2, itl3, itl4} -- ITL;
-	m3 -- {eldwyn};
+
+	f2 -- {cosi1, cosi2, m2} [label="2"];
+	{cosi1, cosi2} -- COSI;
+
+	f2 -- m3 [label="2,5"];
+
 	m2 -- {prometheus, wifi};
+	m3 -- {eldwyn};
 }
 ```
 
 ## Desired Topology
 
-_updated: Jan 15th 2023_
+_updated: Jan 31st 2023_
 
 ```dot process
 graph {
-	layout="neato";
+	layout="sfdp";
 
 	bgcolor="#dddddd";
 	ratio=0.75;
@@ -126,10 +129,11 @@ graph {
 	/* Nodes */
 	internet [shape=none,height=1,width=1,fixedsize=true,image="cloud.gif",label=""];
 	
-	// sc334 [class="clarkson",label="sc-334-c2960s"];
 	subgraph switches {
 		node [shape="record"]
 		jgw [class="clarkson"];
+		sc334 [class="clarkson",label="sc-334-c2960s"];
+		"beef*" [class="clarkson"];
 		
 		fcolo [class="agg"];
 		fhill [class="agg"];
@@ -148,26 +152,30 @@ graph {
 		cosi2 [class="unmanaged"];
 	}
 
-	mirror [class="host"];
-	ziltoid [class="host"];
-	"grand-dad" [class="host"];
+	mirror [class="host",href="../../mirror/introduction.md"];
+	ziltoid [class="host",href="../servers/ziltoid.md"];
 	hydra [class="host",href="../servers/hydra.html"];
 	bacon [class="host",href="../servers/bacon.html"];
 	tiamat [class="host",href="../servers/tiamat.html"];
 	eldwyn [class="host",href="../servers/eldwyn.html"];
-	prometheus [class="host"];
-	COSI [class="room"];
-	ITL [class="room"];
+	"grand-dad" [class="host"];
 	ziltoid [class="host",href="../servers/ziltoid.html"];
 	talos [class="host",href="../servers/talos.html"];
 	elephant [class="host",href="../servers/elephant.html"];
+	prometheus [class="host"];
 	norm [class="host"];
 	"red-dwarf" [class="host"];
+	COSI [class="room"];
+	ITL [class="room"];
 	
 	/* Edges */
-	internet -- jgw[dir=back,class="clarkson"];
-	// jgw -- sc334 [class="clarkson",label="3"];
-	fcolo -- fhill [class="smf40",label="2,3,4,5,6,7"];
+	internet -- jgw [dir=back,class="clarkson"];
+	jgw -- {sc334, "beef*"} [class="clarkson"];
+	"beef*" -- ITL [class="room"];
+	fhill -- sc334 [class="smf10",label="3"];
+	fcolo -- jgw [class="smf10",label="3"];
+
+	fcolo -- fhill [class="smf10",label="2,4,5,6,7"];
 	fhill -- {mnet, hydra, bacon, tiamat} [class="smf10",label="2"];
 	fhill -- mrackl [label="2,5"];
 	fhill -- mrackr [label="2"];
@@ -178,7 +186,7 @@ graph {
 	{cosi1, cosi2} -- COSI [class="room"];
 	{itl1, itl2, itl3, itl4} -- ITL [class="room"];
 	shitch -- talos;
-	fcolo -- {jgw, mirror} [class="smf10",label="3"];
+	fcolo -- {mirror} [class="smf10",label="3"];
 	fcolo -- shitch [dir=forward,label="2"];
 	fcolo -- elephant [class="smf10",label="2"];
 	fcolo -- shitch [dir=back];
@@ -187,6 +195,8 @@ graph {
 	norm -- prometheus [class="e10g",label="direct 10G",fontcolor="blue"];
 }
 ```
+
+_\* "beef" is switch with a 40 gigabit uplink that has yet to been allocated by OIT. It will connect the Window's machines to OIT's lab vlan._
 
 ## VLANS
 
