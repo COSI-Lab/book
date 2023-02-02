@@ -7,7 +7,7 @@ Elephant is a currently unused server with a similar form factor to [Bacon](./ba
 | | |
 | :--- | :--- |
 | Location | [COLO](../racks.md#colo)
-| IP Addresses | 
+| IP Addresses | 128.153.145.90
 | Deployed | Rack Mounted. No OS.
 
 ## Hardware
@@ -22,11 +22,11 @@ Elephant is a currently unused server with a similar form factor to [Bacon](./ba
 
 ## Operating System
 
-Nothing of value, yet. But has OpenSuse installed unkown what is on it, but it wilbe getting nuked soonish.
+Nothing of value, yet. But has OpenSuse installed unknown what is on it, but it wilbe getting nuked soonish.
 
 ## Services
 
-Nothing of value, yet. Planned to be runing backup server while using storage provided by [Ampersand](./ampersand.md).
+Nothing of value, yet. Planned to be running backup server while using storage provided by [Ampersand](./ampersand.md).
 
 ## Notes
 

@@ -6,7 +6,10 @@ Ampersand is a currently a semi-unused server that is planned to be used in conj
 | | |
 | :--- | :--- |
 | Location | [COLO](../racks.md#colo)
-| IP Addresses | 
+| IP Addresses | 128.153.145.91
+                 128.153.145.92
+                 128.153.145.93
+                 128.153.145.94
 | UnDeployed | Soon to be(tm) Rack Mounted. Dell proprietary OS. 3x 3u Chassis that take up 9u total.
 
 ## Hardware
@@ -16,17 +19,17 @@ Ampersand is a currently a semi-unused server that is planned to be used in conj
 | CPU | Unknown 
 | RAM | Unknown
 | STORAGE | 30x 1Tb drives, 15x 2Tb drives 
-| CONNECTIVITY | 4x RJ-45 ISCSi ports, 2x RJ-45 managment ports
-| Motherboard | Unkown Dell proprietary.
+| CONNECTIVITY | 4x RJ-45 ISCSi ports, 2x RJ-45 management ports
+| Motherboard | Unknown Dell proprietary.
 | Chassis | Dell PowerVault MD3000i
 
 ## Operating System
 
-Unkown and unable to change due to conectivity and how proprietary Dell made it.
+Unknown and unable to change due to connectivity and how proprietary Dell made it.
 
 ## Services
 
-Nothing of value, yet. Planned to be runing as a NAS attached just for [Elephant](./elephant.md).
+Nothing of value, yet. Planned to be running as a NAS attached just for [Elephant](./elephant.md). Currently Unable to be managed.
 
 ## Notes
 
