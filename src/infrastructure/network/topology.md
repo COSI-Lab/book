@@ -196,7 +196,7 @@ graph {
 }
 ```
 
-_\* "beef" is switch with a 40 gigabit uplink that has yet to been allocated by OIT. It will connect the Window's machines to OIT's lab vlan._
+- _"beef" is switch with a 40 gigabit uplink that has yet to been allocated by OIT. It will connect the Window's machines to OIT's lab vlan._
 
 ## VLANS
 
