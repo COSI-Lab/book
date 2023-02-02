@@ -1,6 +1,6 @@
 # Hydra
 
-_updated: Sept 18th 2022_
+_updated: Jan 31st 2023_
 
 Hydra is COSI's default VM host. 
 
@@ -24,7 +24,7 @@ Hydra is COSI's default VM host.
 | | |
 | :--- | :--- |
 | OS | GNU/Linux
-| Distro | Ubuntu 18.04.5 LTS
+| Distro | Ubuntu 22.04.5 LTS
 | Last updated | unknown
 | End of life | April 2028
 | Enrolled in COSI auth | true
@@ -46,6 +46,7 @@ _updated: Sept 18th 2022_
 
 It is not so bad to use virt-manager over ssh while on the Clarkson network.
 
+VM's are using [qemu](https://www.qemu.org/) and virtmanager
 ```sh
 ssh -X hydra virt-manager
 ```
