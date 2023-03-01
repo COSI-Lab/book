@@ -20,7 +20,7 @@ The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Skim 
 
 It's **highly** recommended that you preview your changes before submitting them. It is very easy to make formatting mistakes, mdbook may not exactly match other markdown processors.
 
-In CI we use the [typos](https://github.com/crate-ci/typos) tool to check for typos. Highly recommended!
+In CI we use the [typos](https://github.com/crate-ci/typos) tool to check for typos. Recommended!
 
 ## Contributing
 
@@ -30,10 +30,10 @@ As long as the change isn't "trivial" you should always create a pull request. T
 
 Until we get a good webhook solution all updates to this repo must be manually deployed on [dubsdot2](https://book.cosi.clarkson.edu/infrastructure/vms.html#dubsdot2). 
 
-As **root** on dubsdot2 run:
+As **root** on tiamat run:
 
 ```
-cd /opt/book
+cd /docker/book
 git pull
 docker-compose up --build -d
 ```

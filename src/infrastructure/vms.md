@@ -73,11 +73,11 @@ Docs hosts our old [mediawiki](https://www.mediawiki.org/wiki/MediaWiki) documen
 
 ## dubsdot
 
-> deprecated: In the interim all new websevices should be deployed to [dubsdot2](#dubsdot2). Existing dubsdot services should be rebuilt and migrated.
+> deprecated: all new websevices should be deployed to [Tiamat](./servers/tiamat.md). Existing dubsdot services should be rebuilt and migrated.
 
-_updated: Sept 18th 2022_
+_updated: Feb 28th 2023_
 
-Dubsdot is our old web host. Runs many websites.
+Dubsdot was our old web host. Ran many websites.
 
 | | |
 | :--- | :--- |
@@ -95,9 +95,11 @@ Dubsdot is our old web host. Runs many websites.
 
 ## dubsdot2
 
-_updated: Sept 18th 2022_
+_updated: Feb 28th 2023_
 
-Interim web host and location to run [docker](https://www.docker.com) containers. Eventually the goal is to remove a layer of virtualization and migrate services to [tiamat](./servers/tiamat.md).
+> deprecated: all new websevices should be deployed to [Tiamat](./servers/tiamat.md). Existing dubsdot2 services should be rebuilt and migrated.
+
+This was an interim web host and location to run [docker](https://www.docker.com) containers, with the intention of eventually removing a layer of virtualization and migrating services to [Tiamat](./servers/tiamat.md).
 
 | | |
 | :--- | :--- |

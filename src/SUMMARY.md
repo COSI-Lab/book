@@ -8,6 +8,7 @@
 - [Network](./infrastructure/network/index.md)
     - [Allocations](./infrastructure/network/ip_allocations.md)
     - [Topology](./infrastructure/network/topology.md)
+    - [Switches](./infrastructure/network/switches.md)
 
 - [Racks](./infrastructure/racks.md)
 
@@ -62,8 +63,9 @@
     - [talks]()
 
 - [Mirror](./mirror/introduction.md)
-    - [Hardware]()
+    - [Hardware](./mirror/hardware.md)
     - [Software]()
+    - [Services](./mirror/services.md)
 
 # Guides 
 
