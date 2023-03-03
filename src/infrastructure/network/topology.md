@@ -36,7 +36,7 @@ If you have trouble distinguishing colors, you can read the source code.
 
 ## Current Topology
 
-_updated: Jan 31st 2023_
+_updated: Mar 2nd 2023_
 
 ```dot process
 /* COSI network topology
@@ -102,7 +102,7 @@ graph {
 	f2 -- tiamat [class="smf10",label="2"];
 
 	f2 -- private  [label="2"];
-	private -- {itl1, itl2, itl3, itl4, talos, hydra};
+	private -- {itl1, itl2, itl3, itl4, talos, hydra, ziltoid};
 	{itl1, itl2, itl3, itl4} -- ITL;
 
 	f2 -- {cosi1, cosi2, m2} [label="2"];
@@ -117,7 +117,7 @@ graph {
 
 ## Desired Topology
 
-_updated: Jan 31st 2023_
+_updated: Mar 2nd 2023_
 
 ```dot process
 graph {
@@ -186,6 +186,7 @@ graph {
 	{cosi1, cosi2} -- COSI [class="room"];
 	{itl1, itl2, itl3, itl4} -- ITL [class="room"];
 	shitch -- talos;
+	shitch -- ziltoid;
 	fcolo -- {mirror} [class="smf10",label="3"];
 	fcolo -- shitch [dir=forward,label="2"];
 	fcolo -- elephant [class="smf10",label="2"];
