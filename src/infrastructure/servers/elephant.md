@@ -22,7 +22,7 @@ Elephant is a currently unused server with a similar form factor to [Bacon](./ba
 
 ## Operating System
 
-Nothing of value, yet. But has OpenSuse installed unknown what is on it, but it wilbe getting nuked soonish.
+Nothing of value, yet. But has OpenSuse installed, unknown filesystem contents, nuking soon.
 
 ## Services
 
