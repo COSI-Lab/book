@@ -3,6 +3,7 @@ FROM rust:latest as builder
 
 RUN apt update && apt upgrade -y && apt install graphviz -y
 
+ENV CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 RUN cargo install --no-default-features --features search mdbook
 RUN cargo install mdbook-graphviz
 
