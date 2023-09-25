@@ -36,8 +36,11 @@ _updated: Sept 4 2022_
 | 2 | [Ziltoid](../servers/ziltoid.md) |
 | 3 | [Talos](../servers/talos.md) |
 | 4 | [Atlas](../vms.md#atlas) |
-| 179 | [hbox](../servers/hbox.md) |
+| 42 | [Hydra](../servers/hydra.md) |
 | 53 | [Unbound](../vms.md#unbound) |
+| 179 | [hbox](../servers/hbox.md) |
+| 219 | [fsu](../vms.md#fsu) |
+
 
 ### Layout
 
