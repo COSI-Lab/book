@@ -43,13 +43,13 @@ authoritative;
 
 # Use this to send dhcp log messages to a different log file (you also
 # have to hack syslog.conf to complete the redirection).
-#log-facility local7;
+# log-facility local7;
 
 # No service will be given on this subnet, but declaring it helps the 
 # DHCP server to understand the network topology.
 
-#subnet 10.152.187.0 netmask 255.255.255.0 {
-#}
+# subnet 10.152.187.0 netmask 255.255.255.0 {
+# }
 
 # This is a very basic subnet declaration.
 
@@ -80,7 +80,7 @@ subnet 128.153.144.0 netmask 255.255.254.0 {
 #}
 
 # Hosts which require special configuration options can be listed in
-# host statements.   If no address is specified, the address will be
+# host statements. If no address is specified, the address will be
 # allocated dynamically (if possible), but the host-specific information
 # will still come from the host declaration.
 
@@ -93,7 +93,7 @@ subnet 128.153.144.0 netmask 255.255.254.0 {
 # Fixed IP addresses can also be specified for hosts.   These addresses
 # should not also be listed as being available for dynamic assignment.
 # Hosts for which fixed IP addresses have been specified can boot using
-# BOOTP or DHCP.   Hosts for which no fixed address is specified can only
+# BOOTP or DHCP. Hosts for which no fixed address is specified can only
 # be booted with DHCP, unless there is an address range on the subnet
 # to which a BOOTP client is connected which has the dynamic-bootp flag
 # set.
@@ -103,7 +103,7 @@ subnet 128.153.144.0 netmask 255.255.254.0 {
 #}
 
 # You can declare a class of clients and then do address allocation
-# based on that.   The example below shows a case where all clients
+# based on that. The example below shows a case where all clients
 # in a certain class get addresses on the 10.17.224/24 subnet, and all
 # other clients get addresses on the 10.0.29/24 subnet.
 
