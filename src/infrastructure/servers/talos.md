@@ -8,7 +8,7 @@ in place of Atlas as our secondary DNS server.
 | | |
 | :--- | :--- |
 | Location | [Server Room - Network 3](../racks.md#network-3) |
-| IP Addresses | N/A |
+| IP Addresses | 128.153.145.4 |
 | Deployed | false |
 
 ## Hardware

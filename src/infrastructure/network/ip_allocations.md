@@ -34,12 +34,11 @@ _updated: Sep 25, 2023_
 | :--- | :---
 | 1 | OIT Gateway |
 | 2 | [Ziltoid](../servers/ziltoid.md) |
-| 3 | [Talos](../servers/talos.md) |
-| 4 | [Atlas](../vms.md#atlas) |
+| 3 | [TalDos](../servers/taldos.md) |
+| 4 | [Talos](../servers/talos.md) |
 | 42 | [Hydra](../servers/hydra.md) |
-| 53 | [Unbound](../vms.md#unbound) |
+| 53 | [TalDos](../servers/taldos.md) |
 | 179 | [hbox](../servers/hbox.md) |
-| 219 | [fsu](../vms.md#fsu) |
 
 
 ### Layout
