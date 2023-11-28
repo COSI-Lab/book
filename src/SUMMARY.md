@@ -18,6 +18,7 @@
   	- [Eldwyn](./infrastructure/servers/eldwyn.md)
     - [Hydra](./infrastructure/servers/hydra.md)
     - [Talos](./infrastructure/servers/talos.md)
+    - [TalDos](./infrastructure/servers/taldos.md)
     - [Tiamat](./infrastructure/servers/tiamat.md)
     - [Ziltoid](./infrastructure/servers/ziltoid.md)
 

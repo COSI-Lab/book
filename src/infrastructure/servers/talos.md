@@ -1,14 +1,15 @@
 # Talos
 
-_updated: September 30th, 2022_
+_updated: November 27th, 2023_
 
-Will be summuarized later
+Talos is COSI's old primary DNS server, and is currently planned to be set up
+in place of Atlas as our secondary DNS server.
 
 | | |
 | :--- | :--- |
 | Location | [Server Room - Network 3](../racks.md#network-3) |
-| IP Addresses | 128.153.145.3 |
-| Deployed | true |
+| IP Addresses | N/A |
+| Deployed | false |
 
 ## Hardware
 
@@ -40,3 +41,4 @@ Kerberos
 
 ## Notes
 
+Talos was replaced by TalDos in Fall 2023 after it crashed due to memory errors.

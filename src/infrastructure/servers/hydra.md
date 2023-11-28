@@ -41,7 +41,6 @@ _updated: Sept 18th 2022_
 - [gitea](../vms.md#gitea)
 - [unbound](../vms.md#unbound)
 - [voip](../vms.md#voip)
-- [fsu](../vms.md#fsu)
 
 ## Notes
 

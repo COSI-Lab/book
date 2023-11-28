@@ -1,6 +1,10 @@
 # Tiamat
 
-_updated: September 27, 2022_
+_updated: November 27, 2023_
+
+Tiamat is COSI's web / container host, and is home to the CSlabs website, Talks, 
+Book, and others. Tiamat uses NGINX to proxy connections to each website and
+container.
 
 | | |
 | :--- | :--- |
@@ -12,10 +16,10 @@ _updated: September 27, 2022_
 
 | | |
 | :--- | :--- |
-| CPU |
-| RAM |
-| STORAGE |
-| CONNECTIVITY |
+| CPU | AMD Opteron 6220
+| RAM | 64 GB
+| STORAGE | 1TB
+| CONNECTIVITY | 10 Gbps
 
 ## Operating System
 
@@ -23,14 +27,22 @@ _updated: September 27, 2022_
 | :--- | :--- |
 | OS | GNU/Linux
 | Distro | Ubuntu 22.04
-| Last updated | September 27, 2022
+| Last updated | Nov 2023
 | End of life | April 2027
 | Enrolled in COSI auth | true
 | NFS Mount | false
 
 ## Services
 
-none
+Docker host
+
+## Websites
+
+[CSLabs](../../websites/cslabs.md)
+
+[Book](../../websites/book.md)
+
+[Talks](../../websites/talks.md)
 
 ## Notes
 
