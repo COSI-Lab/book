@@ -8,7 +8,7 @@ This repo is intended to be our new documentation solution for the labs. It's ea
 
 ## Development 
 
-The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Skim over the [User Guide](https://rust-lang.github.io/mdBook/) to get a jist for how the tool works. Particularly the explanation on [SUMMARY.md](https://rust-lang.github.io/mdBook/format/summary.html).
+The COSI book is built with [mdbook](https://github.com/rust-lang/mdBook). Skim over the [User Guide](https://rust-lang.github.io/mdBook/) to get a gist for how the tool works. Particularly the explanation on [SUMMARY.md](https://rust-lang.github.io/mdBook/format/summary.html).
 
 1. Install the [rust](https://rustup.rs/) programming language.
 2. After setting up rust run `cargo install mdbook --vers "^0.4"` to get the tool.
