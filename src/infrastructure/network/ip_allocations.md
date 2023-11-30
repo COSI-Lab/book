@@ -4,7 +4,7 @@ All links on this page should point at the underlying physical (or virtual) _inf
 
 ## IP Address Listing for 128.153.144.1/24 subnet
 
-_updated: Sept 4 2022_
+_updated: Sep 25, 2023_
 
 | 128.153.144.# | Name |
 | :--- | :---
@@ -34,10 +34,12 @@ _updated: Sept 4 2022_
 | :--- | :---
 | 1 | OIT Gateway |
 | 2 | [Ziltoid](../servers/ziltoid.md) |
-| 3 | [Talos](../servers/talos.md) |
-| 4 | [Atlas](../vms.md#atlas) |
+| 3 | [TalDos](../servers/taldos.md) |
+| 4 | [Talos](../servers/talos.md) |
+| 42 | [Hydra](../servers/hydra.md) |
+| 53 | [TalDos](../servers/taldos.md) |
 | 179 | [hbox](../servers/hbox.md) |
-| 53 | [Unbound](../vms.md#unbound) |
+
 
 ### Layout
 

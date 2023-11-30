@@ -46,6 +46,3 @@ Docs is clearly no longer our defacto documentation tool after lasting multiple 
 [mdBook](https://rust-lang.github.io/mdBook/) in our opinion is the more maintainable tool for documentation. It is very feature poor, however it renders to _static_ HTML, CSS, and Javascript. There is no "mdBook server" that will memory leak. There is just some service ([NGINX](https://nginx.org/) at the time of writing) that hosts unchanging content.
 
 The longevity of Book remains to be seen. Any challenges to it's reign should carefully consider the history of documentation in the labs in an effort to not repeat the same mistakes.
-
-
-
