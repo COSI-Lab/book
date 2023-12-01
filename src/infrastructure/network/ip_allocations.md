@@ -36,6 +36,7 @@ _updated: Sep 25, 2023_
 | 2 | [Ziltoid](../servers/ziltoid.md) |
 | 3 | [TalDos](../servers/taldos.md) |
 | 4 | [Talos](../servers/talos.md) |
+| 41 | [Tiamat](../servers/tiamat.md) |
 | 42 | [Hydra](../servers/hydra.md) |
 | 53 | [TalDos](../servers/taldos.md) |
 | 179 | [hbox](../servers/hbox.md) |
@@ -48,8 +49,6 @@ _updated: Sep 25, 2023_
 _TODO: reallocate the entire network_
 
 ## IPv6 Address Listing for 2605:6480:c051::/48 network
-
-|
 
 ### Subnet Allocations
 
