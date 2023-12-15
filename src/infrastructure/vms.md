@@ -31,7 +31,9 @@ _updated: Sept 18th 2022_
 
 ## atlas
 
-_updated: Sept 18th 2022_
+> deprecated: All DNS is handled by [TalDos](./servers/taldos.md).
+
+_updated: December 15th, 2023_
 
 Atlas is our secondary DNS server.
 
