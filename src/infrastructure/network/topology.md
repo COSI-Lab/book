@@ -197,7 +197,7 @@ graph {
 }
 ```
 
-- _"beef" is switch with a 40 gigabit uplink that has yet to been allocated by OIT. It will connect the Window's machines to OIT's lab vlan._
+- _"beef" is switch with a 40 gigabit uplink that has yet to be allocated by OIT. It will connect the Window's machines to OIT's lab vlan._
 
 ## VLANS
 
@@ -209,9 +209,9 @@ COSI has the following VLANs.
 
 | VLAN id | name   | description
 |---------|--------|-------------
-| 1       | unused | Many switches this is the default, therefor we don't use it 
+| 1       | unused | Many switches this is the default, therefore we don't use it 
 | 2       | v2\_cosi\_priv   | Our "default". This VLAN is behind the [firewall](../../services/firewall.md).
-| 3       | v3\_cosi\_public | VLAN with a direct connection to OIT. This is infront of the [firewall](../../services/firewall.md).
+| 3       | v3\_cosi\_public | VLAN with a direct connection to OIT. This is in front of the [firewall](../../services/firewall.md).
 | 4       | v4\_146 | VLAN for the 128.153.146.0/24 network. Currently this is unused and not well documented
 | 5       | v5\_phones | VLAN for Voice Over IP (VOIP) phones. Read [Asterisk](../../services/asterisk.md) for more information.
 | 6       | v6\_iot | VLAN for untrusted devices that require an internet connect. Think : Amazon Alexa |

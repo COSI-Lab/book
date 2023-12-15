@@ -1,8 +1,11 @@
 # Firewall
 
-_updated: December 1st, 2023_
+_updated: December 15st, 2023_
 
-Since COSI has its own network, we need to run our own Firewall. Our firewall is very simple; blocking all traffic except to hosts we create holes for. Our firewall runs on [Ziltoid](../infrastructure/servers/ziltoid.md).
+Since COSI has its own network, we need to run our own firewall. 
+Our firewall is a filtered bridge between our public and private VLANS; blocking 
+all traffic except to hosts we create holes for. Our firewall currently runs on
+[Kasper](../infrastructure/servers/kasper.md).
 
 Firewall rules are kept in a private repository, which will not be linked here.
 
@@ -15,4 +18,6 @@ Some notes:
 ## nftables
 
 Our firewall is configured with nftables (the successor to iptables). 
-Although the firewall repository has tools for some common tasks, it is a good idea to get familiar with how [nftables](https://wiki.nftables.org/) works so that you are able to make rules and fix problems should they arise.
+Although the firewall repository has tools for some common tasks, it is a good
+idea to get familiar with how [nftables](https://wiki.nftables.org/) works so
+that you are able to make rules and fix problems should they arise.
