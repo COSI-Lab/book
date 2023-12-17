@@ -18,7 +18,7 @@ COSI has allocated the following VLANs:
 ## VLAN 1: `service`
 
 Since this is the default VID on many switches, it is never configured to allow
-access to the interent. Whenever possible, it should be used for unassigned
+access to the internet. Whenever possible, it should be used for unassigned
 interfaces and to provide access to management interfaces for our switches.
 
 ## VLAN 2: `cosi_priv`
