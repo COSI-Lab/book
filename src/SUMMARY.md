@@ -9,6 +9,7 @@
     - [Allocations](./infrastructure/network/ip_allocations.md)
     - [Topology](./infrastructure/network/topology.md)
     - [Switches](./infrastructure/network/switches.md)
+    - [VLANs](./infrastructure/network/vlans.md)
 
 - [Racks](./infrastructure/racks.md)
 
