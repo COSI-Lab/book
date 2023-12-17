@@ -1,6 +1,6 @@
 # Recursive DNS
 
-_updated: Sept 4th 2022_
+_updated: December 1st, 2023_
 
 The lab runs it's own caching DNS server located at `128.153.145.53`. If you need to set a static IP in COSI use `128.153.145.53` as the DNS or "Name Server" entry.
 
@@ -34,14 +34,14 @@ dns2: 8.8.4.4
 
 We currently use [Unbound](https://en.wikipedia.org/wiki/Unbound_(DNS_server)) for DNS. If possible, other clients should do their best to have their own DNS caches to further decrease latency when repeatedly accessing the same sites. 
 
-Unbound is currently running on a VM named: [unbound](../infrastructure/vms.md#unbound). There are plans to migrate to a Docker container.
+Unbound is currently running on [TalDos](../infrastructure/servers/taldos.md).
 
 ### Configuration
 ```
 server:
-    # Bind to everything
-    interface: 0.0.0.0
-    interface: 0::
+    # Bind
+    interface: 128.153.145.53
+    interface: 2605:6480:c051:53::1
 
     ## Allow the whole clarkson network
     # access-control: 128.153.0.0/16 allow
@@ -72,5 +72,6 @@ stub-zone:
 forward-zone:
     name: "."
     forward-addr: 128.153.0.254
-    forward-addr: 128.153.5.254
+    # forward-addr: 128.153.5.254
+    forward-addr: 1.1.1.1
 ```

@@ -36,7 +36,7 @@ If you have trouble distinguishing colors, you can read the source code.
 
 ## Current Topology
 
-_updated: Mar 2nd 2023_
+_updated: December 17th, 2023_
 
 ```dot process
 /* COSI network topology
@@ -56,7 +56,7 @@ graph {
 	/* Nodes */
 	internet [shape=none,height=1,width=1,fixedsize=true,image="cloud.gif",label=""];
 	mirror [class="host"];
-	ziltoid [class="host"];
+	kasper [class="host"];
 
 	subgraph switches {
 		node [shape="record"]
@@ -64,7 +64,7 @@ graph {
 		jgw [class="clarkson"];
 		sc334 [class="clarkson",label="sc-334-c2960s"];
 	
-		f2 [class="agg"];
+		FHILL [class="agg"];
 	
 		m2 [class="managed"];
 		m3 [class="managed"];
@@ -80,7 +80,7 @@ graph {
 		cosi2 [class="unmanaged"];
 	}
 
-	talos [class="host"];
+	taldos [class="host"];
 	eldwyn [class="host"];
 	hydra [class="host"];
 	tiamat [class="host"];
@@ -96,19 +96,19 @@ graph {
 	internet -- jgw[dir=back,len=1,class="clarkson"];
 	jgw -- sc334 [class="clarkson"];
 	
-	sc334 -- f2 -- mirror [class="smf10",label="3"];
-	f2 -- ziltoid [dir=forward,class="smf10",label="3"];
-	f2 -- ziltoid [dir=back,class="smf10",label="2"];
-	f2 -- tiamat [class="smf10",label="2"];
+	sc334 -- FHILL -- mirror [class="smf10",label="3"];
+	FHILL -- kasper [dir=forward,class="smf10",label="3"];
+	FHILL -- kasper [dir=back,class="smf10",label="2"];
+	FHILL -- tiamat [class="smf10",label="2"];
 
-	f2 -- private  [label="2"];
-	private -- {itl1, itl2, itl3, itl4, talos, hydra, ziltoid};
+	FHILL -- private  [label="2"];
+	private -- {itl1, itl2, itl3, itl4, taldos, hydra, kasper};
 	{itl1, itl2, itl3, itl4} -- ITL;
 
-	f2 -- {cosi1, cosi2, m2} [label="2"];
+	FHILL -- {cosi1, cosi2, m2} [label="2"];
 	{cosi1, cosi2} -- COSI;
 
-	f2 -- m3 [label="2,5"];
+	FHILL -- m3 [label="2,5"];
 
 	m2 -- {prometheus, wifi};
 	m3 -- {eldwyn};
@@ -132,18 +132,16 @@ graph {
 	subgraph switches {
 		node [shape="record"]
 		jgw [class="clarkson"];
-		sc334 [class="clarkson",label="sc-334-c2960s"];
-		"beef*" [class="clarkson"];
 		
-		fcolo [class="agg"];
-		fhill [class="agg"];
+		FCOLO [class="agg"];
+		FHILL [class="agg"];
 		
-		mnet [class="managed"];
 		mrackl [class="managed"];
 		mrackr [class="managed"];
+		mnet [class="managed"];
 
 		wifi [class="unmanaged"];
-		shitch [class="unmanaged"];
+
 		itl1 [class="unmanaged"];
 		itl2 [class="unmanaged"];
 		itl3 [class="unmanaged"];
@@ -153,66 +151,35 @@ graph {
 	}
 
 	mirror [class="host",href="../../mirror/introduction.md"];
-	ziltoid [class="host",href="../servers/ziltoid.md"];
+	kasper [class="host",href="../servers/kasper.md"];
+	taldos [class="host",href="../servers/talos.html"];
 	hydra [class="host",href="../servers/hydra.html"];
 	bacon [class="host",href="../servers/bacon.html"];
 	tiamat [class="host",href="../servers/tiamat.html"];
-	eldwyn [class="host",href="../servers/eldwyn.html"];
-	"grand-dad" [class="host"];
-	ziltoid [class="host",href="../servers/ziltoid.html"];
-	talos [class="host",href="../servers/talos.html"];
+	TBD [class="host"];
 	elephant [class="host",href="../servers/elephant.html"];
 	prometheus [class="host"];
 	norm [class="host"];
 	"red-dwarf" [class="host"];
+
 	COSI [class="room"];
 	ITL [class="room"];
 	
 	/* Edges */
 	internet -- jgw [dir=back,class="clarkson"];
-	jgw -- {sc334, "beef*"} [class="clarkson"];
-	"beef*" -- ITL [class="room"];
-	fhill -- sc334 [class="smf10",label="3"];
-	fcolo -- jgw [class="smf10",label="3"];
+	FHILL -- FCOLO [class="smf10",label="2"];
+	FCOLO -- jgw [class="clarkson"];
 
-	fcolo -- fhill [class="smf10",label="2,4,5,6,7"];
-	fhill -- {mnet, hydra, bacon, tiamat} [class="smf10",label="2"];
-	fhill -- mrackl [label="2,5"];
-	fhill -- mrackr [label="2"];
+	FHILL -- {mrackl, mrackr, mnet, hydra, bacon, tiamat} [class="smf10",label="2"];
 	mnet -- {itl1, itl2, itl3, itl4, cosi1, cosi2, wifi};
 	mrackr -- {norm, "red-dwarf", prometheus} [label="2"];
-	mrackl -- "grand-dad" [label="2"];
-	mrackl -- eldwyn [label="2,5"];
+	mrackl -- TBD [label="2"];
 	{cosi1, cosi2} -- COSI [class="room"];
 	{itl1, itl2, itl3, itl4} -- ITL [class="room"];
-	shitch -- talos;
-	shitch -- ziltoid;
-	fcolo -- {mirror} [class="smf10",label="3"];
-	fcolo -- shitch [dir=forward,label="2"];
-	fcolo -- elephant [class="smf10",label="2"];
-	fcolo -- shitch [dir=back];
-	fcolo -- ziltoid [dir=forward,class="smf10",label="3"];
-	fcolo -- ziltoid [dir=back,class="smf10",label="2"];
+	FCOLO -- {mirror} [class="smf10",label="3"];
+	FCOLO -- {elephant, taldos} [class="smf10",label="2"];
+	FCOLO -- kasper [dir=forward,class="smf10",label="3"];
+	FCOLO -- kasper [dir=back,class="smf10",label="2"];
 	norm -- prometheus [class="e10g",label="direct 10G",fontcolor="blue"];
 }
 ```
-
-- _"beef" is switch with a 40 gigabit uplink that has yet to been allocated by OIT. It will connect the Window's machines to OIT's lab vlan._
-
-## VLANS
-
-_updated: Jan 15th 2023_
-
-> TODO: Make a separate page for VLANs w/ a short explanation and more detail.
-
-COSI has the following VLANs.
-
-| VLAN id | name   | description
-|---------|--------|-------------
-| 1       | unused | Many switches this is the default, therefor we don't use it 
-| 2       | v2\_cosi\_priv   | Our "default". This VLAN is behind the [firewall](../../services/firewall.md).
-| 3       | v3\_cosi\_public | VLAN with a direct connection to OIT. This is infront of the [firewall](../../services/firewall.md).
-| 4       | v4\_146 | VLAN for the 128.153.146.0/24 network. Currently this is unused and not well documented
-| 5       | v5\_phones | VLAN for Voice Over IP (VOIP) phones. Read [Asterisk](../../services/asterisk.md) for more information.
-| 6       | v6\_iot | VLAN for untrusted devices that require an internet connect. Think : Amazon Alexa |
-| 7       | v7\_cameras | A very poorly named VLAN for untrusted devices that do not require an internet connect. Consider the printer. Arguably, it seems the need for this VLAN is low.

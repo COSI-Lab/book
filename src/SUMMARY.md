@@ -9,6 +9,7 @@
     - [Allocations](./infrastructure/network/ip_allocations.md)
     - [Topology](./infrastructure/network/topology.md)
     - [Switches](./infrastructure/network/switches.md)
+    - [VLANs](./infrastructure/network/vlans.md)
 
 - [Racks](./infrastructure/racks.md)
 
@@ -17,6 +18,7 @@
     - [Elephant](./infrastructure/servers/elephant.md)
   	- [Eldwyn](./infrastructure/servers/eldwyn.md)
     - [Hydra](./infrastructure/servers/hydra.md)
+    - [Kasper](./infrastructure/servers/kasper.md)
     - [Talos](./infrastructure/servers/talos.md)
     - [TalDos](./infrastructure/servers/taldos.md)
     - [Tiamat](./infrastructure/servers/tiamat.md)
@@ -59,11 +61,11 @@
     - [Murmur (Mumble)](./services/murmur.md)
 
 - [Websites]()
-    - [cslabs]()
+    - [cslabs](./websites/cslabs.md)
     - [book](./websites/book.md)
     - [files]()
     - [random]()
-    - [talks]()
+    - [talks](./websites/talks.md)
 
 - [Mirror](./mirror/introduction.md)
     - [Hardware](./mirror/hardware.md)
@@ -73,4 +75,4 @@
 # Guides 
 
 - [Guides]() 
-    - [COSI Accounts](./guides/cosi_accounts.md)
+    - [COSI Accounts]()

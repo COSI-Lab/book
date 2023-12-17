@@ -4,7 +4,7 @@ All links on this page should point at the underlying physical (or virtual) _inf
 
 ## IP Address Listing for 128.153.144.1/24 subnet
 
-_updated: Sep 25, 2023_
+_updated: December 15, 2023_
 
 | 128.153.144.# | Name |
 | :--- | :---
@@ -33,9 +33,10 @@ _updated: Sep 25, 2023_
 | 128.153.145.# | Name |
 | :--- | :---
 | 1 | OIT Gateway |
-| 2 | [Ziltoid](../servers/ziltoid.md) |
+| 2 | [Kasper](../servers/kasper.md) |
 | 3 | [TalDos](../servers/taldos.md) |
 | 4 | [Talos](../servers/talos.md) |
+| 41 | [Tiamat](../servers/tiamat.md) |
 | 42 | [Hydra](../servers/hydra.md) |
 | 53 | [TalDos](../servers/taldos.md) |
 | 179 | [hbox](../servers/hbox.md) |
@@ -48,8 +49,6 @@ _updated: Sep 25, 2023_
 _TODO: reallocate the entire network_
 
 ## IPv6 Address Listing for 2605:6480:c051::/48 network
-
-|
 
 ### Subnet Allocations
 

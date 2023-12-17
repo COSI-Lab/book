@@ -46,3 +46,8 @@ Docker host
 
 ## Notes
 
+Projects to be hosted are stored in the directory `/docker`. The quickest way to host a project on Tiamat is to clone its repository to this directory. You can manage containers individually with Docker or use `run.sh` to rebuild all projects.
+
+Incoming connections are forwarded to their respective containers using [NGINX Proxy Manager](https://nginxproxymanager.com/), which also handles SSL termination and certificates for each project.
+
+It is recommended to add the line `restart: unless-stopped` to your project's `docker-compose.yml` so that it is automatically restarted when Tiamat reboots.

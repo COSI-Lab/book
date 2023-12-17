@@ -1,14 +1,14 @@
 # Ziltoid
 
-_updated: Jan 16th 2023_
+_updated: December 15th, 2023_
 
-Ziltoid acts as our firewall.
+Ziltoid was our firewall up until Fall 2023. It has since been superseded by [Kasper](kasper.md).
 
 | | |
 | :--- | :--- |
-| Location | [Server Room - Network 3](../racks.md#network-3)
-| IP Addresses | 128.153.145.2 , 2605:6480:c051:2::1
-| Deployed | true
+| Location | N/A
+| IP Addresses | N/A
+| Deployed | false
 
 ## Hardware
 
@@ -32,5 +32,6 @@ Ziltoid acts as our firewall.
 
 ## Services
 
-- [Firewall](../../services/firewall.md)
+## Notes
 
+Ziltoid was taken out of service in Fall 2023 after it crashed and was temporarily unable to boot due to a memory failure.
