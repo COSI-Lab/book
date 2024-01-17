@@ -76,3 +76,7 @@
 
 - [Guides]() 
     - [COSI Accounts]()
+
+# Resources
+
+- [Media](./media/index.md)
