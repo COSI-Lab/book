@@ -21,13 +21,13 @@ When adding a new server to the network make sure you remember to add it's ip to
 
 ## NSD
 
-COSI has one authoritative DNS server running [NSD](https://en.wikipedia.org/wiki/NSD) which is `dns1.cosi.clarkson.edu` is running on [Talos](../infrastructure/servers/talos.md). 
+COSI has one authoritative DNS server running [NSD](https://en.wikipedia.org/wiki/NSD) which is `dns1.cosi.clarkson.edu` is running on [Taldos](../infrastructure/servers/taldos.md). 
 
 OIT's caching DNS servers are configured to cache the entire zone files over XFR. That is why we have XFR enabled for OIT's name servers. If you notice DNS results are buggy within the Clarkson network it is probably this.
 
 ## Webhook
 
-Deploying updates to the dns zones is a great use for Webhooks. Currently there is a webhook server built into the [zones](https://gitea.cosi.clarkson.edu/COSI_Maintainers/zones) repo.
+Deploying updates to the dns zones is a great use for Webhooks. Currently there is a webhook server built into the [zones](https://github.com/COSI-Lab/zones) repo.
 
 ## Current Configuration
 

@@ -1,6 +1,6 @@
 # Hydra
 
-_updated: Jan 31st 2023_
+_updated: Sep 25, 2023_
 
 Hydra is COSI's default VM host. 
 
@@ -14,10 +14,10 @@ Hydra is COSI's default VM host.
 
 | | |
 | :--- | :--- |
-| CPU | AMD Opteron 6376
-| RAM | ?
-| STORAGE | ? 
-| CONNECTIVITY | ?
+| CPU | AMD Opteron 6376 (x2)
+| RAM | 64 GB
+| STORAGE | 10TB (5x2TB)
+| CONNECTIVITY | 10Gbps
 
 ## Operating System
 

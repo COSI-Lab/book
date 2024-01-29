@@ -1,6 +1,6 @@
 # Virtual Machines
 
-_updated: Sept 17th 2022_
+_updated: Sep 25, 2023_
 
 This chapter contains an alphabetically ordered list of all of COSI's virtual machines.
 
@@ -31,7 +31,9 @@ _updated: Sept 18th 2022_
 
 ## atlas
 
-_updated: Sept 18th 2022_
+> deprecated: All DNS is handled by [TalDos](./servers/taldos.md).
+
+_updated: December 15th, 2023_
 
 Atlas is our secondary DNS server.
 
@@ -128,6 +130,28 @@ It is important that no two services use the same port.
 **Notes:**
 
 Everything running on dubsdot2 should be a [docker](https://www.docker.com) container using docker-compose. All of the containers are stored in `/opt`. Use the `readme` to keep track of port allocations and check other compose to learn how to let SSL be auto configured.
+
+## fsu
+
+_updated: Sept 25, 2023_
+
+fsu provides the Floating Soda Unit bank (Mount Fsuvius) for the labs.
+
+| | |
+| :--- | :--- |
+| Host | [hydra](./servers/hydra.md)
+| IP Addresses | 128.153.145.219
+| OS | GNU/Linux
+| Distro | Ubuntu 22.04 LTS
+| Last updated | ?
+| End of life | Apr 2027
+| Enrolled in COSI auth | false
+| NFS Mount | false
+
+**Services:**
+| Service | Port |
+| :--- | :--- |
+| [Mount Fsuvius](http://fsu.cslabs.clarkson.edu) | 80
 
 ## gitea
 
