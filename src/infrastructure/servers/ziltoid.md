@@ -7,9 +7,9 @@ It is now being set up for use as a [DN42](https://dn42.us/) node.
 
 | | |
 | :--- | :--- |
-| Location | N/A
+| Location | [Server Room - Network 3](../racks.md#network-3)
 | IP Addresses | N/A
-| Deployed | false
+| Deployed | true
 
 ## Hardware
 
