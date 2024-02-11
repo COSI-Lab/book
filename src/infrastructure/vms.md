@@ -131,28 +131,6 @@ It is important that no two services use the same port.
 
 Everything running on dubsdot2 should be a [docker](https://www.docker.com) container using docker-compose. All of the containers are stored in `/opt`. Use the `readme` to keep track of port allocations and check other compose to learn how to let SSL be auto configured.
 
-## fsu
-
-_updated: Sept 25, 2023_
-
-fsu provides the Floating Soda Unit bank (Mount Fsuvius) for the labs.
-
-| | |
-| :--- | :--- |
-| Host | [hydra](./servers/hydra.md)
-| IP Addresses | 128.153.145.219
-| OS | GNU/Linux
-| Distro | Ubuntu 22.04 LTS
-| Last updated | ?
-| End of life | Apr 2027
-| Enrolled in COSI auth | false
-| NFS Mount | false
-
-**Services:**
-| Service | Port |
-| :--- | :--- |
-| [Mount Fsuvius](http://fsu.cslabs.clarkson.edu) | 80
-
 ## gitea
 
 ## unbound
