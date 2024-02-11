@@ -38,6 +38,7 @@ _updated: December 15, 2023_
 | 4 | [Talos](../servers/talos.md) |
 | 41 | [Tiamat](../servers/tiamat.md) |
 | 42 | [Hydra](../servers/hydra.md) |
+| 42 | [Janet](../servers/janet.md) |
 | 53 | [TalDos](../servers/taldos.md) |
 | 179 | [hbox](../servers/hbox.md) |
 
