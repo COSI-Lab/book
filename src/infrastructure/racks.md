@@ -1,6 +1,6 @@
 # Racks
 
-_updated: Oct 16th 2022_
+_updated: Feb 11, 2024_
 
 This page serves as an index of all of COSI server racks.
 
@@ -9,6 +9,7 @@ This page serves as an index of all of COSI server racks.
 In order from SC 334 entrance to SC 346 they are named:
 
 - [left](#left)
+- [center](#center)
 - [right](#right)
 - [network 0](#network-0)
 - [network 1](#network-1)
@@ -27,6 +28,7 @@ Here are some named links for convenience
 Replace PATH with the **relative** path to /src/infrastructure/
 
 [Server Room - Left](PATH/racks.md#left)
+[Server Room - Center](PATH/racks.md#center)
 [Server Room - Right](PATH/racks.md#right)
 [Server Room - Network 0](PATH/racks.md#network-0)
 [Server Room - Network 1](PATH/racks.md#network-1)
@@ -34,13 +36,56 @@ Replace PATH with the **relative** path to /src/infrastructure/
 [Server Room - Network 3](PATH/racks.md#network-3)
 [COLO](PATH/racks.md#colo.md)
 ```
-
 ## Left
-_updated: Oct 16th 2022_
+
+_updated: Feb 11, 2024_
 
 | RU | Device |
 | :- | :----- |
-| 36 | M3 (TP-LINK TL-SH3424) |
+| 37 | TP-LINK TL-SG3428X (Rear) |
+| 36 | |
+| 35 | |
+| 34 | |
+| 33 | |
+| 32 | |
+| 31 | |
+| 30 | |
+| 29 | |
+| 28 | |
+| 27 | |
+| 26 | |
+| 25 | |
+| 24 | |
+| 23 | |
+| 22 | |
+| 21 | |
+| 20 | |
+| 19 | |
+| 18 | |
+| 17 | |
+| 16 | |
+| 15 | |
+| 14 | |
+| 13 | |
+| 12 | |
+| 11 | |
+| 10 | |
+| 09 | |
+| 08 | |
+| 07 | |
+| 06 | |
+| 05 | |
+| 04 | |
+| 03 | |
+| 02 | |
+| 01 | |
+
+## Center
+_updated: Feb 11, 2024_
+
+| RU | Device |
+| :- | :----- |
+| 36 | TP-LINK TL-SG3428X |
 | 35 | |
 | 34 | |
 | 33 | KVM Switch (OmniView PRO2 - 8 Port)|
@@ -72,15 +117,15 @@ _updated: Oct 16th 2022_
 | 07 | |
 | 06 | |
 | 05 | |
-| 04 | Salvato |
+| 04 | |
 | 03 | |
 | 02 | UPS8 (APC Smart-UPS C1500) |
 | 01 | UPS8 (APC Smart-UPS C1500) |
 
-[top of rack](#left) - [top of page](#)
+[top of rack](#center) - [top of page](#)
 
 ## Right
-_updated: Oct 16th 2022_
+_updated: Feb 11, 2024_
 
 | RU | Device |
 | :- | :----- |
@@ -88,27 +133,27 @@ _updated: Oct 16th 2022_
 | 41 | M2 (TP-LINK TL-SH3424) |
 | 40 | Cable Management |
 | 39 | Cable Management |
-| 38 | Questionable POE Injector (PowerDsine 9024G)|
+| 38 | |
 | 37 | |
 | 36 | |
 | 35 | |
 | 34 | |
-| 33 | Monitor |
-| 32 | Monitor |
-| 31 | Monitor |
-| 30 | Monitor |
-| 29 | Monitor |
-| 28 | Monitor |
-| 27 | Monitor |
-| 26 | Monitor |
-| 25 | Monitor |
-| 24 | Broken KVM switch (E040-008-19 TRIPP-LITE) |
-| 23 | |
-| 22 | |
-| 21 | |
-| 20 | |
-| 19 | |
-| 18 | Prometheus (offset 😠) |
+| 33 | |
+| 32 | |
+| 31 | |
+| 30 | |
+| 29 | |
+| 28 | |
+| 27 | |
+| 26 | |
+| 25 | |
+| 24 | [Elephant](../servers/elephant.md) |
+| 23 | [Elephant](../servers/elephant.md) |
+| 22 | [Janet](../servers/janet.md) |
+| 21 | Erised |
+| 20 | Erised |
+| 19 | Erised |
+| 18 | Erised |
 | 17 | Prometheus |
 | 16 | Prometheus |
 | 15 | Prometheus |
@@ -182,7 +227,7 @@ _updated: Never because there is nothing there_
 [top of rack](#network-0) - [top of page](#)
 
 ## Network 1
-_updated: Oct 16th 2022_
+_updated: Feb 11, 2024_
 
 | RU | Device |
 | :- | :----- |
@@ -190,46 +235,46 @@ _updated: Oct 16th 2022_
 | 43 | OIT's switch (sc-334-c2960s) |
 | 42 | OIT's switch (sc-334-c2960s) |
 | 41 | |
-| 40 | F1 (Juniper EX4500) |
-| 39 | F1 (Juniper EX4500) |
-| 38 | |
-| 37 | |
-| 36 | |
+| 40 | |
+| 39 | |
+| 38 | Cable Management |
+| 37 | Cable Management |
+| 36 | FHILL |
 | 35 | |
-| 34 | |
-| 33 | |
+| 34 | UPRIVATE|
+| 33 | UPUBLIC|
 | 32 | |
 | 31 | |
-| 30 | |
-| 29 | |
-| 28 | |
-| 27 | |
-| 26 | |
-| 25 | |
-| 24 | |
-| 23 | |
-| 22 | |
-| 21 | |
-| 20 | |
-| 19 | |
-| 18 | |
-| 17 | |
-| 16 | |
-| 15 | |
-| 14 | |
-| 13 | |
-| 12 | |
-| 11 | |
-| 10 | |
-| 09 | |
-| 08 | |
-| 07 | |
-| 06 | |
-| 05 | |
-| 04 | |
-| 03 | |
-| 02 | |
-| 01 | |
+| 30 | [Kasper](./servers/kasper.md) |
+| 29 | [TalDos](./servers/taldos.md) |
+| 28 | Top of filing cabinet |
+| 27 | .. |
+| 26 | .. |
+| 25 | .. |
+| 24 | .. |
+| 23 | .. |
+| 22 | .. |
+| 21 | .. |
+| 20 | .. |
+| 19 | .. |
+| 18 | .. |
+| 17 | .. |
+| 16 | .. |
+| 15 | .. |
+| 14 | .. |
+| 13 | .. |
+| 12 | .. |
+| 11 | .. |
+| 10 | .. |
+| 09 | .. |
+| 08 | .. |
+| 07 | .. |
+| 06 | .. |
+| 05 | .. |
+| 04 | .. |
+| 03 | .. |
+| 02 | .. |
+| 01 | Bottom of filing cabinet |
 
 [top of rack](#network-1) - [top of page](#)
 
@@ -286,7 +331,7 @@ _updated: Oct 16th 2022_
 [top of rack](#network-2) - [top of page](#)
 
 ## Network 3
-_updated: Oct 16th 2022_
+_updated: Feb 11, 2024_
 
 | RU | Device |
 | :- | :----- |
@@ -303,7 +348,7 @@ _updated: Oct 16th 2022_
 | 34 | ITL Patch (U5-6) |
 | 33 | ITL Patch (unused) |
 | 32 | [Ziltoid](../servers/ziltoid.md) |
-| 31 | [Talos](../servers/talos) |
+| 31 | |
 | 30 | Mediatrix 1104 ??? |
 | 29 | Mediatrix 1104 ??? |
 | 28 | swu3 (TP-LINK TL-SG1048) |
@@ -339,19 +384,19 @@ _updated: Oct 16th 2022_
 
 ## COLO
 
-_updated: Sept 24th 2022_
+_updated: Feb 11, 2024_
 
 COSI has 1 rack in the university colocation at Old Main.
 
 | RU | Device |
 | :- | :----- |
 | 45 | OIT Switch (unknown name) |
-| 44 | |
-| 43 | TPLink TL-SG1016 16 port 1G switch |
-| 42 | swf2 |
+| 44 | FCOLO |
+| 43 | |
+| 42 | |
 | 41 | |
-| 40 | 7 Grand Dad |
-| 39 | 7 Grand Dad |
+| 40 | |
+| 39 | |
 | 38 | |
 | 37 | |
 | 36 | |
@@ -359,17 +404,17 @@ COSI has 1 rack in the university colocation at Old Main.
 | 34 | |
 | 33 | |
 | 32 | |
-| 31 | Monitor |
-| 30 | Monitor |
-| 29 | Monitor |
-| 28 | Monitor |
-| 27 | Monitor |
-| 26 | Monitor |
-| 25 | Monitor |
-| 24 | Monitor |
-| 23 | Shelf |
-| 22 | Shelf |
-| 21 | PowerDsine 9024G 24 port HIPOE injector 1G switch |
+| 31 | |
+| 30 | |
+| 29 | |
+| 28 | |
+| 27 | |
+| 26 | |
+| 25 | |
+| 24 | |
+| 23 | |
+| 22 | |
+| 21 | |
 | 20 | |
 | 19 | |
 | 18 | |
@@ -377,11 +422,11 @@ COSI has 1 rack in the university colocation at Old Main.
 | 16 | |
 | 15 | |
 | 14 | |
-| 13 | Eldwyn |
-| 12 | [Bacon](../servers/bacon.md) |
-| 11 | [Bacon](../servers/bacon.md) |
-| 10 | [Elephant](../servers/elephant.md) |
-| 09 | [Elephant](../servers/elephant.md) |
+| 13 | |
+| 12 | |
+| 11 | |
+| 10 | |
+| 09 | |
 | 08 | |
 | 07 | |
 | 06 | |
