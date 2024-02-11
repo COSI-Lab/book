@@ -6,6 +6,7 @@ This chapter contains an alphabetically ordered list of all of COSI's virtual ma
 
 **VM Hosts:**
 - [hydra](./servers/hydra.md)
+- [janet](./servers/janet.md)
 
 **Template:**
 ```
