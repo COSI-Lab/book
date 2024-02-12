@@ -8,10 +8,6 @@ title = "COSI Documentation"
 [output.html]
 git-repository-url = "https://github.com/COSI-Lab/book"
 edit-url-template = "https://github.com/COSI-Lab/book/edit/main/{path}"
-additional-css = ["local.css"]
 
 [output.html.print]
 enable = false
-
-[preprocessor.graphviz]
-command = "mdbook-graphviz"
