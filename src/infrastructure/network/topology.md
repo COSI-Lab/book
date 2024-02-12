@@ -32,7 +32,7 @@ _updated: Feb 12, 2024_
 > ### Switch Upublic
 > | Upstream Link    | VLAN | Link Type   |
 > |------------------|------|-------------|
-> | FCOLO            | U    | 1G Copper   |
+> | FHILL            | U    | 1G Copper   |
 >
 > | Downstream Link  | VLAN | Link Type   |
 > |------------------|------|-------------|
@@ -42,7 +42,7 @@ _updated: Feb 12, 2024_
 > ### Switch Uprivate
 > | Upstream Link    | VLAN | Link Type   |
 > |------------------|------|-------------|
-> | FCOLO            | U    | 1G Copper   |
+> | FHILL            | U    | 1G Copper   |
 >
 > | Downstream Link  | VLAN | Link Type   |
 > |------------------|------|-------------|
