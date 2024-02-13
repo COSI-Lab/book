@@ -15,7 +15,7 @@ This means we have control over `*.cosi.clarkson.edu.` and `*.cslabs.clarkson.ed
 
 ## [zones](https://gitea.cosi.clarkson.edu/COSI_Maintainers/zones)
 
-Our DNS [zone files](https://en.wikipedia.org/wiki/Zone_file) are backed by a git repository on [gitea](../websites/gitea.md). While they started separate in recent years we've strived to have the cosi.clarkson.edu and cslabs.clarkson.edu match.
+Our DNS [zone files](https://en.wikipedia.org/wiki/Zone_file) are backed by a git repository on [Github](https://github.com/COSI-Lab/zones). While they started separate in recent years we've strived to have the cosi.clarkson.edu and cslabs.clarkson.edu match.
 
 When adding a new server to the network make sure you remember to add it's ip to the reverse zones.
 

@@ -8,7 +8,7 @@ container.
 
 | | |
 | :--- | :--- |
-| Location | [Server Room - Left](../racks.md#left) |
+| Location | [Server Room - Center](../racks.md#center) |
 | IP Addresses | 128.153.145.41 |
 | Deployed | true |
 

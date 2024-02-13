@@ -1,185 +1,144 @@
 # Topology
 
-_updated: Jan 15th 2023_
+_updated: Feb 12, 2024_
 
-**Legend: Edges**
 
-| Style  | Description                   |
-|--------|-------------------------------|
-| Red    | 40 gigabit single mode fiber  |
-| Orange | 10 gigabit single mode fiber  |
-| Black  | 1 gigabit copper ethernet     |
-| Green  | Patch Panel (speed varies by patch health) |
-| Blue   | Special (read label by label) |
-| Gray   | Controlled by OIT             |
+Note: Topology graphs have been temporarily removed due to dependency issues with `mdbook-graphviz`.
 
-Numeric labels on edges represent [VLANs](#vlans).
+# Current Topology
 
-**Legend: Ovals**
+_updated: Feb 12, 2024_
 
-| style  | description                |
-|--------|----------------------------|
-| Red    | Host                       |
-| Green  | Room                       |
-| Gray   | Controlled by OIT          |
-| Green  | Patch Panel                |
+## Server Room
 
-**Legend: Boxes (switches)**
+> ### Switch FHILL
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Internet Gateway | 3    | 10G Optical |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Kasper (WAN)     | 3    | 10G Optical |
+> | Upublic          | 3    | 1G Copper   |
+> | Mirror           | 3    | 10G Optical |
+> | Kasper (LAN)     | 2    | 10G Optical |
+> | Uprivate         | 2    | 1G Copper   |
+> | Tiamat           | 2    | 10G Optical |
+> | Hydra            | 2    | 10G Optical |
+> | Janet            | 2    | 10G Optical |
+> | Elephant         | 2    | 10G Optical |
+> | WiFi AP          | 2    | 1G Copper   |
 
-| style  | description                |
-|--------|----------------------------|
-| Purple | Aggregation (fiber) Switch |
-| Blue   | Managed Switch             |
-| Black  | Unmanaged Switch           |
+> ### Switch Upublic
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | FHILL            | U    | 1G Copper   |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | ITL Projector PC | U    | 1G Copper   |
+> | hbox             | U    | 1G Copper   |
 
-If you have trouble distinguishing colors, you can read the source code.
+> ### Switch Uprivate
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | FHILL            | U    | 1G Copper   |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | MrackL           | U    | 1G Copper   |
+> | MrackC           | U    | 1G Copper   |
+> | MrackR           | U    | 1G Copper   |
+> | COSI Sw/Patch    | U    | 1G Copper   |
+> | ITL Sw/Patch     | U    | 1G Copper   |
+> | TalDos           | U    | 1G Copper   |
 
-## Current Topology
+> ### Switches MrackL/MrackC/MrackR
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Uprivate         | 2    | 1G Copper   |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Multiple Hosts   | 2    | 1G Copper   |
 
-_updated: December 17th, 2023_
+## COLO
 
-```dot process
-/* COSI network topology
- *
- * Some things to keep in mind:
- * - Filenames must be both in the repo root (so `graphviz` itself sees them)
- *   and in the same directory (so they're hosted from the right place in the
- *   built book). The easiest way to do this is a symlink.
- * - The edge orientation is "tail -- head". `headlabel` and `taillabel` are
- *   powerful tools.
- */
+> ### Switch FCOLO
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | FHILL            | 3    | 10G Optical |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
 
-graph {
-	layout="sfdp";
-	bgcolor="#dddddd";
-	
-	/* Nodes */
-	internet [shape=none,height=1,width=1,fixedsize=true,image="cloud.gif",label=""];
-	mirror [class="host"];
-	kasper [class="host"];
+# Desired Topology
 
-	subgraph switches {
-		node [shape="record"]
+_updated: Feb 12, 2024_
 
-		jgw [class="clarkson"];
-		sc334 [class="clarkson",label="sc-334-c2960s"];
-	
-		FHILL [class="agg"];
-	
-		m2 [class="managed"];
-		m3 [class="managed"];
+## Server Room
 
-		private [class="unmanaged"];
-		wifi [class="unmanaged"];
+> ### Switch FHILL
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | FCOLO            | 3    | 10G Optical |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Kasper (WAN)     | 3    | 10G Optical |
+> | Upublic          | 3    | 1G Copper   |
+> | Kasper (LAN)     | 2    | 10G Optical |
+> | Uprivate         | 2    | 1G Copper   |
+> | Hydra            | 2    | 10G Optical |
+> | Janet            | 2    | 10G Optical |
+> | WiFi AP          | 2    | 1G Copper   |
 
-		itl1 [class="unmanaged"];
-		itl2 [class="unmanaged"];
-		itl3 [class="unmanaged"];
-		itl4 [class="unmanaged"];
-		cosi1 [class="unmanaged"];
-		cosi2 [class="unmanaged"];
-	}
+> ### Switch Upublic
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | FHILL            | U    | 1G Copper   |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | ITL Projector PC | U    | 1G Copper   |
+> | hbox             | U    | 1G Copper   |
 
-	taldos [class="host"];
-	eldwyn [class="host"];
-	hydra [class="host"];
-	tiamat [class="host"];
-	prometheus [class="host"];
-	COSI [class="room"];
-	ITL [class="room"];
-	// shitch;
-	// "grand-dad" [class="host"];
-	// bacon [class="host"];
-	// f1 [class="agg"];
-	
-	/* Edges */
-	internet -- jgw[dir=back,len=1,class="clarkson"];
-	jgw -- sc334 [class="clarkson"];
-	
-	sc334 -- FHILL -- mirror [class="smf10",label="3"];
-	FHILL -- kasper [dir=forward,class="smf10",label="3"];
-	FHILL -- kasper [dir=back,class="smf10",label="2"];
-	FHILL -- tiamat [class="smf10",label="2"];
+> ### Switch Uprivate
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | FHILL            | U    | 1G Copper   |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | MrackL           | U    | 1G Copper   |
+> | MrackC           | U    | 1G Copper   |
+> | MrackR           | U    | 1G Copper   |
+> | COSI Sw/Patch    | U    | 1G Copper   |
+> | ITL Sw/Patch     | U    | 1G Copper   |
+> | TalDos           | U    | 1G Copper   |
 
-	FHILL -- private  [label="2"];
-	private -- {itl1, itl2, itl3, itl4, taldos, hydra, kasper};
-	{itl1, itl2, itl3, itl4} -- ITL;
+> ### Switches MrackL/MrackC/MrackR
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Uprivate         | 2    | 1G Copper   |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Multiple Hosts   | 2    | 1G Copper   |
 
-	FHILL -- {cosi1, cosi2, m2} [label="2"];
-	{cosi1, cosi2} -- COSI;
+## COLO
 
-	FHILL -- m3 [label="2,5"];
-
-	m2 -- {prometheus, wifi};
-	m3 -- {eldwyn};
-}
-```
-
-## Desired Topology
-
-_updated: Mar 2nd 2023_
-
-```dot process
-graph {
-	layout="sfdp";
-
-	bgcolor="#dddddd";
-	ratio=0.75;
-	
-	/* Nodes */
-	internet [shape=none,height=1,width=1,fixedsize=true,image="cloud.gif",label=""];
-	
-	subgraph switches {
-		node [shape="record"]
-		jgw [class="clarkson"];
-		
-		FCOLO [class="agg"];
-		FHILL [class="agg"];
-		
-		mrackl [class="managed"];
-		mrackr [class="managed"];
-		mnet [class="managed"];
-
-		wifi [class="unmanaged"];
-
-		itl1 [class="unmanaged"];
-		itl2 [class="unmanaged"];
-		itl3 [class="unmanaged"];
-		itl4 [class="unmanaged"];
-		cosi1 [class="unmanaged"];
-		cosi2 [class="unmanaged"];
-	}
-
-	mirror [class="host",href="../../mirror/introduction.md"];
-	kasper [class="host",href="../servers/kasper.md"];
-	taldos [class="host",href="../servers/talos.html"];
-	hydra [class="host",href="../servers/hydra.html"];
-	bacon [class="host",href="../servers/bacon.html"];
-	tiamat [class="host",href="../servers/tiamat.html"];
-	TBD [class="host"];
-	elephant [class="host",href="../servers/elephant.html"];
-	prometheus [class="host"];
-	norm [class="host"];
-	"red-dwarf" [class="host"];
-
-	COSI [class="room"];
-	ITL [class="room"];
-	
-	/* Edges */
-	internet -- jgw [dir=back,class="clarkson"];
-	FHILL -- FCOLO [class="smf10",label="2"];
-	FCOLO -- jgw [class="clarkson"];
-
-	FHILL -- {mrackl, mrackr, mnet, hydra, bacon, tiamat} [class="smf10",label="2"];
-	mnet -- {itl1, itl2, itl3, itl4, cosi1, cosi2, wifi};
-	mrackr -- {norm, "red-dwarf", prometheus} [label="2"];
-	mrackl -- TBD [label="2"];
-	{cosi1, cosi2} -- COSI [class="room"];
-	{itl1, itl2, itl3, itl4} -- ITL [class="room"];
-	FCOLO -- {mirror} [class="smf10",label="3"];
-	FCOLO -- {elephant, taldos} [class="smf10",label="2"];
-	FCOLO -- kasper [dir=forward,class="smf10",label="3"];
-	FCOLO -- kasper [dir=back,class="smf10",label="2"];
-	norm -- prometheus [class="e10g",label="direct 10G",fontcolor="blue"];
-}
-```
+> ### Switch FCOLO
+> | Upstream Link    | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Internet Gateway | 3    | 10G Optical |
+>
+> | Downstream Link  | VLAN | Link Type   |
+> |------------------|------|-------------|
+> | Kasper (WAN)     | 3    | 10G Optical |
+> | Mirror           | 3    | 10G Optical |
+> | Kasper (LAN)     | 2    | 10G Optical |
+> | FHILL            | 3    | 10G Optical |
+> | Tiamat           | 2    | 10G Optical |
+> | Elephant         | 2    | 10G Optical |
+> | TalDos           | 2    | 1G Copper   |

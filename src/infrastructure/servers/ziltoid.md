@@ -1,14 +1,15 @@
 # Ziltoid
 
-_updated: December 15th, 2023_
+_updated: Feb 11, 2024_
 
 Ziltoid was our firewall up until Fall 2023. It has since been superseded by [Kasper](kasper.md).
+It is now being set up for use as a [DN42](https://dn42.us/) node.
 
 | | |
 | :--- | :--- |
-| Location | N/A
+| Location | [Server Room - Network 3](../racks.md#network-3)
 | IP Addresses | N/A
-| Deployed | false
+| Deployed | true
 
 ## Hardware
 

@@ -18,6 +18,7 @@
     - [Elephant](./infrastructure/servers/elephant.md)
   	- [Eldwyn](./infrastructure/servers/eldwyn.md)
     - [Hydra](./infrastructure/servers/hydra.md)
+    - [Janet](./infrastructure/servers/janet.md)
     - [Kasper](./infrastructure/servers/kasper.md)
     - [Talos](./infrastructure/servers/talos.md)
     - [TalDos](./infrastructure/servers/taldos.md)

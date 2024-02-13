@@ -6,9 +6,9 @@ Elephant is a currently unused server with a similar form factor to [Bacon](./ba
 
 | | |
 | :--- | :--- |
-| Location | [COLO](../racks.md#colo)
+| Location | [Server Room - Right](../racks.md#right)
 | IP Addresses | 128.153.145.90
-| Deployed | Rack Mounted. No OS.
+| Deployed | true
 
 ## Hardware
 
@@ -16,13 +16,21 @@ Elephant is a currently unused server with a similar form factor to [Bacon](./ba
 | :--- | :--- |
 | CPU | Unknown 
 | RAM | 2x Kingston 8GB 2Rx8 PC3-12800E-11-11-E3 KVR16E118
-| STORAGE | 5x HITACHI 3TB from 2012, 2x 1TB WD1003FBYZ from 2014. Has a total of eight 3.5 inch bays
-| CONNECTIVITY | Unknown
+| STORAGE | 8x Seagate Exos 8TB 3.5" HDDs
+| CONNECTIVITY | 10 Gigabit SFP+ NIC
 | Motherboard | Supermicro X9SRI-F rev 1.20
 
 ## Operating System
 
-Nothing of value, yet. But has OpenSuse installed, unknown filesystem contents, nuking soon.
+| | |
+| :--- | :--- |
+| OS | GNU/Linux
+| Distro | TrueNAS Scale 23.10 "Cobia"
+| Last updated | unknown
+| End of life | TBD
+| Enrolled in COSI auth | false
+| NFS Mount | true
+
 
 ## Services
 
