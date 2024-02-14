@@ -12,9 +12,14 @@ _updated: Feb 12, 2024_
 ## Server Room
 
 > ### Switch FHILL
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Internet Gateway | 3    | 10G Optical |
+>
+> Downstream Links
 >
 > | Downstream Link  | VLAN | Link Type   |
 > |------------------|------|-------------|
@@ -30,21 +35,28 @@ _updated: Feb 12, 2024_
 > | WiFi AP          | 2    | 1G Copper   |
 
 > ### Switch Upublic
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | FHILL            | U    | 1G Copper   |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | ITL Projector PC | U    | 1G Copper   |
 > | hbox             | U    | 1G Copper   |
 
 > ### Switch Uprivate
-> | Upstream Link    | VLAN | Link Type   |
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | FHILL            | U    | 1G Copper   |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | MrackL           | U    | 1G Copper   |
 > | MrackC           | U    | 1G Copper   |
@@ -54,22 +66,32 @@ _updated: Feb 12, 2024_
 > | TalDos           | U    | 1G Copper   |
 
 > ### Switches MrackL/MrackC/MrackR
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Uprivate         | 2    | 1G Copper   |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Multiple Hosts   | 2    | 1G Copper   |
 
 ## COLO
 
 > ### Switch FCOLO
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | FHILL            | 3    | 10G Optical |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 
 # Desired Topology
@@ -79,11 +101,16 @@ _updated: Feb 12, 2024_
 ## Server Room
 
 > ### Switch FHILL
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | FCOLO            | 3    | 10G Optical |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Kasper (WAN)     | 3    | 10G Optical |
 > | Upublic          | 3    | 1G Copper   |
@@ -94,21 +121,31 @@ _updated: Feb 12, 2024_
 > | WiFi AP          | 2    | 1G Copper   |
 
 > ### Switch Upublic
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | FHILL            | U    | 1G Copper   |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | ITL Projector PC | U    | 1G Copper   |
 > | hbox             | U    | 1G Copper   |
 
 > ### Switch Uprivate
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | FHILL            | U    | 1G Copper   |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | MrackL           | U    | 1G Copper   |
 > | MrackC           | U    | 1G Copper   |
@@ -118,22 +155,32 @@ _updated: Feb 12, 2024_
 > | TalDos           | U    | 1G Copper   |
 
 > ### Switches MrackL/MrackC/MrackR
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Uprivate         | 2    | 1G Copper   |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Multiple Hosts   | 2    | 1G Copper   |
 
 ## COLO
 
 > ### Switch FCOLO
-> | Upstream Link    | VLAN | Link Type   |
+>
+> Upstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Internet Gateway | 3    | 10G Optical |
 >
-> | Downstream Link  | VLAN | Link Type   |
+> Downstream Links
+>
+> | Device           | VLAN | Link Type   |
 > |------------------|------|-------------|
 > | Kasper (WAN)     | 3    | 10G Optical |
 > | Mirror           | 3    | 10G Optical |
