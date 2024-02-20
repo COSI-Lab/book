@@ -40,6 +40,7 @@ _updated: December 15, 2023_
 | 42 | [Hydra](../servers/hydra.md) |
 | 43 | [Janet](../servers/janet.md) |
 | 53 | [TalDos](../servers/taldos.md) |
+| 90 | [Elephant](../servers/elephant.md) |
 | 179 | [hbox](../servers/hbox.md) |
 
 
