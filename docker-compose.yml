@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   web:
-    container-name: book
+    container_name: book
     expose:
       - 80
     networks:
