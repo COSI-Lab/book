@@ -2,7 +2,14 @@ version: "3.9"
 
 services:
   web:
-    ports:
-      - 8001:80
+    container-name: book
+    expose:
+      - 80
+    networks:
+      - web
     build: .
-    restart: always
+    restart: unless-stopped
+    
+networks:
+  web:
+    external: true
