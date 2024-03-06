@@ -8,9 +8,9 @@ This page serves as an index of all of COSI server racks.
 
 In order from SC 334 entrance to SC 346 they are named:
 
-- [rack0](#rack0)
-- [rack1](#rack1)
-- [rack2](#rack2)
+- [rack 0](#rack-0)
+- [rack 1](#rack-1)
+- [rack 2](#rack-2)
 - [network 0](#network-0)
 - [network 1](#network-1)
 - [network 2](#network-2)
@@ -36,9 +36,9 @@ Replace PATH with the **relative** path to /src/infrastructure/
 [Server Room - Network 3](PATH/racks.md#network-3)
 [COLO](PATH/racks.md#colo.md)
 ```
-## Rack0
+## Rack 0
 
-_updated: Feb 11, 2024_
+_updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
@@ -65,44 +65,46 @@ _updated: Feb 11, 2024_
 | 17 | |
 | 16 | |
 | 15 | |
-| 14 | bacon|
-| 13 | bacon|
-| 12 | &|
-| 11 | |
-| 10 | |
-| 09 | |
-| 08 | |
-| 07 | |
-| 06 | &|
-| 05 | &|
-| 04 | &|
-| 03 | &|
+| 14 | [Bacon](../server/bacon.md) |
+| 13 | [Bacon](../server/bacon.md) |
+| 12 | [Ampersand](../server/ampersand.md) |
+| 11 | [Ampersand](../server/ampersand.md) |
+| 10 | [Ampersand](../server/ampersand.md) |
+| 09 | [Ampersand](../server/ampersand.md) |
+| 08 | [Ampersand](../server/ampersand.md) |
+| 07 | [Ampersand](../server/ampersand.md) |
+| 06 | [Ampersand](../server/ampersand.md) |
+| 05 | [Ampersand](../server/ampersand.md) |
+| 04 | [Ampersand](../server/ampersand.md) |
+| 03 | [Ampersand](../server/ampersand.md) |
 | 02 | |
 | 01 | |
 
-## Rack1
-_updated: Feb 11, 2024_
+[top of rack](#rack-0) - [top of page](#)
+
+## Rack 1
+_updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
 | 36 | TP-LINK TL-SG3428X  mrack1|
 | 35 | |
-| 34 | tiamat|
-| 33 | hydra|
-| 32 | |
-| 31 | |
-| 30 | hyrda|
-| 29 |hydra rails |
+| 34 | [Tiamat](../server/tiamat.md) |
+| 33 | [Hydra](../servers/hydra.md) |
+| 32 | [Hydra](../servers/hydra.md) |
+| 31 | [Hydra](../servers/hydra.md) |
+| 30 | [Hydra](../servers/hydra.md) |
+| 29 | Hydra rails |
 | 28 | |
-| 27 | gd |
-| 26 | Drand Dad|
+| 27 | Grand Dad |
+| 26 | Grand Dad|
 | 25 | |
 | 24 | |
 | 23 | |
-| 22 | [Hydra](../servers/hydra.md) |
-| 21 | [Hydra](../servers/hydra.md) |
-| 20 | [Hydra](../servers/hydra.md) | n/a
-| 19 | [Hydra](../servers/hydra.md) | n/a
+| 22 | |
+| 21 | |
+| 20 | |
+| 19 | | 
 | 18 | |
 | 17 | |
 | 16 | |
@@ -113,69 +115,69 @@ _updated: Feb 11, 2024_
 | 11 | |
 | 10 | |
 | 09 | |
-| 08 | norm|
-| 07 | red dwarf|
-| 06 | |
-| 05 | |
-| 04 | red dwarf|
+| 08 | Norm|
+| 07 | Red Dwarf |
+| 06 | Red Dwarf |
+| 05 | Red Dwarf |
+| 04 | Red Dwarf |
 | 03 | |
 | 02 | UPS8 (APC Smart-UPS C1500) |
 | 01 | UPS8 (APC Smart-UPS C1500) |
 
-[top of rack](#center) - [top of page](#)
+[top of rack](#rack-1) - [top of page](#)
 
-## Rack2
-_updated: Feb 11, 2024_
+## Rack 2
+_updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
 | 42 | M2 (TP-LINK TL-SH3424) mrack2|
 | 41 |  |
-| 40 | janet |
+| 40 | [Janet](../infrastructure/servers/janet.md) |
 | 39 | |
 | 38 | |
-| 37 | elephant|
-| 36 | elephant|
-| 35 | erised|
-| 34 | |
-| 33 | erised|
+| 37 | [Elephant](../infrastructure/servers/elephant.md) |
+| 36 | [Elephant](../infrastructure/servers/elephant.md) |
+| 35 | Erised |
+| 34 | Erised |
+| 33 | Erised |
 | 32 | |
-| 31 | kvm|
-| 30 | |
-| 29 | |
-| 28 | |
-| 27 | |
-| 26 | |
-| 25 | |
-| 24 | |
-| 23 | kvm |
+| 31 | KVM |
+| 30 | KVM |
+| 29 | KVM |
+| 28 | KVM |
+| 27 | KVM |
+| 26 | KVM |
+| 25 | KVM |
+| 24 | KVM |
+| 23 | KVM |
 | 22 | | 
-| 21 | Erised |
-| 20 | Erised |
-| 19 | Erised |
-| 18 | Erised | del
-| 17 | Prometheus |
-| 16 | Prometheus |
-| 15 | Prometheus |
-| 14 | Prometheus | del
-| 13 | [Mirror](../../mirror/introduction.md) |
-| 12 | [Mirror](../../mirror/introduction.md) |
-| 11 | [Mirror](../../mirror/introduction.md) |
-| 10 | n.md) | del
+| 21 | |
+| 20 | |
+| 19 | |
+| 18 | | 
+| 17 | |
+| 16 | |
+| 15 | |
+| 14 | | 
+| 13 | |
+| 12 | |
+| 11 | |
+| 10 | | 
 | 09 | |
 | 08 | |
-| 07 | prom|
-| 06 | |
-| 05 | |
-| 04 | prom|
+| 07 | Prometheus |
+| 06 | Prometheus |
+| 05 | Prometheus |
+| 04 | Prometheus |
 | 03 | |
 | 02 | UPS7 (APC Smart-UPS C1500) |
 | 01 | UPS7 (APC Smart-UPS C1500) |
 
-[top of rack](#right) - [top of page](#)
+[top of rack](#rack-2) - [top of page](#)
 
 ## Network 0
-_updated: Never because there is nothing there_
+_updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
@@ -227,7 +229,7 @@ _updated: Never because there is nothing there_
 [top of rack](#network-0) - [top of page](#)
 
 ## Network 1
-_updated: Feb 11, 2024_
+_updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
@@ -279,7 +281,7 @@ _updated: Feb 11, 2024_
 [top of rack](#network-1) - [top of page](#)
 
 ## Network 2
-_updated: Oct 16th 2022_
+_updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
@@ -331,7 +333,7 @@ _updated: Oct 16th 2022_
 [top of rack](#network-2) - [top of page](#)
 
 ## Network 3
-_updated: Feb 11, 2024_
+_updated: FMarch 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
