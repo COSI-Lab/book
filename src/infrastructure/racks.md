@@ -138,9 +138,9 @@ _updated: March 6th, 2024_
 | 38 | |
 | 37 | [Elephant](../infrastructure/servers/elephant.md) |
 | 36 | [Elephant](../infrastructure/servers/elephant.md) |
-| 35 | Erised |
-| 34 | Erised |
-| 33 | Erised |
+| 35 | [Erised](../infrastructure/servers/erised.md) |
+| 34 | [Erised](../infrastructure/servers/erised.md) |
+| 33 | [Erised](../infrastructure/servers/erised.md) |
 | 32 | |
 | 31 | KVM |
 | 30 | KVM |
