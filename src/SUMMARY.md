@@ -14,9 +14,10 @@
 - [Racks](./infrastructure/racks.md)
 
 - [Servers](./infrastructure/servers/index.md)
-    - [Bacon]()
+    - [Bacon](./infrastructure/servers/bacon.md)
     - [Elephant](./infrastructure/servers/elephant.md)
   	- [Eldwyn](./infrastructure/servers/eldwyn.md)
+    - [Erised](./infrastructure/servers/erised.md)
     - [Hydra](./infrastructure/servers/hydra.md)
     - [Janet](./infrastructure/servers/janet.md)
     - [Kasper](./infrastructure/servers/kasper.md)
