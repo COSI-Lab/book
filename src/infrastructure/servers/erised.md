@@ -1,6 +1,8 @@
 # Erised
 
-_updated: Mar 6th 2024_
+_updated: Mar 12th 2024_
+
+Erised is a test environment for Mirror with similar hardware.
 
 | | |
 | :--- | :--- |
