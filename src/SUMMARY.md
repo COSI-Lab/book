@@ -49,6 +49,7 @@
 
 - [Miscellaneous](./equipment/misc/index.md)
   - [Markers](./equipment/misc/markers.md)
+  - [Compressor](./equipment/misc/compressor.md)
 
 # Services
 
