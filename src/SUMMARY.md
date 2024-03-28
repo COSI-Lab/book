@@ -47,7 +47,8 @@
 - [Robots]()
     - [Husky]()
 
-- [Miscellaneous]()
+- [Miscellaneous](./equipment/misc/index.md)
+  - [Markers](./equipment/misc/markers.md)
 
 # Services
 
