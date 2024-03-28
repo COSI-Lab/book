@@ -44,7 +44,7 @@
   - [Canon Printer](./equipment/printers/canon.md)
   - [Mashoonga](./equipment/printers/mashoonga.md)
 
-- [Phones]()
+- [Phones](./equipment/phones/index.md)
 
 - [Robots](./equipment/robots/index.md)
     - [Husky](./equipment/robots/husky.md)
