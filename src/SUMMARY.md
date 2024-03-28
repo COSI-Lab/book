@@ -30,7 +30,7 @@
 
 # Equipment
 
-- [Computers]()
+- [Computers](./equipment/computers/index.md)
     - [COSI Build](./computers/cosi-build.md)
     - [ITL Build](./computers/itl-build.md)
     - [Steggo](./equipment/computers/steggo.md)
