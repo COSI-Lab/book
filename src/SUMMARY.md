@@ -38,14 +38,17 @@
     - [arm64 Mini](./equipment/computers/mini-arm64.md)
     - [iMac](./equipment/computers/imac.md)
 
-- [VR]()
+- [VR](./equipment/vr.md)
 
-- [Printers & Scanners]()
+- [Printers & Scanners](./equipment/printers/index.md)
+  - [Canon Printer](./equipment/printers/canon.md)
+  - [Mashoonga](./equipment/printers/mashoonga.md)
 
 - [Phones]()
 
 - [Robots]()
-    - [Husky]()
+    - [Husky](./equipment/robots/husky.md)
+    - [Donatello](./equipment/robots/donatello.md)
 
 - [Miscellaneous](./equipment/misc/index.md)
   - [Markers](./equipment/misc/markers.md)
