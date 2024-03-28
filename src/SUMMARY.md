@@ -31,12 +31,12 @@
 # Equipment
 
 - [Computers]()
-    - [COSI Build](./cosi-build.md)
-    - [ITL Build](./itl-build.md)
-    - [Steggo](./equipment/steggo.md)
-    - [Intel Mini](./equipment/mini-intel.md)
-    - [arm64 Mini](./equipment/mini-arm64.md)
-    - [iMac](./equipment/imac.md)
+    - [COSI Build](./computers/cosi-build.md)
+    - [ITL Build](./computers/itl-build.md)
+    - [Steggo](./equipment/computers/steggo.md)
+    - [Intel Mini](./equipment/computers/mini-intel.md)
+    - [arm64 Mini](./equipment/computers/mini-arm64.md)
+    - [iMac](./equipment/computers/imac.md)
 
 - [VR]()
 
