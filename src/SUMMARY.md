@@ -46,7 +46,7 @@
 
 - [Phones]()
 
-- [Robots]()
+- [Robots](./equipment/robots/index.md)
     - [Husky](./equipment/robots/husky.md)
     - [Donatello](./equipment/robots/donatello.md)
 
