@@ -30,24 +30,29 @@
 
 # Equipment
 
-- [Computers]()
-    - [COSI Build](./cosi-build.md)
-    - [ITL Build](./itl-build.md)
-    - [Steggo](./equipment/steggo.md)
-    - [Intel Mini](./equipment/mini-intel.md)
-    - [arm64 Mini](./equipment/mini-arm64.md)
-    - [iMac](./equipment/imac.md)
+- [Computers](./equipment/computers/index.md)
+    - [COSI Build](./computers/cosi-build.md)
+    - [ITL Build](./computers/itl-build.md)
+    - [Steggo](./equipment/computers/steggo.md)
+    - [Intel Mini](./equipment/computers/mini-intel.md)
+    - [arm64 Mini](./equipment/computers/mini-arm64.md)
+    - [iMac](./equipment/computers/imac.md)
 
-- [VR]()
+- [VR](./equipment/vr.md)
 
-- [Printers & Scanners]()
+- [Printers & Scanners](./equipment/printers/index.md)
+  - [Canon Printer](./equipment/printers/canon.md)
+  - [Mashoonga](./equipment/printers/mashoonga.md)
 
-- [Phones]()
+- [Phones](./equipment/phones/index.md)
 
-- [Robots]()
-    - [Husky]()
+- [Robots](./equipment/robots/index.md)
+    - [Husky](./equipment/robots/husky.md)
+    - [Donatello](./equipment/robots/donatello.md)
 
-- [Miscellaneous]()
+- [Miscellaneous](./equipment/misc/index.md)
+  - [Markers](./equipment/misc/markers.md)
+  - [Compressor](./equipment/misc/compressor.md)
 
 # Services
 
