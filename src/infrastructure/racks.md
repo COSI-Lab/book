@@ -1,6 +1,6 @@
 # Racks
 
-_updated: Feb 11, 2024_
+_updated: Apr 9th, 2024_
 
 This page serves as an index of all of COSI server racks.
 
