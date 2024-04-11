@@ -31,8 +31,8 @@
 # Equipment
 
 - [Computers](./equipment/computers/index.md)
-    - [COSI Build](./computers/cosi-build.md)
-    - [ITL Build](./computers/itl-build.md)
+    - [COSI Build](./equipment/computers/cosi-build.md)
+    - [ITL Build](./equipment/computers/itl-build.md)
     - [Steggo](./equipment/computers/steggo.md)
     - [Intel Mini](./equipment/computers/mini-intel.md)
     - [arm64 Mini](./equipment/computers/mini-arm64.md)
