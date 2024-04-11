@@ -32,7 +32,7 @@ We've configured groups of ports to map to certain [VLANs](../network/vlans.md).
 
 | Ports | VID | Name       | Speed |
 |-------|-----|------------|-------|
-| 0-7   | 3   | cosi\_priv | 10 G  |
+| 0-7   | 2   | cosi\_priv | 10 G  |
 | 8-15  | 2   | cosi\_priv | 10 G  |
 | 16-23 | 1   | service    | 10 G  |
 | Q0-Q1 | 1   | service    | 40 G  |
