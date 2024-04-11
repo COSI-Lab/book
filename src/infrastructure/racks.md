@@ -1,6 +1,6 @@
 # Racks
 
-_updated: Feb 11, 2024_
+_updated: Apr 9th, 2024_
 
 This page serves as an index of all of COSI server racks.
 
@@ -415,14 +415,14 @@ COSI has 1 rack in the university colocation at Old Main.
 | 25 | |
 | 24 | |
 | 23 | |
-| 22 | |
-| 21 | |
-| 20 | |
-| 19 | |
-| 18 | |
-| 17 | |
-| 16 | |
-| 15 | |
+| 22 | KVM |
+| 21 | [Mirror](../mirror/introduction.md) |
+| 20 | [Mirror](../mirror/introduction.md) |
+| 19 | [Mirror](../mirror/introduction.md) |
+| 18 | [Mirror](../mirror/introduction.md) |
+| 17 | [Kasper](../infrastructure/servers/kasper.md) |
+| 16 | [TalDOS](../infrastructure/servers/taldos.md) |
+| 15 | [Ziltoid](../infrastructure/servers/ziltoid.md) |
 | 14 | |
 | 13 | |
 | 12 | |
