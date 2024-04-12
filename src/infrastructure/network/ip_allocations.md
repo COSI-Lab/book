@@ -36,6 +36,8 @@ _updated: December 15, 2023_
 | 2 | [Kasper](../servers/kasper.md) |
 | 3 | [TalDos](../servers/taldos.md) |
 | 4 | [Talos](../servers/talos.md) |
+| 38 | [Wallace](../servers/wallace.md) |
+| 39 | [Gromit](../servers/gromit.md) |
 | 41 | [Tiamat](../servers/tiamat.md) |
 | 42 | [Hydra](../servers/hydra.md) |
 | 43 | [Janet](../servers/janet.md) |

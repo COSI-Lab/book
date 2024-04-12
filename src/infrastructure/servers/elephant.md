@@ -1,8 +1,9 @@
-# ELEPHANT
+# Elephant
 
-_updated: Sept 24th 2022_ 
+_updated: Mar 12th 2024_ 
 
-Elephant is a currently unused server with a similar form factor to [Bacon](./bacon.md). 
+Elephant is a server with a similar form factor to [Bacon](./bacon.md).
+It is currently used as a network storage & backup server.
 
 | | |
 | :--- | :--- |
@@ -33,8 +34,6 @@ Elephant is a currently unused server with a similar form factor to [Bacon](./ba
 
 
 ## Services
-
-Nothing of value, yet. Planned to be running backup server while using storage provided by [Ampersand](./ampersand.md).
 
 ## Notes
 

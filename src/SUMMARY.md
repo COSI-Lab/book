@@ -18,12 +18,14 @@
     - [Elephant](./infrastructure/servers/elephant.md)
   	- [Eldwyn](./infrastructure/servers/eldwyn.md)
     - [Erised](./infrastructure/servers/erised.md)
+    - [Gromit](./infrastructure/servers/gromit.md)
     - [Hydra](./infrastructure/servers/hydra.md)
     - [Janet](./infrastructure/servers/janet.md)
     - [Kasper](./infrastructure/servers/kasper.md)
     - [Talos](./infrastructure/servers/talos.md)
     - [TalDos](./infrastructure/servers/taldos.md)
     - [Tiamat](./infrastructure/servers/tiamat.md)
+    - [Wallace](./infrastructure/servers/wallace.md)
     - [Ziltoid](./infrastructure/servers/ziltoid.md)
 
 - [Virtual Machines](./infrastructure/vms.md)
@@ -31,8 +33,8 @@
 # Equipment
 
 - [Computers](./equipment/computers/index.md)
-    - [COSI Build](./computers/cosi-build.md)
-    - [ITL Build](./computers/itl-build.md)
+    - [COSI Build](./equipment/computers/cosi-build.md)
+    - [ITL Build](./equipment/computers/itl-build.md)
     - [Steggo](./equipment/computers/steggo.md)
     - [Intel Mini](./equipment/computers/mini-intel.md)
     - [arm64 Mini](./equipment/computers/mini-arm64.md)

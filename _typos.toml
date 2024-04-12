@@ -7,4 +7,8 @@ extend-ignore-identifiers-re = [
     "2RW103_ZL2*",
     # Ignore "typos" in nftables config
     "iif", "oif",
+    # NTO servers
+    "NTO",
+    # MUC (Multi-User Chat)
+    "muc.*", "muc_*", "MUC",
 ]
