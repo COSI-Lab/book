@@ -65,8 +65,8 @@ _updated: March 6th, 2024_
 | 17 | |
 | 16 | |
 | 15 | |
-| 14 | [Bacon](../server/bacon.md) |
-| 13 | [Bacon](../server/bacon.md) |
+| 14 | |
+| 13 | |
 | 12 | [Ampersand](../server/ampersand.md) |
 | 11 | [Ampersand](../server/ampersand.md) |
 | 10 | [Ampersand](../server/ampersand.md) |
@@ -87,7 +87,7 @@ _updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
-| 36 | TP-LINK TL-SG3428X  mrack1|
+| 36 | TP-LINK TL-SG3428X  mrack1 |
 | 35 | |
 | 34 | [Tiamat](../server/tiamat.md) |
 | 33 | [Hydra](../servers/hydra.md) |
@@ -97,8 +97,8 @@ _updated: March 6th, 2024_
 | 29 | Hydra rails |
 | 28 | |
 | 27 | Grand Dad |
-| 26 | Grand Dad|
-| 25 | |
+| 26 | Grand Dad |
+| 25 | KVM |
 | 24 | |
 | 23 | |
 | 22 | |
@@ -115,7 +115,7 @@ _updated: March 6th, 2024_
 | 11 | |
 | 10 | |
 | 09 | |
-| 08 | Norm|
+| 08 | Norm |
 | 07 | Red Dwarf |
 | 06 | Red Dwarf |
 | 05 | Red Dwarf |
@@ -134,23 +134,23 @@ _updated: March 6th, 2024_
 | 42 | M2 (TP-LINK TL-SH3424) mrack2|
 | 41 |  |
 | 40 | [Janet](../infrastructure/servers/janet.md) |
-| 39 | |
-| 38 | |
+| 39 | [Bacon](../infrastructure/servers/bacon.md) |
+| 38 | [Bacon](../infrastructure/servers/bacon.md) |
 | 37 | [Elephant](../infrastructure/servers/elephant.md) |
 | 36 | [Elephant](../infrastructure/servers/elephant.md) |
 | 35 | [Erised](../infrastructure/servers/erised.md) |
 | 34 | [Erised](../infrastructure/servers/erised.md) |
 | 33 | [Erised](../infrastructure/servers/erised.md) |
 | 32 | |
-| 31 | KVM |
-| 30 | KVM |
-| 29 | KVM |
-| 28 | KVM |
-| 27 | KVM |
-| 26 | KVM |
-| 25 | KVM |
-| 24 | KVM |
-| 23 | KVM |
+| 31 | |
+| 30 | |
+| 29 | |
+| 28 | |
+| 27 | |
+| 26 | |
+| 25 | |
+| 24 | |
+| 23 | |
 | 22 | | 
 | 21 | |
 | 20 | |
@@ -394,7 +394,7 @@ COSI has 1 rack in the university colocation at Old Main.
 | :- | :----- |
 | 45 | OIT Switch (unknown name) |
 | 44 | FCOLO |
-| 43 | |
+| 43 | [Ziltoid](../infrastructure/servers/ziltoid.md) |
 | 42 | |
 | 41 | |
 | 40 | |
@@ -421,12 +421,12 @@ COSI has 1 rack in the university colocation at Old Main.
 | 19 | [Mirror](../mirror/introduction.md) |
 | 18 | [Mirror](../mirror/introduction.md) |
 | 17 | [Kasper](../infrastructure/servers/kasper.md) |
-| 16 | [TalDOS](../infrastructure/servers/taldos.md) |
-| 15 | [Ziltoid](../infrastructure/servers/ziltoid.md) |
-| 14 | |
-| 13 | |
-| 12 | |
-| 11 | |
+| 16 | [TalTres](../infrastructure/servers/taltres.md) |
+| 15 | [TalTres](../infrastructure/servers/taltres.md) |
+| 14 | [Gromit](../infrastructure/servers/gromit.md) |
+| 13 | [Gromit](../infrastructure/servers/gromit.md) |
+| 12 | [Wallace](../infrastructure/servers/wallace.md) |
+| 11 | [Wallace](../infrastructure/servers/wallace.md) |
 | 10 | |
 | 09 | |
 | 08 | |
