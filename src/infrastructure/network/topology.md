@@ -6,4 +6,4 @@ Note: Topology graphs have been temporarily removed due to dependency issues wit
 
 # Current Topology
 
-![Current Topology](Current%20Topology.jpg)
+![Current Topology](../../media/images/FinalTopo_SC.png)
