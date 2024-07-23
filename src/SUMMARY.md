@@ -85,6 +85,7 @@
 
 - [Guides]() 
     - [COSI Accounts]()
+    - [Website Creation](./guides/website_creation.md)
 
 # Resources
 
