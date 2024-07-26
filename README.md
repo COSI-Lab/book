@@ -35,11 +35,11 @@ As **root** on tiamat run:
 ```
 cd /docker/book
 git pull
-docker-compose up --build -d
+docker compose up --build -d
 ```
 
 If you notice `mdbook` has been updated and it needs to be recompiled run:
 ```
-docker-compose build --no-cache
-docker-compose up -d
+docker compose build --no-cache
+docker compose up -d
 ```
