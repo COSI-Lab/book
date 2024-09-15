@@ -41,4 +41,4 @@ Kerberos
 
 ## Notes
 
-Talos was replaced by TalDos in Fall 2023 after it crashed due to memory errors.
+Talos was replaced by Caterpillar (formerly TalDos) in Fall 2023 after it crashed due to memory errors.

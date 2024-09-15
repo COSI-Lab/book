@@ -14,6 +14,7 @@
 - [Racks](./infrastructure/racks.md)
 
 - [Servers](./infrastructure/servers/index.md)
+    - [Caterpillar](./infrastructure/servers/caterpillar.md)
     - [Bacon](./infrastructure/servers/bacon.md)
     - [Elephant](./infrastructure/servers/elephant.md)
   	- [Eldwyn](./infrastructure/servers/eldwyn.md)
@@ -23,7 +24,7 @@
     - [Janet](./infrastructure/servers/janet.md)
     - [Kasper](./infrastructure/servers/kasper.md)
     - [Talos](./infrastructure/servers/talos.md)
-    - [TalDos](./infrastructure/servers/taldos.md)
+    - [TalTres](./infrastructure/servers/taltres.md)
     - [Tiamat](./infrastructure/servers/tiamat.md)
     - [Wallace](./infrastructure/servers/wallace.md)
     - [Ziltoid](./infrastructure/servers/ziltoid.md)

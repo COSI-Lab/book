@@ -34,17 +34,21 @@ _updated: December 15, 2023_
 | :--- | :---
 | 1 | OIT Gateway |
 | 2 | [Kasper](../servers/kasper.md) |
-| 3 | [TalDos](../servers/taldos.md) |
-| 4 | [Talos](../servers/talos.md) |
+| 3 | [TalTres](../servers/taltres.md) |
+| 5 | [Ziltoid](../servers/ziltoid.md) |
+| 10 | [Bacon](../servers/bacon.md) |
+| 19 | [Mirror](../../mirror/introduction.md) |
+| 20 | [FCOLO](../network/switches.md) |
+| 20 | [FHILL](../network/switches.md) |
 | 38 | [Wallace](../servers/wallace.md) |
 | 39 | [Gromit](../servers/gromit.md) |
 | 41 | [Tiamat](../servers/tiamat.md) |
 | 42 | [Hydra](../servers/hydra.md) |
 | 43 | [Janet](../servers/janet.md) |
-| 53 | [TalDos](../servers/taldos.md) |
+| 52 | [Caterpillar](../servers/caterpillar.md) |
+| 53 | [TalTres](../servers/taltres.md) |
 | 90 | [Elephant](../servers/elephant.md) |
-| 179 | [hbox](../servers/hbox.md) |
-
+| 91 | [Erised](../servers/erised.md) |
 
 ### Layout
 

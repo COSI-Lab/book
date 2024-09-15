@@ -32,7 +32,7 @@ _updated: Sept 18th 2022_
 
 ## atlas
 
-> deprecated: All DNS is handled by [TalDos](./servers/taldos.md).
+> deprecated: All DNS is handled by [TalTres](./servers/taltres.md).
 
 _updated: December 15th, 2023_
 

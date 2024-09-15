@@ -6,7 +6,7 @@ Since COSI has it's own network we also run a [DHCP](https://en.wikipedia.org/wi
 
 ## Kea
 
-We have a single dhcp server running on [TalDos](../infrastructure/servers/taldos.md).
+We have a single dhcp server running on [TalTres](../infrastructure/servers/taltres.md).
 In the past we had a fallback server running in a VM. This no longer exists.
 We currently use Internet Systems Consortium's Kea DHCP server.
 
