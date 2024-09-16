@@ -29,7 +29,7 @@ It also runs our point-to-site VPN.
 | OS | GNU/Linux
 | Distro | Debian 12 Bookworm
 | Last updated | Sep 2024
-| End of life | unknown
+| End of life | Not yet announced
 | Enrolled in COSI auth | false
 | NFS Mount | false
 
