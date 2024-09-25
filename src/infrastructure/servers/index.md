@@ -18,7 +18,7 @@ This chapter contains an alphabetically ordered list of all of COSI's physical s
 | Janet       | 2    | Xeon E5-2640     | 6/12          | 6325       | 80 GB DDR3    |
 | Kasper      | 1    | Xeon E5-2620     | 6/12          | 5290       | 8 GB DDR3     |
 | Mirror      | 2    | Xeon E5504       | 4/4           | 1519       | 64 GB DDR3    |
-| TalDos      | 2    | Xeon E5620       | 4/8           | 3502       | 12 GB DDR3    |
+| Caterpillar | 2    | Xeon E5620       | 4/8           | 3502       | 12 GB DDR3    |
 | Talos       | 1    | Xeon E3-1220v2   | 4/4           | 4666       | 4 GB DDR3     |
 | Tiamat      | 2    | Opteron 6220     | 8/8           | 4753       | 64 GB DDR3    |
 | Wallace     | 2    | Xeon E5-2697v3   | 14/28         | 18717      | 128 GB DDR4   |

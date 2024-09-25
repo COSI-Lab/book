@@ -1,8 +1,11 @@
-# TalDos
+# TalTres
 
-_updated: November 27, 2023_
+_updated: September 15, 2024_
 
-TalDos is COSI's primary DNS server, replacing Talos.
+TalTres is COSI's primary DNS server, replacing TalDos (now Caterpillar).
+It also runs our point-to-site VPN.
+
+*Third time's the charm.*
 
 | | |
 | :--- | :--- |
@@ -14,9 +17,9 @@ TalDos is COSI's primary DNS server, replacing Talos.
 
 | | |
 | :--- | :--- |
-| CPU | Intel Xeon E5620 (x2)
-| RAM | 12 GB
-| STORAGE | 300 GB
+| CPU | Intel Xeon E5-2640v3 (x2)
+| RAM | 64 GB
+| STORAGE | 2.4 TB
 | CONNECTIVITY | 1 Gbps
 
 ## Operating System
@@ -25,8 +28,8 @@ TalDos is COSI's primary DNS server, replacing Talos.
 | :--- | :--- |
 | OS | GNU/Linux
 | Distro | Debian 12 Bookworm
-| Last updated | Nov 2023
-| End of life | unknown
+| Last updated | Sep 2024
+| End of life | Not yet announced
 | Enrolled in COSI auth | false
 | NFS Mount | false
 

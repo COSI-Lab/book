@@ -21,7 +21,7 @@ When adding a new server to the network make sure you remember to add it's ip to
 
 ## NSD
 
-COSI has one authoritative DNS server running [NSD](https://en.wikipedia.org/wiki/NSD) which is `dns1.cosi.clarkson.edu` is running on [Taldos](../infrastructure/servers/taldos.md). 
+COSI has one authoritative DNS server running [NSD](https://en.wikipedia.org/wiki/NSD) which is `dns1.cosi.clarkson.edu` is running on [TalTres](../infrastructure/servers/taltres.md). 
 
 OIT's caching DNS servers are configured to cache the entire zone files over XFR. That is why we have XFR enabled for OIT's name servers. If you notice DNS results are buggy within the Clarkson network it is probably this.
 

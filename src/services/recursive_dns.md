@@ -34,7 +34,7 @@ dns2: 8.8.4.4
 
 We currently use [Unbound](https://en.wikipedia.org/wiki/Unbound_(DNS_server)) for DNS. If possible, other clients should do their best to have their own DNS caches to further decrease latency when repeatedly accessing the same sites. 
 
-Unbound is currently running on [TalDos](../infrastructure/servers/taldos.md).
+Unbound is currently running on [TalTres](../infrastructure/servers/taltres.md).
 
 ### Configuration
 ```
