@@ -90,4 +90,5 @@
 
 # Resources
 
-- [Media](./media/index.md)
+- [Library](./recouces/library/index.md)
+- [Media](./recouces/media/index.md)
