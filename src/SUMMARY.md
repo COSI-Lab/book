@@ -90,5 +90,7 @@
 
 # Resources
 
-- [Library](./recouces/library/index.md)
+- [Library]()
+    - [3rd Floor](./recouces/library/3rd.md)
+    - [2nd Floor](./recouces/library/2nd.md)
 - [Media](./recouces/media/index.md)
