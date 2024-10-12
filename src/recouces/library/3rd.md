@@ -1,7 +1,7 @@
 # 3rd Floor Library
 
 | Title | Author | Location (Shelf-Row) | ISBN-10 | ISBN-13 |
-| :--- | :--- | :--- | :--- | :---
+| :--- | :--- | :--- | :--- | :--- |
 | The Essentials of Computer Organization and Architecture 5th Edition | Linda Null; Julia Lobur | 1-0 | 1284123030 | 978-1284123036 |
 | Computer Systems A Programmer's Perspective 3rd Edition |  Randal Bryant; David O'Hallaron | 1-0 | 013409266X | 978-0134092669 |
 | Computer Systems A Programmer's Perspective |  Randal Bryant; David O'Hallaron | 1-0 | 013034074X | 978-0130340740 |
