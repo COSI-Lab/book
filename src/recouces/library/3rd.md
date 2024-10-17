@@ -39,7 +39,7 @@
 | Art of Computer Programming, The: Seminumerical Algorithms, Volume 2 (3rd Edition) | Donald Knuth | 1-1 | 0201896842 | 9780201896848 |
 | Art of Computer Programming, The: Sorting and Searching, Volume 3 (2nd Edition) | Donald Knuth | 1-1 | 0201896850 | 9780201896855 |
 | Logic in Computer Science: Modelling and Reasoning about Systems | Michael Huth; Mark Ryan | 1-1 | 0521656028 | 9780521656023 |
-| t | t | 1-1 | t | t |
+| The Art of Computer Programming, Volume 4, Fascicle 0: Introduction to Combinatorial Algorithms and Boolean Functions | Donald E. Knuth | 1-1 | 0321534964 | 9780321534965 |
 | t | t | 1-1 | t | t |
 | t | t | 1-1 | t | t |
 | t | t | 1-1 | t | t |
