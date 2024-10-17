@@ -63,36 +63,36 @@
 | Cryptography: Theory and Practice, (Discrete Mathematics and Its Applications) (3rd Edition) | Douglas R. Stinson | 1-1 | 1584885084 | 9781584885085 |
 | Applied Cryptography: Protocols, Algorithms, and Source Code in C (2nd Edition) | Bruce Schneier | 1-1 | 0471128457 | 9780471128458 |
 | Secret Code Breaker: A Cryptanalyst's Handbook (Codebreaker Series, Number 1) | Robert Reynard | 1-1 | 1889668001 | 9781889668000 |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
-| t | t | 1-2 | t | t |
+| Structure and Interpretation of Computer Programs - 2nd Edition (MIT Electrical Engineering and Computer Science) | Harold Abelson; Gerald Jay Sussman | 1-2 | 0262510871 | 9780262510875 |
+| Programming Languages: Principles and Practice | Kenneth C. Louden | 1-2 | 0534953417 | 9780534953416 |
+| Problem Solving with C++ (10th Edition) | Walter Savitch; Kenrick Mock | 1-2 | 0134448286 | 9780134448282 |
+| Problem Solving with C++ (7th Edition) | Walter Savitch | 1-2 | 0321531345 | 9780321531346 |
+| C++ Primer (4th Edition) | Stanley B. Lippman; Josee Lajoie; Barbara E. Moo | 1-2 | 0201721481 | 9780201721485 |
+| C++ Programming: Program Design Including Data Structures (4th Edition) | D. S. Malik | 1-2 | 142390222X | 9781423902225 |
+| The Icon programming language (Prentice-Hall software series) | Ralph E Griswold | 1-2 | 0134497775 | 9780134497778 |
+| C Programming Language (2nd Edition) | Brian W. Kernighan; Dennis M. Ritchie | 1-2 | 0131103628 | 9780131103627 |
+| C Programming Language (2nd Edition) | Brian W. Kernighan; Dennis M. Ritchie | 1-2 | 0131103628 | 9780131103627 |
+| Learn You a Haskell for Great Good!: A Beginner's Guide | Miran Lipovaca | 1-2 | 1593272839 | 9781593272838 |
+| Real World Haskell | Bryan O'Sullivan; John Goerzen; Don Stewart | 1-2 | 0596514980 | 9780596514983 |
+| Haskell: The Craft of Functional Programming (2nd Edition) | Simon Thompson | 1-2 | 0201342758 | 9780201342758 |
+| Common Lisp: The Language (2nd Edition) | Guy L. Steele | 1-2 | 0131515071 | 9780131515079 |
+| Lisp (3rd Edition) | Patrick Henry Winston; Berthold K. Horn | 1-2 | 0201083191 | 9780201083194 |
+| The GNU Emacs Lisp Reference Manual (GNU Emacs Version 20) | Bill Lewis; Dan LaLiberte; Richard Stallman; the GNU Manual Group | 1-2 | 1882114728 | 9781882114726 |
+| The Art of Prolog: Advanced Programming Techniques (Mit Press Series in Logic Programming) | Leon Sterling; Ehud Shapiro | 1-2 | 0262192500 | 9780262192507 |
+| Prolog Programming for Artificial Intelligence (2nd Edition) | Ivan Bratko | 1-2 | 0201416069 | 9780201416060 |
+| Programming Perl (Nutshell Handbooks) | Randal L. Schwartz; Larry Wall | 1-2 | 0937175641 | 9780937175644 |
+| A Little Smalltalk | Timothy Budd | 1-2 | 0201106981 | 9780201106985 |
+| Computing for Engineers and Scientists with FORTRAN 77 | Daniel D. McCracken | 1-2 | 0471097012 | 9780471097013 |
+| Ada for Experienced Programmers | A. Nico Habermann; Dewayne E. Perry | 1-2 | 020111481X | 9780201114812 |
+| Go Programming Language, The (Addison-Wesley Professional Computing Series) | Alan Donovan; Brian Kernighan | 1-2 | 0134190440 | 9780134190440 |
+| The LaTeX Companion (Tools and Techniques for Computer Typesetting) (2nd Edition) | rank Mittelbach; Michel Goossens; Johannes Braams; David Carlisle; Chris Rowley | 1-2 | 0201362996 | 9780201362992 |
+| The Latex Graphics Companion: Illustrating Documents With Tex and Postscript | Michel Goossens; Sebastian Rahtz; Frank Mittelbach | 1-2 | 0201854694 | 9780201854695 |
+| Theory of Computing: A Gentle Introduction | Efim Kinber; Carl Smith | 1-2 | 0130279617 | 9780130279613 |
+| Elements of the Theory of Computation (2nd Edition) | Harry Lewis; Christos Papadimitriou | 1-2 | 0132624788 | 9780132624787 |
+| Introduction to the Theory of Computation (2nd Edition) | Michael Sipser | 1-2 | 0534950973 | 9780534950972 |
+| Introduction to Formal Languages and Automata | Peter Linz | 1-2 | 0669173428 | 9780669173420 |
+| Introduction to Automata Theory, Languages and Computation (Addison-Wesley series in computer science) | John E. Hopcroft; Jeffrey D. Ulman | 1-2 | 020102988X | 9780201029888 |
+| Introduction To The Theory Of Computation | Michael Sipser | 1-2 | 0534956513 | 9780534956516 |
 | Incident Response | Kenneth R. van Wyk; Richard Forno | 1-3 | 0596001304 | 9780596001308 |
 | Incident Response | Kenneth R. van Wyk; Richard Forno | 1-3 | 0596001304 | 9780596001308 |
 | sendmail (2nd Edition) | Bryan Costales; Eric Allman | 1-3 | 1565922220 | 9781565922228 |
@@ -126,21 +126,21 @@
 | Common LISP The Language (2nd Edition) | Guy L. Steele Jr. | 1-3 | 1555580416 | 9781555580414 |
 | Linux in a Nutshell (5th Edition) | Ellen Siever; Aaron Weber; Stephen Figgins; Robert Love; Arnold Robbins | 1-3 | 0596009305 | 9780596009304 |
 | Hacking: The Art of Exploitation (2nd Edition) | Jon Erickson | 1-3 | 1593271441 | 9781593271442 |
-| 1t | t | 1-N | t | t |
-| 2t | t | 1-N | t | t |
-| 3t | t | 1-N | t | t |
-| 4t | t | 1-N | t | t |
-| 5t | t | 1-N | t | t |
-| 6t | t | 1-N | t | t |
-| 7t | t | 1-N | t | t |
-| 8t | t | 1-N | t | t |
-| 9t | t | 1-N | t | t |
-| 0t | t | 1-N | t | t |
-| 1t | t | 1-N | t | t |
-| 2t | t | 1-N | t | t |
-| 3t | t | 1-N | t | t |
-| 4t | t | 1-N | t | t |
-| 5t | t | 1-N | t | t |
+| Open Source Bibliography | Betsy Waliszewski | 1-N | N/A | N/A |
+| vi Editor Pocket Reference | Arnold Robbins | 1-N | 1565924975 | 9781565924970 |
+| Computer Capers | Thomas Whiteside | 1-N | N/A | N/A |
+| The Rust Programming Language | Steve Klabnik; Carol Nichols | 1-N | 1593278284 | 9781593278281 |
+| Checking C Programs with Lint: C Programming Utility | Ian F. Darwin | 1-N | 0937175307 | 9780937175309 |
+| lex & yacc | Doug Brown; John Levine; Tony Mason | 1-N | 1565920007 | 9781565920002 |
+| Compilers: Principles, Techniques, and Tools | Alfred V. Aho; Ravi Sethi; Jeffrey D. Ullman | 1-N | 0201100886 | 9780201100884 |
+| Surely You're Joking, Mr. Feynman! (Adventures of a Curious Character) | Richard P. Feynman; Ralph Leighton | 1-N | 0393316041 | 9780393316049 |
+| Clarkson 1986-88 Undergraduate/Graduate Catalog | Clarkson University | 1-N | N/A | N/A |
+| lex & yacc | Doug Brown; John Levine; Tony Mason | 1-N | 1565920007 | 9781565920002 |
+| Technician Class 2010-2014 | Gordon West | 1-N | 0945053622 | 9780945053620 |
+| Commentary on Standard Ml | Robin Milner; Mads Tofte | 1-N | 0262631377 | 9780262631372 |
+| The Definition of Standard ML | Robin Milner; Mads Tofte; Robert Harper | 1-N | 0262631326 | 9780262631327 |
+| Introduction to Wavelets | Abdul J. Jerri | 1-N | N/A | 0471697330107 |
+| Cyberspace 3000 Issue 1 | Michael W. Bennent | 1-N | N/A | N/A |
 | t | t | 2-0 | t | t |
 | t | t | 2-0 | t | t |
 | t | t | 2-0 | t | t |
