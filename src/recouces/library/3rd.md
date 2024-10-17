@@ -141,24 +141,24 @@
 | The Definition of Standard ML | Robin Milner; Mads Tofte; Robert Harper | 1-N | 0262631326 | 9780262631327 |
 | Introduction to Wavelets | Abdul J. Jerri | 1-N | N/A | 0471697330107 |
 | Cyberspace 3000 Issue 1 | Michael W. Bennent | 1-N | N/A | N/A |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
+| An Introduction to Genetic Algorithms (Complex Adaptive Systems) | Melanie Mitchell | 2-0 | 0262631857 | 9780262631853 |
+| Open Sources 2.0: The Continuing Evolution | Chris DiBona; Mark Stone; Danese Cooper | 2-0 | 0596008023 | 9780596008024 |
+| The Practice of Programming (Addison-Wesley Professional Computing Series) | Brian Kernighan; Rob Pike | 2-0 | 020161586X | 9780201615869 |
+| The Seasoned Schemer, second edition (The MIT Press) | Daniel P. Friedman; Matthias Felleisen | 2-0 | 026256100X | 9780262561006 |
+| The Little Schemer - 4th Edition | Daniel P. Friedman; Matthias Felleisen | 2-0 | 0262560992 | 9780262560993 |
+| The Little MLer | Matthias Felleisen; Daniel P. Friedman | 2-0 | 026256114X | 9780262561143 |
+| The Seasoned Schemer, second edition (The MIT Press) | Daniel P. Friedman; Matthias Felleisen | 2-0 | 026256100X | 9780262561006 |
+| The Reasoned Schemer (The MIT Press) | Daniel P. Friedman; William E. Byrd; Oleg Kiselyov | 2-0 | 0262562146 | 9780262562140 |
+| The Little Typer (The MIT Press) | Daniel P. Friedman; David Thrane Christiansen | 2-0 | 0262536439 | 9780262536431 |
+| Learning the vi Editor (Nutshell Handbooks) | Linda Lamb | 2-0 | 0937175676 | 9780937175675 |
+| Turing Omnibus: 61 Excursions in Computer Science | A. K. Dewdney | 2-0 | 0716781549 | 9780716781547 |
+| Beautiful Code: Leading Programmers Explain How They Think | Greg Wilson; Andy Oram | 2-0 | 0596510047 | 9780596510046 |
+| Introduction to Algorithms | Thomas H. Cormen; Charles E. Leiserson; Ronald L. Rivest; Clifford Stein | 2-0 | 0262033844 | 9780262033848 |
+| Fun With Fractals | Judd Robbins | 2-0 | 0782111262 | 9780782111262 |
+| Bugs in Writing | Lyn Dupre | 2-0 | 0201600196 | 9780201600193 |
+| Programming Robots with ROS: A Practical Introduction to the Robot Operating System | Morgan Quigley; Brian Gerkey; William Smart | 2-0 | 1449323898 | 9781449323899 |
+| Operations Research (Schaum's Outlines) | Richard Bronson | 2-0 | 0070079773 | 9780070079779 |
+| Introduction to the theory of computation (Computer science and applied mathematics) | Erwin Engeler | 2-0 | 0122392507 | 9780122392504 |
 | t | t | 2-0 | t | t |
 | t | t | 2-0 | t | t |
 | t | t | 2-0 | t | t |
