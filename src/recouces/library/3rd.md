@@ -159,21 +159,21 @@
 | Programming Robots with ROS: A Practical Introduction to the Robot Operating System | Morgan Quigley; Brian Gerkey; William Smart | 2-0 | 1449323898 | 9781449323899 |
 | Operations Research (Schaum's Outlines) | Richard Bronson | 2-0 | 0070079773 | 9780070079779 |
 | Introduction to the theory of computation (Computer science and applied mathematics) | Erwin Engeler | 2-0 | 0122392507 | 9780122392504 |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
-| t | t | 2-0 | t | t |
+| Just for Fun: The Story of an Accidental Revolutionary | Linus Torvalds; David Diamond | 2-0 | 0066620732 | 9780066620732 |
+| Becoming Qualitative Researchers: An Introduction | Corrine Glesne; Alan Peshkin | 2-0 | 0801302951 | 9780801302954 |
+| The Fractal Geometry of Nature | Benoit B. Mandelbrot | 2-0 | 0716711869 | 9780716711865 |
+| Principia Discordia | Malaclypse the Younger; Omar Khayyam Ravenhurst | 2-0 | 1461087775 | 9781461087779 |
+| Beyond Engineering: How Society Shapes Technology (Sloan Technology) | Robert Pool | 2-0 | 0195129113 | 9780195129113 |
+| Kickstarter FD | Aimee Cebulski | 2-0 | 1118505433 | 9781118505434 |
+| Kaplan 2013 GRE® Premier: with 5 Online Practice Tests + DVD | Kaplan | 2-0 | 1609781007 | 9781609781002 |
+| Mythical Man-Month, The: Essays on Software Engineering, Anniversary Edition | Frederick Brooks Jr. | 2-0 | 0201835959 | 9780201835953 |
+| Public speaking | Michael Osborn; Suzanne Osborn | 2-0 | 039543257X | 9780395432570 |
+| Einstein for Beginners | Michael McGuinness; Joseph Schwartz | 2-0 | 0679725105 | 9780679725107 |
+| Just Bros | Rollens Vert | 2-0 | N/A | N/A |
+| Six Easy Pieces (Audio Cassettes) | Richard P. Feynman | 2-0 | 0201483084 | 9780201483086 |
+| Fundamentals of Physics Extended | Clarkson University | 2-0 | 1118731212 | 9781118731215 |
+| Life Is Long!: 50+ Ways to Help You Live a Little Bit Closer to Forever | Karen Salmansohn | 2-0 | 0399580700 | 9780399580703 |
+| The Technical Communicator's Handbook | Dan Jones | 2-0 | 0205279325 | 9780205279326 |
 | t | t | 2-1 | t | t |
 | t | t | 2-1 | t | t |
 | t | t | 2-1 | t | t |
