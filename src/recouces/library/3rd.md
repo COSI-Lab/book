@@ -40,29 +40,29 @@
 | Art of Computer Programming, The: Sorting and Searching, Volume 3 (2nd Edition) | Donald Knuth | 1-1 | 0201896850 | 9780201896855 |
 | Logic in Computer Science: Modelling and Reasoning about Systems | Michael Huth; Mark Ryan | 1-1 | 0521656028 | 9780521656023 |
 | The Art of Computer Programming, Volume 4, Fascicle 0: Introduction to Combinatorial Algorithms and Boolean Functions | Donald E. Knuth | 1-1 | 0321534964 | 9780321534965 |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
+| The Art of Computer Programming, Volume 4, Fascicle 1: Bitwise Tricks & Techniques; Binary Decision Diagrams | Donald E. Knuth | 1-1 | 0321580508 | 9780321580504 |
+| The Art of Computer Programming, Volume 4, Fascicle 2: Generating All Tuples and Permutations | Donald E. Knuth | 1-1 | 0201853930 | 9780201853933 |
+| The Art of Computer Programming, Volume 4, Fascicle 3: Generating All Combinations and Partitions | Donald E. Knuth | 1-1 | 0201853949 | 9780201853940 |
+| Art of Computer Programming, Volume 4, Fascicle 4: Generating All Trees--History of Combinatorial Generation | Donald E. Knuth | 1-1 | 0321335708 | 9780321335708 |
+| Art of Computer Programming, Volume 1, Fascicle 1, The: MMIX -- A RISC Computer for the New Millennium | Donald E. Knuth | 1-1 | 0201853922 | 9780201853926 |
+| Algorithms Sequential and Parallel: A Unified Approach | Russ Miller; Laurence Boxer | 1-1 | 0130863734 | 9780130863737 |
+| Parallel Algorithms and Matrix Computation (Oxford Applied Mathematics and Computing Science Series) | Jagdish J. Modi | 1-1 | 0198596707 | 9780198596707 |
+| Data Structures and Algorithms in C++ (3rd Edition) | Adam Drozdek | 1-1 | 0534491820 | 9780534491826 |
+| Combinatorial Optimization: Algorithms and Complexity (Dover Books on Computer Science) | Christos H. Papadimitriou; Kenneth Steiglitz | 1-1 | 0486402584 | 9780486402581 |
+| Types and Programming Languages (The MIT Press) | Benjamin C. Pierce | 1-1 | 0262162091 | 9780262162098 |
+| Compilers: Principles, Techniques, and Tools | Alfred V. Aho; Ravi Sethi; Jeffrey D. Ullman | 1-1 | 0201100886 | 9780201100884 |
+| Compilers: Principles, Techniques, and Tools | Alfred V. Aho; Ravi Sethi; Jeffrey D. Ullman | 1-1 | 0201100886 | 9780201100884 |
+| Crafting a compiler with C | Charles N Fischer | 1-1 | 0805321691 | 9780805321692 |
+| Introduction to Compiler Construction | Thomas W. Parsons | 1-1 | 0716782618 | 9780716782612 |
+| Compiler Construction for Digital Computers | David Gries | 1-1 | 047132776X | 9780471327769 |
+| Alfred Aho; Monica Lam; Ravi Sethi; Jeffrey Ullman (2nd Edition) | Alfred Aho; Monica Lam; Ravi Sethi; Jeffrey Ullman | 1-1 | 0321486811 | 9780321486813 |
+| lex & yacc (2nd Edition) | Doug Brown; John Levine; Tony Mason | 1-1 | 1565920007 | 9781565920002 |
+| The Definitive ANTLR 4 Reference (2nd Edition) | Terence Parr | 1-1 | 1934356999 | 9781934356999 |
+| Programming Language Pragmatics (3rd Edition) | Michael Scott | 1-1 | 0123745144 | 9780123745149 |
+| An Introduction to Mathematical Cryptography (Undergraduate Texts in Mathematics) | Jeffrey Hoffstein; Jill Pipher; Joseph H. Silverman | 1-1 | 0387779930 | 9780387779935 |
+| Cryptography: Theory and Practice, (Discrete Mathematics and Its Applications) (3rd Edition) | Douglas R. Stinson | 1-1 | 1584885084 | 9781584885085 |
+| Applied Cryptography: Protocols, Algorithms, and Source Code in C (2nd Edition) | Bruce Schneier | 1-1 | 0471128457 | 9780471128458 |
+| Secret Code Breaker: A Cryptanalyst's Handbook (Codebreaker Series, Number 1) | Robert Reynard | 1-1 | 1889668001 | 9781889668000 |
 | t | t | 1-2 | t | t |
 | t | t | 1-2 | t | t |
 | t | t | 1-2 | t | t |
