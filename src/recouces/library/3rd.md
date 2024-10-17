@@ -126,21 +126,21 @@
 | t | t | 1-3 | t | t |
 | t | t | 1-3 | t | t |
 | t | t | 1-3 | t | t |
-| 1t | t | 1-N | t | t |
-| 2t | t | 1-N | t | t |
-| 3t | t | 1-N | t | t |
-| 4t | t | 1-N | t | t |
-| 5t | t | 1-N | t | t |
-| 6t | t | 1-N | t | t |
-| 7t | t | 1-N | t | t |
-| 8t | t | 1-N | t | t |
-| 9t | t | 1-N | t | t |
-| 0t | t | 1-N | t | t |
-| 1t | t | 1-N | t | t |
-| 2t | t | 1-N | t | t |
-| 3t | t | 1-N | t | t |
-| 4t | t | 1-N | t | t |
-| 5t | t | 1-N | t | t |
+| Open Source Bibliography | Betsy Waliszewski | 1-N | N/A | N/A |
+| vi Editor Pocket Reference | Arnold Robbins | 1-N | 1565924975 | 9781565924970 |
+| Computer Capers | Thomas Whiteside | 1-N | N/A | N/A |
+| The Rust Programming Language | Steve Klabnik; Carol Nichols | 1-N | 1593278284 | 9781593278281 |
+| Checking C Programs with Lint: C Programming Utility | Ian F. Darwin | 1-N | 0937175307 | 9780937175309 |
+| lex & yacc | Doug Brown; John Levine; Tony Mason | 1-N | 1565920007 | 9781565920002 |
+| Compilers: Principles, Techniques, and Tools | Alfred V. Aho; Ravi Sethi; Jeffrey D. Ullman | 1-N | 0201100886 | 9780201100884 |
+| Surely You're Joking, Mr. Feynman! (Adventures of a Curious Character) | Richard P. Feynman; Ralph Leighton | 1-N | 0393316041 | 9780393316049 |
+| Clarkson 1986-88 Undergraduate/Graduate Catalog | Clarkson University | 1-N | N/A | N/A |
+| lex & yacc | Doug Brown; John Levine; Tony Mason | 1-N | 1565920007 | 9781565920002 |
+| Technician Class 2010-2014 | Gordon West | 1-N | 0945053622 | 9780945053620 |
+| Commentary on Standard Ml | Robin Milner; Mads Tofte | 1-N | 0262631377 | 9780262631372 |
+| The Definition of Standard ML | Robin Milner; Mads Tofte; Robert Harper | 1-N | 0262631326 | 9780262631327 |
+| Introduction to Wavelets | Abdul J. Jerri | 1-N | N/A | 0471697330107 |
+| Cyberspace 3000 Issue 1 | Michael W. Bennent | 1-N | N/A | N/A |
 | t | t | 2-0 | t | t |
 | t | t | 2-0 | t | t |
 | t | t | 2-0 | t | t |
