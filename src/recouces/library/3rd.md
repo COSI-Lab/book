@@ -31,7 +31,7 @@
 | Docker in Practice | Ian Miell; Aidan Hobson Sayers | 1-0 | 1617292729 | 9781617292729 |
 | Practical Vim: Edit Text at the Speed of Thought (2nd Edition) | Drew Neil | 1-0 | 1680501275 | 9781680501278 |
 | UNIX Shell Programming (3rd Edition) | Lowell Jay Arthur; Ted Burns | 1-0 | 0471599417 | 9780471599418 |
-| t | t | 1-1 | t | t |
+| The Design and Analysis of Computer Algorithms | Alfred Aho | 1-1 | 0201000296 | 9780201000290 |
 | t | t | 1-1 | t | t |
 | t | t | 1-1 | t | t |
 | t | t | 1-1 | t | t |
