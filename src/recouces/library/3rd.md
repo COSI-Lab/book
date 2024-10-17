@@ -93,39 +93,39 @@
 | Introduction to Formal Languages and Automata | Peter Linz | 1-2 | 0669173428 | 9780669173420 |
 | Introduction to Automata Theory, Languages and Computation (Addison-Wesley series in computer science) | John E. Hopcroft; Jeffrey D. Ulman | 1-2 | 020102988X | 9780201029888 |
 | Introduction To The Theory Of Computation | Michael Sipser | 1-2 | 0534956513 | 9780534956516 |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
-| t | t | 1-3 | t | t |
+| Incident Response | Kenneth R. van Wyk; Richard Forno | 1-3 | 0596001304 | 9780596001308 |
+| Incident Response | Kenneth R. van Wyk; Richard Forno | 1-3 | 0596001304 | 9780596001308 |
+| sendmail (2nd Edition) | Bryan Costales; Eric Allman | 1-3 | 1565922220 | 9781565922228 |
+| Introducing HTML 5 (Voices That Matter) | Bruce Lawson; Remy Sharp | 1-3 | 0321687299 | 9780321687296 |
+| Your Linux Toolbox | Julia Evans | 1-3 | 1593279779 | 9781593279776 |
+| Mathematics & Physics for Programmers (Programming Series) | Danny Kodicek | 1-3 | 1584503300 | 9781584503309 |
+| A Few Good Men from Univac (Mit Press Series in the History of Computing) | David E. Lundstrom | 1-3 | 0262121204 | 9780262121200 |
+| What Do You Care What Other People Think: Further Adventures of a Curious Character | Richard P. Feynman | 1-3 | 0393026590 | 9780393026597 |
+| Structured Computer Organization (4th Edition) | Andrew S. Tanenbaum | 1-3 | 0130959901 | 9780130959904 |
+| Combined Membership List 1978-1979 | American Mathematical Society | 1-3 | N/A | N/A |
+| Expert Systems 85: Proceedings of the Fifth Technical Conference of the British Computer Society Specialist Group on Expert Systems (British Computer Society Workshop Series) | British Computer Society; Martin Merry; P. Hammersley | 1-3 | 052132596X | 9780521325967 |
+| Digital computer system principles (McGraw-Hill computer science series) | Herbert Hellerman | 1-3 | N/A | N/A |
+| Computer Organization and Programming (McGraw-Hill Computer Science Series) (2nd Edition) | C. William Gear | 1-3 | 0070230765 | 9780070230767 |
+| Mathematical Theory of Computation (McGraw-Hill Computer Science Series) | Zohar Manna | 1-3 | 0070399107 | 9780070399105 |
+| Practical UNIX and Internet Security (Computer Security) (2nd Edition) | Simson Garfinkel; Gene Spafford | 1-3 | 1565921488 | 9781565921481 |
+| PASCAL User Manual and Report (Springer Study Edition) (2nd Edition) | Kathleen & Wirth, Niklaus Jensen | 1-3 | 0387901442 | 9780387901442 |
+| A Brief History Of Time - From The Big Bang To Black Holes, Book Club Edition | Stephen W. Hawking | 1-3 | 0553346148 | 9780553346145 |
+| Heidegger and a Hippo Walk Through Those Pearly Gates: Using Philosophy (and Jokes!) to Explore Life, Death, the Afterlife, and Everything in Between | Thomas Cathcart; Daniel Klein | 1-3 | 0143118250 | 9780143118251 |
+| Plato and a Platypus Walk into a Bar . . .: Understanding Philosophy Through Jokes | Thomas Cathcart; Daniel Klein | 1-3 | 0143113879 | 9780143113874 |
+| Safe And Secure Booklet 2012: An invitation to Ada 2012 | John Barnes; Ben Brosgol | 1-3 | 1482545446 | 9781482545449 |
+| The universal equation solver: A simple, new method for microcomputers | Noel Kantaris | 1-3 | 0905104404 | 9780905104409 |
+| XML in a Nutshell : A Desktop Quick Reference (Nutshell Handbook) | Elliotte Rusty Harold; W. Scott Means | 1-3 | 0596000588 | 9780596000585 |
+| Data Structures and Algorithms (Addison-Wesley Series in Computer Science and Information Processing) | Alfred Aho; Jeffrey Ullman; John Hopcroft | 1-3 | 0201000237 | 9780201000238 |
+| The Day the Phones Stopped Ringing | Leonard Lee | 1-3 | 1556112866 | 9781556112867 |
+| From Sundials to Atomic Clocks: Understanding Time and Frequency | James Jespersen; Jane Fitz-Randolph | 1-3 | 048624265X | 9780486242651 |
+| Information Architecture for the World Wide Web: Designing Large-scale Web Sites | Peter Morville; Louis Rosenfeld | 1-3 | 1565922824 | 9781565922822 |
+| The King of Infinite Space: Euclid and His Elements | David Berlinski | 1-3 | 046501481X | 9780465014811 |
+| C++ For Dummies (2nd Edition) | Stephen R. Davis | 1-3 | 1568846142 | 9781568846149 |
+| Bit by Bit: An Illustrated History of Computers | Stan Augarten | 1-3 | 0899193021 | 9780899193021 |
+| Mastering Algorithms with C: Useful Techniques from Sorting to Encryption | Kyle Loudon | 1-3 | 1565924533 | 9781565924536 |
+| Common LISP The Language (2nd Edition) | Guy L. Steele Jr. | 1-3 | 1555580416 | 9781555580414 |
+| Linux in a Nutshell (5th Edition) | Ellen Siever; Aaron Weber; Stephen Figgins; Robert Love; Arnold Robbins | 1-3 | 0596009305 | 9780596009304 |
+| Hacking: The Art of Exploitation (2nd Edition) | Jon Erickson | 1-3 | 1593271441 | 9781593271442 |
 | Open Source Bibliography | Betsy Waliszewski | 1-N | N/A | N/A |
 | vi Editor Pocket Reference | Arnold Robbins | 1-N | 1565924975 | 9781565924970 |
 | Computer Capers | Thomas Whiteside | 1-N | N/A | N/A |
