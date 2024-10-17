@@ -32,13 +32,13 @@
 | Practical Vim: Edit Text at the Speed of Thought (2nd Edition) | Drew Neil | 1-0 | 1680501275 | 9781680501278 |
 | UNIX Shell Programming (3rd Edition) | Lowell Jay Arthur; Ted Burns | 1-0 | 0471599417 | 9780471599418 |
 | The Design and Analysis of Computer Algorithms | Alfred Aho | 1-1 | 0201000296 | 9780201000290 |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
-| t | t | 1-1 | t | t |
+| Introduction to the Design and Analysis of Algorithms (3rd Edition) | Anany Levitin | 1-1 | 0132316811 | 9780132316811 |
+| Algorithms + Data Structures = Programs (Prentice-Hall Series in Automatic Computation) (1st Edition) | Niklaus Wirth | 1-1 | 0130224189 | 9780130224187 |
+| Fundamentals of Algorithmics | Gilles Brassard; Paul Bratley | 1-1 | 0133350681 | 9780133350685 |
+| The Art of Computer Programming, Vol. 1: Fundamental Algorithms (3rd Edition) | Donald Knuth | 1-1 | 0201896834 | 9780201896831 |
+| Art of Computer Programming, The: Seminumerical Algorithms, Volume 2 (3rd Edition) | Donald Knuth | 1-1 | 0201896842 | 9780201896848 |
+| Art of Computer Programming, The: Sorting and Searching, Volume 3 (2nd Edition) | Donald Knuth | 1-1 | 0201896850 | 9780201896855 |
+| Logic in Computer Science: Modelling and Reasoning about Systems | Michael Huth; Mark Ryan | 1-1 | 0521656028 | 9780521656023 |
 | t | t | 1-1 | t | t |
 | t | t | 1-1 | t | t |
 | t | t | 1-1 | t | t |
