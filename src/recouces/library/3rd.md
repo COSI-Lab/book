@@ -174,28 +174,29 @@
 | Fundamentals of Physics Extended | Clarkson University | 2-0 | 1118731212 | 9781118731215 |
 | Life Is Long!: 50+ Ways to Help You Live a Little Bit Closer to Forever | Karen Salmansohn | 2-0 | 0399580700 | 9780399580703 |
 | The Technical Communicator's Handbook | Dan Jones | 2-0 | 0205279325 | 9780205279326 |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
-| t | t | 2-1 | t | t |
+| Interactive Computer Graphics: A Top-Down Approach with WebGL (7th Edition) | Edward Angel; Dave Shreiner | 2-1 | 0133574849 | 9780133574845 |
+| OpenGL Programming Guide: The Official Guide to Learning OpenGL, Versions 4.3 (8th Edition) | Dave Shreiner; Graham Sellers; John Kessenich; Bill Licea-kane | 2-1 | 0321773039 | 9780321773036 |
+| C++ Simulations and Cellular Automata | Scott Robert Ladd | 2-1 | 1558514473 | 9781558514478 |
+| Artificial Intelligence: Structures and Strategies for Complex Problem Solving (6th Edition) | George Luger | 2-1 | 0321545893 | 9780321545893 |
+| Artificial Intelligence (3rd Edition) | Patrick Henry Winston | 2-1 | 0201533774 | 9780201533774 |
+| Foundations of Statistical Natural Language Processing | Christopher D. Manning; Hinrich Schütze | 2-1 | 0262133601 | 9780262133609 |
+| Image Processing: Analysis and Machine Vision (2nd Edition) | Milan Sonka; Vaclav Hlavac; Roger Boyle | 2-1 | 053495393X | 9780534953935 |
+| An Introduction to Computational Learning Theory (The MIT Press) | Michael J. Kearns; Umesh Vazirani | 2-1 | 0262111934 | 9780262111935 |
+| Understanding Machine Learning: From Theory to Algorithms | Shai Shalev-Shwartz; Shai Ben-David | 2-1 | 1107057132 | 9781107057135 |
+| A Guide to SQL (7th Edition) | Philip J. Pratt | 2-1 | 0619216743 | 9780619216740 |
+| Learning PHP & MySQL: Step-by-Step Guide to Creating Database-Driven Web Sites (2nd Edition) | Michele E. Davis; Jon A. Phillips | 2-1 | 0596514018 | 9780596514013 |
+| PostgreSQL: Up and Running | Regina Obe; Leo Hsu | 2-1 | 1449326331 | 9781449326333 |
+| SQL Pocket Guide: A Guide to SQL Usage (3rd Edition) | Jonathan Gennick | 2-1 | 1449394094 | 9781449394097 |
+| MySQL Crash Course | Ben Forta | 2-1 | 0672327120 | 9780672327124 |
+| XML for the World Wide Web | Elizabeth Castro | 2-1 | 0201710986 | 9780201710984 |
+| Hot Text: Web Writing that Works | Lisa Price; Jonathan Price | 2-1 | 0735711518 | 9780735711518 |
+| Visual Insights: A Practical Guide to Making Sense of Data (The MIT Press) | Katy Borner; David E. Polley | 2-1 | 0262526190 | 9780262526197 |
+| Front End Drupal: Designing, Theming, Scripting | Konstantin Kafer; Emma Hogbin | 2-1 | 0137136692 | 9780137136698 |
+| Web Design in a Nutshell (2nd Edition) | Jennifer Niederst | 2-1 | 0596001967 | 9780596001964 |
+| Designing the User Interface: Strategies for Effective Human-Computer Interaction (5th Edition) | Ben Shneiderman; Catherine Plaisan | 2-1 | 0321537351 | 9780321537355 |
+| Algorithm Design | Jon Kleinberg; Eva Tardos | 2-1 | 0321295358 | 9780321295354 |
+| Algorithm Design | Jon Kleinberg; Eva Tardos | 2-1 | 0321295358 | 9780321295354 |
+| Software Mistakes and Tradeoffs: How to make good programming decisions | Tomasz Lelek; Jon Skeet | 2-1 | 1617299200 | 9781617299209 |
 | t | t | 2-2 | t | t |
 | t | t | 2-2 | t | t |
 | t | t | 2-2 | t | t |
