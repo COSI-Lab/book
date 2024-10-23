@@ -14,7 +14,7 @@ _updated: December 15, 2023_
 | 21-28	| COSI Machines (1-8) |
 | 29 | 3D Printer Machine |
 | 40-65 | ITL Machines |
-| 100-254 | DHCP |
+| 100-250 | DHCP |
 
 ### Layout
 
@@ -26,7 +26,9 @@ _updated: December 15, 2023_
 | 21-39 | COSI Machines |
 | 40-65 | ITL Machines  |
 | 66-99	| Unallocated   |
-| 100-254 | DHCP |
+| 100-250 | DHCP |
+| 251-253 | Unallocated |
+| 254 | VPN Entry Point |
 
 ## IP Address Listing for 128.153.145.1/24 subnet
 
@@ -61,8 +63,7 @@ _updated: December 15, 2023_
 | 30-99 | COSI Servers |
 | 100-169 | Research |
 | 170-220 | Student projects / VMs  |
-| 230-253 | Research |
-| 254 | VPN Server |
+| 230-254 | Research |
 
 ## IPv6 Address Listing for 2605:6480:c051::/48 network
 
