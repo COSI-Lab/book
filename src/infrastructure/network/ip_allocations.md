@@ -48,13 +48,21 @@ _updated: December 15, 2023_
 | 52 | [Caterpillar](../servers/caterpillar.md) |
 | 53 | [TalTres](../servers/taltres.md) |
 | 90 | [Elephant](../servers/elephant.md) |
-| 91 | [Erised](../servers/erised.md) |
+
 
 ### Layout
 
 # Layout of 145/24 network
 
-_TODO: reallocate the entire network_
+| 128.153.145.# | Name |
+| :---  | :---
+| 1 | OIT Gateway |
+| 2-29 | Network services/appliances, Mirror |
+| 30-99 | COSI Servers |
+| 100-169 | Research |
+| 170-220 | Student projects / VMs  |
+| 230-253 | Research |
+| 254 | VPN Server |
 
 ## IPv6 Address Listing for 2605:6480:c051::/48 network
 
