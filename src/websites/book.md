@@ -14,7 +14,7 @@ What is far more interesting about the book is it's history.
 
 ## History
 
-The history of documentation in COSI teaching some interesting lessons. Here is some history on why our previous two methods of documentation eventually fell out of fashion for their maintainablity and transferablity. 
+The history of documentation in COSI teaching some interesting lessons. Here is some history on why our previous two methods of documentation eventually fell out of fashion for their maintainability and transferablity. 
 
 **Info Slash**
 
