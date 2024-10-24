@@ -2,9 +2,9 @@
 
 All links on this page should point at the underlying physical (or virtual) _infrastructure_. Links do **not** redirect towards _services_.
 
-## IP Address Listing for 128.153.144.1/24 subnet
-
-_updated: December 15, 2023_
+## 128.153.144.0/24 Subnet
+### IP Address Listing
+_updated: October 24, 2024_
 
 | 128.153.144.# | Name |
 | :--- | :---
@@ -30,7 +30,9 @@ _updated: December 15, 2023_
 | 251-253 | Unallocated |
 | 254 | VPN Entry Point |
 
-## IP Address Listing for 128.153.145.1/24 subnet
+## 128.153.145.0/24 Subnet
+### IP Address Listing
+_updated: October 24, 2024_
 
 | 128.153.145.# | Name |
 | :--- | :---
@@ -51,10 +53,7 @@ _updated: December 15, 2023_
 | 53 | [TalTres](../servers/taltres.md) |
 | 90 | [Elephant](../servers/elephant.md) |
 
-
-### Layout
-
-# Layout of 145/24 network
+### Allocations
 
 | 128.153.145.# | Name |
 | :---  | :---
@@ -65,9 +64,9 @@ _updated: December 15, 2023_
 | 170-220 | Student projects / VMs  |
 | 230-254 | Research |
 
-## IPv6 Address Listing for 2605:6480:c051::/48 network
+## 2605:6480:c051::/48 Subnet
 
-### Subnet Allocations
+### Allocations
 
 | 2605:6480:c051 | :XXXX: | YYYY:YYYY:YYYY:YYYY |
 | :-:            | :-:  | :-: |
