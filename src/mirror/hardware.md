@@ -4,16 +4,15 @@ The most important form of maintenance performed on Mirror is that of the physic
 
 ## Hardware 
 
-_updated: Jan 19th 2023_
+_updated: Nov 20th 2024_
 
-|                          |                                                              |
-| ------------------------ | ------------------------------------------------------------ |
-| RAM                      | 8x Black Diamond M-1333TER-8192BD23 8GB DDR3 RAM             |
-| OS Drive                 | Samsung EVO 870 1TB SATA SSD                                 |
-| Primary Storage Drives   | 8x 16 TB IronWolf Pro NAS Drives - ST16000NE000              |
-| Secondary Storage Drives | **TODO**                                                     |
-| Cache Drive              | Sabrent SB-RKT4P-1TB                                         |
-| NIC                      | HP 671798-001 10gb Ethernet Network Interface Card NIC Board |
+|                          |                                                 |
+| ------------------------ | ----------------------------------------------- |
+| RAM                      | 64GB (8x8GB) DDR3 ECC                           |
+| OS Drive                 | Samsung 850 Pro 128GB                           |
+| Primary Storage Drives   | 8x 16 TB IronWolf Pro NAS Drives - ST16000NE000 |
+| Cache Drive              | Sabrent SB-RKT4P-1TB                            |
+| NIC                      | HP 671798-001 10GBE NIC                         |
 
 There is also some random PCIE 3 to M.2 riser card for cache drive.
 
@@ -44,7 +43,7 @@ For the uninitiated raidz1 is the functional equivalent of RAID 5 and we can los
 |              |               |
 | :----------- | :------------ |
 | OS           | GNU/Linux     |
-| Distro       | Debian 11     |
-| Last updated | Jan 19th 2023 |
-| End of life  | July 2024     |
+| Distro       | Ubuntu 24.04  |
+| Last updated | November 2024 |
+| End of life  | April 2029    |
 

@@ -18,7 +18,7 @@ Mirror could also play a role in Clarkson Research Reproducibility efforts by ho
 
 ## Overview
 
-While reading through these sections you will notice the word _Mirror_ is heavily overloaded. Mirror refeers to
+While reading through these sections you will notice the word _Mirror_ is heavily overloaded. Mirror refers to
 
 - The physical server [hardware](./hardware.md)
 - The monolithic [software](./software.md) project
