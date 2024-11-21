@@ -197,33 +197,35 @@
 | Algorithm Design | Jon Kleinberg; Eva Tardos | 2-1 | 0321295358 | 9780321295354 |
 | Algorithm Design | Jon Kleinberg; Eva Tardos | 2-1 | 0321295358 | 9780321295354 |
 | Software Mistakes and Tradeoffs: How to make good programming decisions | Tomasz Lelek; Jon Skeet | 2-1 | 1617299200 | 9781617299209 |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
-| t | t | 2-2 | t | t |
+| Computer Networking: Internet Protocols in Action | Jeanna Matthews | 2-2 | 0471661864 | 9780471661863 |
+| Computer Networking: Internet Protocols in Action | Jeanna Matthews | 2-2 | 0471661864 | 9780471661863 |
+| Computer Networking: A Top-Down Approach Featuring the Internet | James F. Kurose; Keith W. Ross | 2-2 | 0201477114 | 9780201477115 |
+| Ipv6 : The New Internet Protocol | Christian Huitema | 2-2 | 013241936X | 9780132419369 |
+| TCP/IP Illustrated, Vol. 1: The Protocols (Addison-Wesley Professional Computing Series) (11th Printing) | W. Richard Stevens | 2-2 | 0201633469 | 9780201633467 |
+| TCP/IP Illustrated: The Implementation, Vol. 2 (Addison-Wesley Professional Computing Series) (3rd Printing) | W. Richard Stevens; Gary R. Wright | 2-2 | 020163354X | 9780201633542 |
+| DNS and BIND (3rd Edition) | Paul Albitz; Cricket Liu | 2-2 | 1565925122 | 9781565925120 |
+| BGP | Iljitsch Van Beijnum | 2-2 | 0596002548 | 9780596002541 |
+| High Performance Linux Clusters with OSCAR, Rocks, OpenMosix, and MPI: A Comprehensive Getting-Started Guide (Nutshell Handbooks) | Joseph Sloan | 2-2 | 0596005709 | 9780596005702 |
+| Linux Networking Cookbook | Carla Schroder | 2-2 | 0596102488 | 9780596102487 |
+| Linux Network Administrator's Guide (2nd Edition) | Olaf Kirch; Terry Dawson | 2-2 | 1565924002 | 9781565924000 |
+| Essential System Administration (Nutshell Handbooks) (2nd Edition) | Æleen Frisch | 2-2 | 1565921275 | 9781565921276 |
+| Implementing LDAP | Mark Wilcox; Marc Wilcox | 2-2 | 1861002211 | 9781861002211 |
+| Optimizing Network Performance with Content Switching: Server, Firewall and Cache Load Balancing | Matthew Syme | 2-2 | 0131014684 | 9780131014688 |
+| Hacking Exposed: Network Security Secrets & Solutions (Hacking Exposed) (2nd Edition) | Joel Scambray; Stuart McClure; George Kurtz | 2-2 | 0072127481 | 9780072127485 |
+| Go H*ck Yourself: A Simple Introduction to Cyber Attacks and Defense | Bryson Payne | 2-2 | 1718502001 | 9781718502000 |
+| The Hardware Hacking Handbook: Breaking Embedded Security with Hardware Attacks | Jasper van Woudenberg; Colin O'Flynn | 2-2 | 1593278748 | 9781593278748 |
+| Cybersecurity For Dummies | Lawrence C. Miller | 2-2 | 1118819829 | 9781118819821 |
+| Network Security in Virtualized Data Centers | Lawrence C. Miller; Cissp | 2-2 | 1118446461 | 9781118446461 |
+| Cyberjutsu: Cybersecurity for the Modern Ninja | Ben McCarty | 2-2 | 1718500548 | 9781718500549 |
+| Security+ Guide to Networking Security Fundamentals (2nd Edition) | Mark Ciampa | 2-2 | 0619215666 | 9780619215668 |
+| Penetration Testing: A Hands-On Introduction to Hacking | Georgia Weidman | 2-2 | 1593275641 | 9781593275648 |
+| Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities | Vickie Li | 2-2 | 1718501544 | 9781718501546 |
+| Practical IoT Hacking: The Definitive Guide to Attacking the Internet of Things | Fotios Chantzis; Ioannis Stais; Paulino Calderon; Evangelos Deirmentzoglou; Beau Woods | 2-2 | 1718500904 | 9781718500907 |
+| The Art of Mac Malware: The Guide to Analyzing Malicious Software | Patrick Wardle | 2-2 | 1718501943 | 9781718501942 |
+| Practical Social Engineering: A Primer for the Ethical Hacker | Joe Gray | 2-2 | 171850098X | 9781718500983 |
+| Running Xen: A Hands-On Guide to the Art of Virtualization | Jeanna N. Matthews; Eli M. Dow; Todd Deshane; Wenjin Hu; Jeremy Bongio; Patrick F. Wilbur; Brendan Johnson | 2-2 | 0132349663 | 9780132349666 |
+| Distributed Operating Systems | Andrew S. Tanenbaum | 2-2 | 0132199084 | 9780132199087 |
+| Operating System Concepts (8th Edition) | Abraham Silberschatz; Peter B. Galvin; Greg Gagne | 2-2 | 0470128720 | 9780470128725 |
 | t | t | 2-3 | t | t |
 | t | t | 2-3 | t | t |
 | t | t | 2-3 | t | t |
