@@ -226,33 +226,33 @@
 | Running Xen: A Hands-On Guide to the Art of Virtualization | Jeanna N. Matthews; Eli M. Dow; Todd Deshane; Wenjin Hu; Jeremy Bongio; Patrick F. Wilbur; Brendan Johnson | 2-2 | 0132349663 | 9780132349666 |
 | Distributed Operating Systems | Andrew S. Tanenbaum | 2-2 | 0132199084 | 9780132199087 |
 | Operating System Concepts (8th Edition) | Abraham Silberschatz; Peter B. Galvin; Greg Gagne | 2-2 | 0470128720 | 9780470128725 |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
-| t | t | 2-3 | t | t |
+| Discrete Mathematics: Introduction to Mathematical Reasoning | Susanna S. Epp | 2-3 | 0495826170 | 9780495826170 |
+| Discrete Mathematics: Introduction to Mathematical Reasoning | Susanna S. Epp | 2-3 | 0495826170 | 9780495826170 |
+| Discrete Mathematics (2nd Edition) | James L. Hein | 2-3 | 0763722103 | 9780763722104 |
+| Discrete Mathematics With Combinatorics (2nd Edition) | James A. Anderson; Jerome Lewis | 2-3 | 0130457914 | 9780130457912 |
+| Discrete mathematics and applied modern algebra | Henry B. Laufer | 2-3 | 0871507021 | 9780871507020 |
+| Applied Linear Algebra | Peter J. Olver; Cheri Shakiban | 2-3 | 0131473824 | 9780131473829 |
+| Linear Algebra and Its Applications (3rd Edition) | David C. Lay | 2-3 | 0321287134 | 9780321287137 |
+| Differential Equations and Linear Algebra (2nd Edition) | Jerry Farlow; James E. Hall; Jean Marie McDill; Beverly West | 2-3 | 0131860615 | 9780131860612 |
+| Differential Equations and Linear Algebra (2nd Edition) | Jerry Farlow; James E. Hall; Jean Marie McDill; Beverly West | 2-3 | 0131860615 | 9780131860612 |
+| The Manga Guide to Calculus | Hiroyuki Kojima; Shin Togami; Becom Co. Ltd. | 2-3 | 1593271948 | 9781593271947 |
+| Essential Calculus: Early Transcendentals (2nd Edition) | James Stewart | 2-3 | 1133112285 | 9781133112280 |
+| Calculus: Early Transcendentals (6th Edition) | James Stewart | 2-3 | 0495011665 | 9780495011668 |
+| Essential Calculus: Early Transcendentals (2nd Edition) (Instructor's Edition) | James Stewart | 2-3 | 1133112773 | 9781133112778 |
+| Probability and Statistics for Engineers and Scientists (3rd Edition) | Anthony J. Hayter | 2-3 | 0495107573 | 9780495107576 |
+| Fundamentals of Probability, with Stochastic Processes (3rd Edition) | Saeed Ghahramani | 2-3 | 0131453408 | 9780131453401 |
+| Numerical Analysis | Peter R. Turner | 2-3 | 0333586654 | 9780333586655 |
+| Numerical Analysis and Parallel Processing: Lectures given at The Lancaster Numerical Analysis Summer School 1987 (Lecture Notes in Mathematics, 1397) | Peter R. Turner | 2-3 | 354051645X | 9783540516453 |
+| Numerical Recipes in C | William H. Press; Brian P. Flannery; Saul A. Teukolsky; William T. Vetterling | 2-3 | 052135465X | 9780521354653 |
+| Numerical Analysis for Applied Science | Myron B. Allen III; Eli L. Isaacson | 2-3 | 0471552666 | 9780471552666 |
+| Elementary Real Analysis: Second Edition (2008) (2nd Edition) | Brian S. Thomson; Judith B. Bruckner; Andrew M. Bruckner | 2-3 | 143484367X | 9781434843678 |
+| Elements of Real Analysis | Herbert S. Gaskill; P. P. Narayanaswami | 2-3 | 013897067X | 9780138970673 |
+| Calculus On Manifolds: A Modern Approach To Classical Theorems Of Advanced Calculus (5th Edition) | Michael Spivak | 2-3 | 0805390219 | 9780805390216 |
+| Abstract Algebra (3rd Edition) | 0471433349 | 2-3 | 0471433349 | 9780471433347 |
+| Ivan Niven; Herbert S. Zuckerman; Hugh L. Montgomery (5th Edition) | Ivan Niven; Herbert S. Zuckerman; Hugh L. Montgomery | 2-3 | 0471625469 | 9780471625469 |
+| An Introduction to Frames and Riesz Bases (Applied and Numerical Harmonic Analysis) (1st Edition reprint) | Ole Christensen | 2-3 | 1461265002 | 9781461265009 |
+| Linear and Nonlinear Programming (2nd Edition) | David G. Luenberger | 2-3 | 0201157942 | 9780201157949 |
+| Logic in Computer Science: Modelling and Reasoning about Systems (2nd Edition) | Michael Huth | 2-3 | 052154310X | 9780521543101 |
 | 1t | t | 2-N | t | t |
 | 2t | t | 2-N | t | t |
 | 3t | t | 2-N | t | t |
