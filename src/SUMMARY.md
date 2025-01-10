@@ -87,6 +87,7 @@
 - [Guides]() 
     - [COSI Accounts]()
     - [Website Creation](./guides/website_creation.md)
+    - [Lab Direction Handbook](./guides/lab_direction_handbook.md)
 
 # Resources
 
