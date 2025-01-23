@@ -31,6 +31,8 @@
 
 - [Virtual Machines](./infrastructure/vms.md)
 
+- [Maintainers](./infrastructure/maintainers.md)
+
 # Equipment
 
 - [Computers](./equipment/computers/index.md)
