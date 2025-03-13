@@ -10,4 +10,5 @@ This page is a directory of current infrastructure maintainers and their SSH pub
 | hallidaj | `ecdsa-sha2-nistp521 AAAAE2VjZHNhLXNoYTItbmlzdHA1MjEAAAAIbmlzdHA1MjEAAACFBAH2hsdcLC7E/jky4sOBQIwP5/UavkpBlVXg49o3IhBOh0k45QFV9GoUNajGZv2mnQhrDeEJll0bMXETiliZpgC/9QAcpfNmON5I3HA9U80uiOdt8ydQX36HYvb6734HiMEiKcxMBD5o3gbjfWELEI3DdSfp7kwxV3houayn6y6+vDEdog== anthony_cosi` |
 | keeslecj | `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE/OQNElvF8o+AeA1IJ+o3t6WFLyOWSSu5su0EcpMfAh caryk` |
 | matthekf | `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIwVHPLtgOklCFJs5h+KGtnDvQvnLeZc+vejXSvOM9jc Laptop KM` | 
+| connelbj | `ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJrdB086WipJlvjN80am616MSPprhHL2E9gCvu0uDUr+ brendanjconnelly` |
 
