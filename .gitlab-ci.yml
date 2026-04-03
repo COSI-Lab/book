@@ -30,8 +30,8 @@ build:
     # Newer versions of docker can handle the OCI format, but older versions, like
     # the one shipped with Fedora 30, cannot handle the format.
     BUILDAH_FORMAT: docker
-    FQ_IMAGE_NAME: "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA"
-    LATEST_IMAGE_NAME: "$CI_REGISTRY_IMAGE:latest"
+    #FQ_IMAGE_NAME: "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA"
+    FQ_IMAGE_NAME: "$CI_REGISTRY_IMAGE:latest"
   before_script:
     # GitLab container registry credentials taken from the
     # [predefined CI/CD variables](../variables/_index.md#predefined-cicd-variables)
@@ -42,4 +42,3 @@ build:
     - buildah build -t $FQ_IMAGE_NAME
     - buildah images
     - buildah push $FQ_IMAGE_NAME
-    - buildah push $LATEST_IMAGE_NAME
