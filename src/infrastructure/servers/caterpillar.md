@@ -1,6 +1,6 @@
 # Caterpillar
 
-_updated: September 15, 2024_
+_updated: April 9, 2026_
 
 Caterpillar (formerly TalDos) is COSI's jump server. The only thing running on it is an SSH server.
 
@@ -12,19 +12,14 @@ Caterpillar (formerly TalDos) is COSI's jump server. The only thing running on i
 
 ## Hardware
 
-| | |
-| :--- | :--- |
-| CPU | Intel Xeon E5620 (x2)
-| RAM | 12 GB
-| STORAGE | 300 GB
-| CONNECTIVITY | 1 Gbps
+Raspberry Pi 4
 
 ## Operating System
 
 | | |
 | :--- | :--- |
 | OS | GNU/Linux
-| Distro | Debian 12 Bookworm
+| Distro | Ubuntu 24.04
 | Last updated | Sep 2024
 | End of life | unknown
 | Enrolled in COSI auth | false

@@ -234,8 +234,8 @@ _updated: March 6th, 2024_
 | RU | Device |
 | :- | :----- |
 | 44 | PDU (HP HSTNR-P018-1) |
-| 43 | OIT's switch (sc-334-c2960s) |
-| 42 | OIT's switch (sc-334-c2960s) |
+| 43 | |
+| 42 | Fiber patch from OIT |
 | 41 | |
 | 40 | |
 | 39 | |
@@ -244,11 +244,11 @@ _updated: March 6th, 2024_
 | 36 | FHILL |
 | 35 | |
 | 34 | UPRIVATE|
-| 33 | UPUBLIC|
+| 33 | |
 | 32 | |
 | 31 | |
-| 30 |  |
-| 29 |  |
+| 30 | |
+| 29 | |
 | 28 | Top of filing cabinet |
 | 27 | .. |
 | 26 | .. |
@@ -285,25 +285,25 @@ _updated: March 6th, 2024_
 
 | RU | Device |
 | :- | :----- |
-| 44 | |
+| 44 | PDU (HP HSTNR-P018-1) |
 | 43 | |
 | 42 | COSI Patch (A1-F4) |
 | 41 | COSI Patch (G1-L4) |
-| 40 | Cable Management |
-| 39 | Cable Management |
+| 40 | Unmanaged Switch (Netgear GS748T) |
+| 39 | |
 | 38 | COSI Patch (M1-Q4) |
 | 37 | COSI Patch (SC340 x7) |
-| 36 | swu1 (TP-LINK TL-SG1048) |
-| 35 | Cable Management |
-| 34 | Cable Management |
-| 33 | swu2 (NETGEAR JGS524) |
-| 32 | Cable Management |
-| 31 | Cable Management |
+| 36 | Unmanaged Switch (TP-LINK TL-SG1048) |
+| 35 | |
+| 34 | |
+| 33 | |
+| 32 | |
+| 31 | |
 | 30 | |
-| 29 | swm4 (TP-LINK TL-SG3424) |
-| 28 | swm1 (TP-LINK TL-SG3424) |
+| 29 | |
+| 28 | |
 | 27 | |
-| 26 | Pull Tray |
+| 26 | |
 | 25 | |
 | 24 | |
 | 23 | |
@@ -341,33 +341,33 @@ _updated: FMarch 6th, 2024_
 | 43 | |
 | 42 | ITL Patch (A1-F4) |
 | 41 | ITL Patch (G1-L4) |
-| 40 | Cable Management |
-| 39 | Cable Management |
+| 40 | Unmanaged Switch (Entrasys C3G124-48) |
+| 39 | |
 | 38 | ITL Patch (M1-Q4) |
 | 37 | ITL Patch (Q5-U4) |
-| 36 | Cable Management |
-| 35 | Cable Management |
+| 36 | Unmanaged Switch (Entrasys C3G124-48)  |
+| 35 | |
 | 34 | ITL Patch (U5-6) |
 | 33 | ITL Patch (unused) |
-| 32 |  |
+| 32 | Unmanaged Switch (TP-LINK TL-SG1048) |
 | 31 | |
-| 30 | Mediatrix 1104 ??? |
-| 29 | Mediatrix 1104 ??? |
-| 28 | swu3 (TP-LINK TL-SG1048) |
-| 27 | Cable Management |
+| 30 | |
+| 29 | |
+| 28 | |
+| 27 | |
 | 26 | |
-| 25 | swm5 (EN TERASYS C3G124-48) |
-| 24 | Cable Management |
-| 23 | Cable Management |
-| 22 | swm6 (EN TERASYS C3G124-48) |
+| 25 | |
+| 24 | |
+| 23 | |
+| 22 | |
 | 21 | |
 | 20 | |
 | 19 | |
 | 18 | |
 | 17 | |
 | 16 | |
-| 15 | COSI 120v PDU (unused) |
-| 14 | ITL 120v PDU |
+| 15 | Power Strip |
+| 14 | Power Strip |
 | 13 | OLD Router (Cisco 7000 series) |
 | 12 | OLD Router (Cisco 7000 series) |
 | 11 | OLD Router (Cisco 7000 series) |

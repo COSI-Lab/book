@@ -1,14 +1,14 @@
 # Elephant
 
-_updated: Mar 12th 2024_ 
+_updated: April 9, 2026_ 
 
 Elephant is a server with a similar form factor to [Bacon](./bacon.md).
-It is currently used as a network storage & backup server.
+It is the staging environment for mirror.
 
 | | |
 | :--- | :--- |
 | Location | [Server Room - Right](../racks.md#right)
-| IP Addresses | 128.153.145.90
+| IP Addresses | 128.153.145.91
 | Deployed | true
 
 ## Hardware
@@ -26,14 +26,11 @@ It is currently used as a network storage & backup server.
 | | |
 | :--- | :--- |
 | OS | GNU/Linux
-| Distro | TrueNAS Scale 23.10 "Cobia"
+| Distro | Ubuntu 24.04
 | Last updated | unknown
 | End of life | TBD
 | Enrolled in COSI auth | false
 | NFS Mount | true
-
-
-## Services
 
 ## Notes
 
