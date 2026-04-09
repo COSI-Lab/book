@@ -5,8 +5,10 @@ src = "src"
 title = "COSI Documentation"
 
 [output.html]
-git-repository-url = "https://github.com/COSI-Lab/book"
-edit-url-template = "https://github.com/COSI-Lab/book/edit/main/{path}"
+git-repository-url = "https://git.cosi.clarkson.edu/cosi-meta/book"
+git-repository-icon = "fas-code-fork"
+edit-url-template = "https://git.cosi.clarkson.edu/cosi-meta/book/-/edit/main/{path}"
+default-theme = "coal"
 
 [output.html.print]
 enable = false
