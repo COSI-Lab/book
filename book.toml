@@ -6,9 +6,10 @@ title = "COSI Documentation"
 
 [output.html]
 git-repository-url = "https://git.cosi.clarkson.edu/cosi-meta/book"
-git-repository-icon = "fas-code-fork"
 edit-url-template = "https://git.cosi.clarkson.edu/cosi-meta/book/-/edit/main/{path}"
+git-repository-icon = "fas-code-fork"
 default-theme = "coal"
+additional-css = ["custom.css"]
 
 [output.html.print]
 enable = false
