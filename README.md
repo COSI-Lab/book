@@ -28,18 +28,15 @@ As long as the change isn't "trivial" you should always create a pull request. T
 
 ## Deployment
 
-Until we get a good webhook solution all updates to this repo must be manually deployed on [dubsdot2](https://book.cosi.clarkson.edu/infrastructure/vms.html#dubsdot2). 
+Until we get a good webhook solution all updates to this repo must be manually deployed on [tiamat](https://book.cosi.clarkson.edu/infrastructure/servers/tiamat.html). Tiamat has it's own `docker-compose.yaml` file that is not tracked here that pulls from the latest CI build.
 
 As **root** on tiamat run:
 
 ```
 cd /docker/book
-git pull
-docker compose up --build -d
+docker compose up --pull
 ```
 
-If you notice `mdbook` has been updated and it needs to be recompiled run:
-```
-docker compose build --no-cache
-docker compose up -d
+This will pull the latest CI build and deploy it on tiamat. GitLab will only build a new image for commits/MRs to main, and may take some time to build, so ensure you see the green check before pulling.
+
 ```
