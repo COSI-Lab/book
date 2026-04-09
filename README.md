@@ -38,5 +38,3 @@ docker compose up --pull
 ```
 
 This will pull the latest CI build and deploy it on tiamat. GitLab will only build a new image for commits/MRs to main, and may take some time to build, so ensure you see the green check before pulling.
-
-```
