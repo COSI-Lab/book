@@ -24,7 +24,7 @@ In CI we use the [typos](https://github.com/crate-ci/typos) tool to check for ty
 
 ## Contributing
 
-As long as the change isn't "trivial" you should always create a pull request. There is no requirement to fork the project, using a branch is preferred. If you aren't yet a part of our github team you should reach out to a Lab Director for an invite.
+As long as the change isn't "trivial" you should always create a pull request. There is no requirement to fork the project, using a branch is preferred. If you aren't yet a part of our gitlab you should reach out to a Lab Director for an invite.
 
 ## Deployment
 
