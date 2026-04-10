@@ -2,7 +2,7 @@
 
 _updated: Feb 11, 2024_
 
-Janet is COSI's secondary VM host. While it has much less storage than [hydra](./hydra.md), it has considerably more compute power and memory.
+Janet is one of COSI's VM hosts. While it has much less storage than [hydra](./hydra.md), it has considerably more compute power and memory.
 
 | | |
 | :--- | :--- |
@@ -24,24 +24,14 @@ Janet is COSI's secondary VM host. While it has much less storage than [hydra](.
 | | |
 | :--- | :--- |
 | OS | GNU/Linux
-| Distro | Ubuntu Server 22.04
-| Last updated | Jan 2024
-| End of life | April 2027
+| Distro | Proxmox VE 8.4
+| Last updated | April 2026
+| End of life | unknown
 | Enrolled in COSI auth | false
 | NFS Mount | false
 
 ## VMs
 
-_updated: Feb 11, 2024_
-
-- CS444
-
 ## Notes
 
-Just like [Hydra](./hydra.md), you can use virt-manager over ssh to manage VMs on Janet.
-
-VM's are using [qemu](https://www.qemu.org/) and virtmanager
-```sh
-ssh -X janet virt-manager
-```
 
