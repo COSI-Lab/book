@@ -134,14 +134,14 @@ _updated: March 6th, 2024_
 | 42 | M2 (TP-LINK TL-SH3424) mrack2|
 | 41 |  |
 | 40 | [Janet](../infrastructure/servers/janet.md) |
-| 39 | [Bacon](../infrastructure/servers/bacon.md) |
-| 38 | [Bacon](../infrastructure/servers/bacon.md) |
+| 39 | |
+| 38 | |
 | 37 | [Elephant](../infrastructure/servers/elephant.md) |
 | 36 | [Elephant](../infrastructure/servers/elephant.md) |
-| 35 | [Erised](../infrastructure/servers/erised.md) |
-| 34 | [Erised](../infrastructure/servers/erised.md) |
-| 33 | [Erised](../infrastructure/servers/erised.md) |
-| 32 | |
+| 35 | [Beaker](../infrastructure/servers/Beaker.md) |
+| 34 | [Beaker](../infrastructure/servers/Beaker.md) |
+| 33 | [Beaker](../infrastructure/servers/Beaker.md) |
+| 32 | [Beaker](../infrastructure/servers/Beaker.md) |
 | 31 | |
 | 30 | |
 | 29 | |
@@ -149,8 +149,8 @@ _updated: March 6th, 2024_
 | 27 | |
 | 26 | |
 | 25 | |
-| 24 | |
-| 23 | |
+| 24 | [Bacon](../infrastructure/servers/bacon.md) |
+| 23 | [Bacon](../infrastructure/servers/bacon.md) |
 | 22 | | 
 | 21 | |
 | 20 | |
@@ -165,7 +165,7 @@ _updated: March 6th, 2024_
 | 11 | |
 | 10 | | 
 | 09 | |
-| 08 | |
+| 08 | UPS6 |
 | 07 | Prometheus |
 | 06 | Prometheus |
 | 05 | Prometheus |
