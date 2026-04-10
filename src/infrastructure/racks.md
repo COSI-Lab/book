@@ -1,6 +1,6 @@
 # Racks
 
-_updated: Apr 9, 2026_
+_updated: April 9, 2026_
 
 This page serves as an index of all of COSI server racks.
 
@@ -67,16 +67,16 @@ _updated: March 6th, 2024_
 | 15 | |
 | 14 | |
 | 13 | |
-| 12 | [Ampersand](../server/ampersand.md) |
-| 11 | [Ampersand](../server/ampersand.md) |
-| 10 | [Ampersand](../server/ampersand.md) |
-| 09 | [Ampersand](../server/ampersand.md) |
-| 08 | [Ampersand](../server/ampersand.md) |
-| 07 | [Ampersand](../server/ampersand.md) |
-| 06 | [Ampersand](../server/ampersand.md) |
-| 05 | [Ampersand](../server/ampersand.md) |
-| 04 | [Ampersand](../server/ampersand.md) |
-| 03 | [Ampersand](../server/ampersand.md) |
+| 12 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 11 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 10 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 09 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 08 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 07 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 06 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 05 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 04 | [Ampersand](../infrastructure/servers/ampersand.md) |
+| 03 | [Ampersand](../infrastructure/servers/ampersand.md) |
 | 02 | |
 | 01 | |
 
@@ -89,45 +89,45 @@ _updated: April 9, 2026_
 | :- | :----- |
 | 36 | |
 | 35 | |
-| 34 | [Tiamat](../server/tiamat.md) |
-| 33 | [Hydra](../server/hydra.md) |
-| 32 | [Hydra](../server/hydra.md) |
-| 31 | [Hydra](../server/hydra.md) |
-| 30 | [Hydra](../server/hydra.md) |
+| 34 | [Tiamat](../infrastructure/servers/tiamat.md) |
+| 33 | [Hydra](../infrastructure/servers/hydra.md) |
+| 32 | [Hydra](../infrastructure/servers/hydra.md) |
+| 31 | [Hydra](../infrastructure/servers/hydra.md) |
+| 30 | [Hydra](../infrastructure/servers/hydra.md) |
 | 29 | Hydra rails |
 | 28 | |
-| 27 | [Grand Dad] |
-| 26 | [Grand Dad] |
-| 25 | [KVM] |
-| 24 | [Shrimp] |
-| 23 | [WAP] |
-| 22 | [Caterpillar](../server/caterpillar.md) |
-| 21 | [Shrimp] |
-| 20 | [Shrimp] |
+| 27 | Grand Dad |
+| 26 | Grand Dad |
+| 25 | KVM |
+| 24 | Shrimp |
+| 23 | WAP |
+| 22 | [Caterpillar](../infrastructure/servers/caterpillar.md) |
+| 21 | Shrimp |
+| 20 | Shrimp |
 | 19 | |
 | 18 | |
 | 17 | |
 | 16 | |
-| 15 | [UPS 4] |
-| 14 | [UPS 4] |
-| 13 | [UPS 4] |
-| 12 | [UPS 4] |
-| 11 | [UPS 4] |
-| 10 | [UPS 4] |
-| 09 | [UPS 4] |
-| 08 | [Norm] |
-| 07 | [Red Dwarf] |
-| 06 | [Red Dwarf] |
-| 05 | [Red Dwarf] |
-| 04 | [Red Dwarf] |
+| 15 | UPS 4 |
+| 14 | UPS 4 |
+| 13 | UPS 4 |
+| 12 | UPS 4 |
+| 11 | UPS 4 |
+| 10 | UPS 4 |
+| 09 | UPS 4 |
+| 08 | [Norm](../infrastructure/servers/norm.md) |
+| 07 | [Red Dwarf](../infrastructure/servers/red dwarf.md) |
+| 06 | [Red Dwarf](../infrastructure/servers/red dwarf.md) |
+| 05 | [Red Dwarf](../infrastructure/servers/red dwarf.md) |
+| 04 | [Red Dwarf](../infrastructure/servers/red dwarf.md) |
 | 03 | |
-| 02 | [UPS 8](APC Smart-UPS C1500) |
-| 01 | [UPS 8](APC Smart-UPS C1500) |
+| 02 | UPS 8 (APC Smart-UPS C1500) |
+| 01 | UPS 8 (APC Smart-UPS C1500) |
 
 [top of rack](#rack-1) - [top of page](#)
 
 ## Rack 2
-_updated: March 6th, 2024_
+_updated: April 9, 2026_
 
 | RU | Device |
 | :- | :----- |
@@ -166,13 +166,13 @@ _updated: March 6th, 2024_
 | 10 | | 
 | 09 | |
 | 08 | |
-| 07 | Prometheus |
-| 06 | Prometheus |
-| 05 | Prometheus |
-| 04 | Prometheus |
+| 07 | [Prometheus](../infrastructure/servers/prometheus.md) |
+| 06 | [Prometheus](../infrastructure/servers/prometheus.md) |
+| 05 | [Prometheus](../infrastructure/servers/prometheus.md) |
+| 04 | [Prometheus](../infrastructure/servers/prometheus.md) |
 | 03 | |
-| 02 | UPS7 (APC Smart-UPS C1500) |
-| 01 | UPS7 (APC Smart-UPS C1500) |
+| 02 | UPS 7 (APC Smart-UPS C1500) |
+| 01 | UPS 7 (APC Smart-UPS C1500) |
 
 [top of rack](#rack-2) - [top of page](#)
 
@@ -229,13 +229,13 @@ _updated: March 6th, 2024_
 [top of rack](#network-0) - [top of page](#)
 
 ## Network 1
-_updated: March 6th, 2024_
+_updated: April 9, 2026_
 
 | RU | Device |
 | :- | :----- |
 | 44 | PDU (HP HSTNR-P018-1) |
-| 43 | OIT's switch (sc-334-c2960s) |
-| 42 | OIT's switch (sc-334-c2960s) |
+| 43 | |
+| 42 | Fiber patch from OIT |
 | 41 | |
 | 40 | |
 | 39 | |
@@ -243,12 +243,12 @@ _updated: March 6th, 2024_
 | 37 | Cable Management |
 | 36 | FHILL |
 | 35 | |
-| 34 | UPRIVATE|
-| 33 | UPUBLIC|
+| 34 | UPRIVATE |
+| 33 | |
 | 32 | |
 | 31 | |
-| 30 |  |
-| 29 |  |
+| 30 | |
+| 29 | |
 | 28 | Top of filing cabinet |
 | 27 | .. |
 | 26 | .. |
@@ -280,30 +280,31 @@ _updated: March 6th, 2024_
 
 [top of rack](#network-1) - [top of page](#)
 
+
 ## Network 2
-_updated: March 6th, 2024_
+_updated: April 9, 2026_
 
 | RU | Device |
 | :- | :----- |
-| 44 | |
+| 44 | PDU (HP HSTNR-P018-1) |
 | 43 | |
 | 42 | COSI Patch (A1-F4) |
 | 41 | COSI Patch (G1-L4) |
-| 40 | Cable Management |
-| 39 | Cable Management |
+| 40 | Unmanaged Switch (Netgear GS748T) |
+| 39 | |
 | 38 | COSI Patch (M1-Q4) |
 | 37 | COSI Patch (SC340 x7) |
-| 36 | swu1 (TP-LINK TL-SG1048) |
-| 35 | Cable Management |
-| 34 | Cable Management |
-| 33 | swu2 (NETGEAR JGS524) |
-| 32 | Cable Management |
-| 31 | Cable Management |
+| 36 | Unmanaged Switch (TP-LINK TL-SG1048) |
+| 35 | |
+| 34 | |
+| 33 | |
+| 32 | |
+| 31 | |
 | 30 | |
-| 29 | swm4 (TP-LINK TL-SG3424) |
-| 28 | swm1 (TP-LINK TL-SG3424) |
+| 29 | |
+| 28 | |
 | 27 | |
-| 26 | Pull Tray |
+| 26 | |
 | 25 | |
 | 24 | |
 | 23 | |
@@ -332,8 +333,9 @@ _updated: March 6th, 2024_
 
 [top of rack](#network-2) - [top of page](#)
 
+
 ## Network 3
-_updated: FMarch 6th, 2024_
+_updated: April 9, 2026_
 
 | RU | Device |
 | :- | :----- |
@@ -341,33 +343,33 @@ _updated: FMarch 6th, 2024_
 | 43 | |
 | 42 | ITL Patch (A1-F4) |
 | 41 | ITL Patch (G1-L4) |
-| 40 | Cable Management |
-| 39 | Cable Management |
+| 40 | Unmanaged Switch (Entrasys C3G124-48) |
+| 39 | |
 | 38 | ITL Patch (M1-Q4) |
 | 37 | ITL Patch (Q5-U4) |
-| 36 | Cable Management |
-| 35 | Cable Management |
+| 36 | Unmanaged Switch (Entrasys C3G124-48)  |
+| 35 | |
 | 34 | ITL Patch (U5-6) |
 | 33 | ITL Patch (unused) |
-| 32 |  |
+| 32 | Unmanaged Switch (TP-LINK TL-SG1048) |
 | 31 | |
-| 30 | Mediatrix 1104 ??? |
-| 29 | Mediatrix 1104 ??? |
-| 28 | swu3 (TP-LINK TL-SG1048) |
-| 27 | Cable Management |
+| 30 | |
+| 29 | |
+| 28 | |
+| 27 | |
 | 26 | |
-| 25 | swm5 (EN TERASYS C3G124-48) |
-| 24 | Cable Management |
-| 23 | Cable Management |
-| 22 | swm6 (EN TERASYS C3G124-48) |
+| 25 | |
+| 24 | |
+| 23 | |
+| 22 | |
 | 21 | |
 | 20 | |
 | 19 | |
 | 18 | |
 | 17 | |
 | 16 | |
-| 15 | COSI 120v PDU (unused) |
-| 14 | ITL 120v PDU |
+| 15 | Power Strip |
+| 14 | Power Strip |
 | 13 | OLD Router (Cisco 7000 series) |
 | 12 | OLD Router (Cisco 7000 series) |
 | 11 | OLD Router (Cisco 7000 series) |
@@ -383,6 +385,7 @@ _updated: FMarch 6th, 2024_
 | 01 | OLD Router (Cisco 7000 series) |
 
 [top of rack](#network-3) - [top of page](#)
+
 
 ## COLO
 
