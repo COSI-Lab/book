@@ -1,5 +1,5 @@
 # build
-FROM rust:latest as builder
+FROM rust:alpine as builder
 
 ENV CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse
 RUN cargo install --no-default-features --features search mdbook
@@ -10,7 +10,7 @@ COPY . .
 RUN mdbook build
 
 # serve
-FROM nginx:latest
+FROM nginx:stable-alpine-slim
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
