@@ -1,7 +1,5 @@
 # Creating a website
 
-_updated: Jul 25th, 2024_
-
 COSI websites are stored in Docker containers on [Tiamat](../infrastructure/servers/tiamat.md).
 
 1. Get permission to host a site from the current Lab Directors.

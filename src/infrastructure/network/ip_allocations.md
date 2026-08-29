@@ -4,7 +4,6 @@ All links on this page should point at the underlying physical (or virtual) _inf
 
 ## 128.153.144.0/24 Subnet
 ### IP Address Listing
-_updated: October 24, 2024_
 
 | 128.153.144.# | Name |
 | :--- | :---

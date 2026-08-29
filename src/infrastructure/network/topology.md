@@ -1,7 +1,5 @@
 # Topology
 
-_updated: Jul 25th, 2024_
-
 # Current Topology
 
 ![Current Topology](../../media/images/FinalTopo_SC.png)
