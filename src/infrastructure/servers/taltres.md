@@ -1,16 +1,13 @@
 # TalTres
 
-_updated: September 15, 2024_
-
 TalTres is COSI's primary DNS server, replacing TalDos (now Caterpillar).
-It also runs our point-to-site VPN.
 
 *Third time's the charm.*
 
 | | |
 | :--- | :--- |
-| Location | [Server Room - Network 1](../racks.md#network-1) |
-| IP Addresses | 128.153.145.3, 128.153.145.53 |
+| Location | [COLO](../racks.md#colo) |
+| IP Addresses | 128.153.145.3 |
 | Deployed | true |
 
 ## Hardware
@@ -19,8 +16,8 @@ It also runs our point-to-site VPN.
 | :--- | :--- |
 | CPU | Intel Xeon E5-2640v3 (x2)
 | RAM | 64 GB
-| STORAGE | 2.4 TB
-| CONNECTIVITY | 1 Gbps
+| Storage | 2.4 TB (Hardware RAID)
+| Connectivity | 1 Gbps
 
 ## Operating System
 
@@ -29,13 +26,13 @@ It also runs our point-to-site VPN.
 | OS | GNU/Linux
 | Distro | Debian 12 Bookworm
 | Last updated | Sep 2024
-| End of life | Not yet announced
-| Enrolled in COSI auth | false
-| NFS Mount | false
+| End of life | June 2028
 
 ## Services
 
-[Authoritative DNS](../../services/authoritative_dns.md)
-[DHCP](../../services/dhcp.md)
+- [Authoritative DNS](../../services/authoritative_dns.md)
+- [DHCP](../../services/dhcp.md)
 
 ## Notes
+
+The hardware on this system is *wildly* over-specced for a DNS server.

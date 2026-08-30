@@ -1,7 +1,5 @@
 # VLANs
 
-_updated: December 17th, 2023_
-
 COSI has allocated the following VLANs:
 
 | VID | Name       | Active? |

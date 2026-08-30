@@ -1,1 +1,2 @@
 # COSI Build
+The "COSI Build" refers to the two machines near the entrance of COSI at the window desk. These machines have primarily been used as workstations, and have run multiple different OSes throughout their lifetime. 

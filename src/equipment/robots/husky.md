@@ -1,7 +1,5 @@
 # Husky
 
-_Last Updated: March 28, 2024_
-
 The Husky was designed and made by Clearpath Robotics.
 
 ## Hardware:
@@ -29,11 +27,11 @@ The Husky was designed and made by Clearpath Robotics.
 
 ## Other Information:
 
-WiFi connection needs to be transferred to COSI network
+The husky was updated sometime in early 2026 so some information may be out of date.
+If you are using husky for a project, you should probably re-install everything following [Clearpath's guide](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/tutorials_husky#software-setup). 
+ROS does not play nice with Clarkson's or COSI's network and should run on it's own network.
 
 |                   |                 |
 | :---------------: | :-------------: |
 |       Model       |   Husky A200    |
 |     Max Speed     |      2 m/s      |
-| IP Address (eth)  |   128.153.x.x   |
-| IP Address (WiFi) | 128.153.144.117 |
