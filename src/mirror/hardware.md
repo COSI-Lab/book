@@ -1,50 +1,31 @@
-# "Hardware"
+# Hardware
 
-The most important form of maintenance performed on Mirror is that of the physical hardware and operating system.
 
-## Hardware 
 
-_updated: Jan 19th 2023_
+| | |
+| :--- | :--- |
+| Location | [COLO](../infrastructure/racks.md#colo) |
+| IP Addresses | 128.153.145.19
+| Deployed | true
 
-|                          |                                                              |
-| ------------------------ | ------------------------------------------------------------ |
-| RAM                      | 8x Black Diamond M-1333TER-8192BD23 8GB DDR3 RAM             |
-| OS Drive                 | Samsung EVO 870 1TB SATA SSD                                 |
-| Primary Storage Drives   | 8x 16 TB IronWolf Pro NAS Drives - ST16000NE000              |
-| Secondary Storage Drives | **TODO**                                                     |
-| Cache Drive              | Sabrent SB-RKT4P-1TB                                         |
-| NIC                      | HP 671798-001 10gb Ethernet Network Interface Card NIC Board |
+## Hardware
 
-There is also some random PCIE 3 to M.2 riser card for cache drive.
+| | |
+| :--- | :--- |
+| CPU | 2x Intel Xeon E5-2630 V2 (6 cores, 12 threads)
+| RAM | 8x 8GB DDR3 ECC (64 GB)
+| STORAGE | 4x14T, 6x4T (138T Usable)  
+| CONNECTIVITY | 10GB/s Fiber
+| MOTHERBOARD | Supermicro (Unknown model)
 
-## ZFS
-
-We have the following ZFS layout mounted to `/storage`.
-
-```
-zoodle
-  raidz1-0
-    ata-ST16000NE000-2RW103_ZL2NGP92
-    ata-ST16000NE000-2RW103_ZL2N6LPA
-    ata-ST16000NE000-2RW103_ZL2MHH7Z
-    ata-ST16000NE000-2RW103_ZL2N6LKX
-  raidz1-1
-    ata-ST16000NE000-2RW103_ZL2NED08
-    ata-ST16000NE000-2RW103_ZL2N3TKV
-    ata-ST16000NE000-2RW103_ZL2NHEV0
-    ata-ST16000NE000-2RW103_ZL2N6SHS
-cache
-  nvme-Sabrent_Rocket_4.0_Plus_8D8C071602DD00011193
-```
-
-For the uninitiated raidz1 is the functional equivalent of RAID 5 and we can lose at most 1 disk in both groups. You can make endless tradeoffs on our storage pool layout. 
 
 ## Operating System
 
-|              |               |
-| :----------- | :------------ |
-| OS           | GNU/Linux     |
-| Distro       | Debian 11     |
-| Last updated | Jan 19th 2023 |
-| End of life  | July 2024     |
+| | |
+| :--- | :--- |
+| OS | GNU/Linux
+| Distro | Ubuntu 24.04
+| Last updated | unknown
+| End of life | May 2029
 
+# Notes

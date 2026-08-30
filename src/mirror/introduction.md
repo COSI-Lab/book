@@ -1,7 +1,5 @@
 # Introduction
 
-_updated: Sept 17th 2022_
-
 > Actively contribute to the community where possible
 
 ## What is a Mirror?
@@ -21,6 +19,6 @@ Mirror could also play a role in Clarkson Research Reproducibility efforts by ho
 While reading through these sections you will notice the word _Mirror_ is heavily overloaded. Mirror refeers to
 
 - The physical server [hardware](./hardware.md)
-- The monolithic [software](./software.md) project
+- The [software](https://git.cosi.clarkson.edu/mirror/mirror) project
 - The service at [https://mirror.clarkson.edu](https://mirror.clarkson.edu)
 - The entire project as a whole

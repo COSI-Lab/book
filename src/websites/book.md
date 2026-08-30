@@ -1,10 +1,8 @@
 # Book
 
-_updated: Dec 10th 2022_
-
 > Invest in documentation and prefer simple solutions that are maintainable and transferable to others.
 
-You're likely already familiar with the [COSI Book](https://book.cosi.clarkson.edu) since you're currently reading it. The book is currently hosted as a [docker](https://www.docker.com/) container on [Tiamat](../infrastructure/servers/tiamat.md). The sources for the book are version controlled at <https://github.com/COSI-Lab/book>. 
+You're likely already familiar with the [COSI Book](https://book.cosi.clarkson.edu) since you're currently reading it. The book is currently hosted as a [docker](https://www.docker.com/) container on [Tiamat](../infrastructure/servers/tiamat.md). The sources for the book are version controlled at <https://git.cosi.clarkson.edu/cosi-meta/book>. 
 
 Information for how to contribute to the book should added to a separate page. 
 
@@ -18,7 +16,7 @@ The history of documentation in COSI teaching some interesting lessons. Here is 
 
 **Info Slash**
 
-[Info Slash](https://gitea.cosi.clarkson.edu/COSI_Maintainers/info-slash) was the most recent attempt at a new documentation solution. It used [mkdocs](https://www.mkdocs.org) and struggled to take off because of 
+Info Slash was the most recent attempt at a new documentation solution. It used [mkdocs](https://www.mkdocs.org) and struggled to take off because of 
 
 - Generally required intimate knowledge of the system to use
 - Very little "meta" documentation

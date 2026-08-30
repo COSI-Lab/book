@@ -1,7 +1,5 @@
 # DHCP
 
-_updated: December 1st, 2023_
-
 Since COSI has it's own network we also run a [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) server to manage ip allocations. DHCP is an important service because it allows people temporiliy using our network to avoid setting a static IP address. However, since DHCP servers lease IP address based on client's MAC addresses we can also use our server to easily manage the IPs of other clients on our network. For example, we can manage the ITL machines by manually mapping their MAC addresses to IPs and we never have to worry about setting a static IP on each machine.
 
 ## Kea
@@ -23,5 +21,10 @@ We currently use Internet Systems Consortium's Kea DHCP server.
 ### IPv6
 
 - Not yet configured
+
+### ITL
+
+The ITL hosts are hard-coded into the Kea config by their MAC address to assign their IP and DNS name. 
+We should look into a better way to do this in the future, but it works fine for now.
 
 ## Notes

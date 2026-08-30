@@ -2,7 +2,7 @@
 
 # Current Topology
 
-![Current Topology](../../media/images/FinalTopo_SC.png)
+![Current Topology](../../media/images/Topology2026.png)
 
 ## Notes
 Servers like Mirror and Kasper that should ideally be up around the clock were placed in COLO because it is backed by a generator. There were a couple of incidents where the power went out on the hill campus that made COSI re-evaluate placement. If you want to know more about why the network changed you can take a look [here](https://carlone-capstone.cosi.clarkson.edu/).

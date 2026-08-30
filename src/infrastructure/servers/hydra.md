@@ -1,7 +1,5 @@
 # Hydra
 
-_updated: April 9, 2026_
-
 Hydra is one of COSI's VM hosts. 
 
 | | |
@@ -16,8 +14,8 @@ Hydra is one of COSI's VM hosts.
 | :--- | :--- |
 | CPU | AMD Opteron 6376 (x2)
 | RAM | 64 GB
-| STORAGE | 10TB (5x2TB)
-| CONNECTIVITY | 10Gbps
+| Storage | 10TB (5x2TB)
+| Connectivity | 10Gbps
 
 ## Operating System
 
@@ -26,12 +24,6 @@ Hydra is one of COSI's VM hosts.
 | OS | GNU/Linux
 | Distro | Proxmox VE 8.4
 | Last updated | April 2026
-| End of life | TBA
-| Enrolled in COSI auth | true
-| NFS Mount | true
-
-## VMs
-
-_updated: April 9, 2026_
+| End of life | August 2026
 
 ## Notes

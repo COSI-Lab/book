@@ -1,10 +1,10 @@
 # Prometheus
 
-_updated: April 9, 2026_ 
+Prometheus is a former research server. It is currently unknown what it did or what is on it.
 
 | | |
 | :--- | :--- |
-| Location | [Server Room - Center](../racks.md#center) |
+| Location | [Server Room - Right](../racks.md#rack-2) |
 | IP Addresses | |
 | Deployed | true |
 
@@ -14,8 +14,8 @@ _updated: April 9, 2026_
 | :--- | :--- |
 | CPU |
 | RAM |
-| STORAGE |
-| CONNECTIVITY |
+| Storage |
+| Connectivity |
 
 ## Operating System
 
@@ -25,11 +25,5 @@ _updated: April 9, 2026_
 | Distro |
 | Last updated |
 | End of life |
-| Enrolled in COSI auth |
-| NFS Mount |
-
-## VMs
-
-_updated: April 9, 2026_
 
 ## Notes
