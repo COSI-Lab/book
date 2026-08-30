@@ -4,8 +4,6 @@ The purpose of this document is to provide more detailed descriptions of our man
 
 ## FHILL
 
-_updated: April 10th, 2024_
-
 FHILL our primary fiber switch on the hill campus. It is a
 [Mikrotik CRS326-24S+2Q+RM](https://mikrotik.com/product/crs326_24s_2q_rm)
 running `RouterOS v7`. The management interface is assigned to `128.153.145.21`,
@@ -39,8 +37,6 @@ We've configured groups of ports to map to certain [VLANs](../network/vlans.md).
 | MGMT  | 2   | cosi\_priv | 100 M |
 
 ## FCOLO
-
-_updated: April 10th, 2024_
 
 FCOLO is currently our top level fiber switch, located in COLO.
 It is a

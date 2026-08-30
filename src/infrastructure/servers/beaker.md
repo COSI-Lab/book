@@ -1,34 +1,30 @@
 # Beaker
 
-_updated: Mar 6, 2024_
-
-Bacon is a COSI file server. 
+Beaker is a COSI file server. 
 
 | | |
 | :--- | :--- |
-| Location | [Server Room - Right](../racks.md#rack-0) |
+| Location | [Server Room - Right](../racks.md#rack-2) |
 | IP Addresses | 128.153.145.46 |
-| Deployed | false |
+| Deployed | true |
 
 ## Hardware
 
 | | |
 | :--- | :--- |
-| CPU | 
-| RAM | 
-| STORAGE | 
-| CONNECTIVITY | 
+| CPU | Intel(R) Xeon(R) CPU E5504 @ 2.00GHz | 
+| RAM | 64G | 
+| Storage | 14x4T (33T Usable), 8x8T (41T Usable)|
+| Connectivity | 10G SFP NIC|
 
 ## Operating System
 
 | | |
 | :--- | :--- |
-| OS | True NAs Scale
-| Distro | 
+| OS | True NAS Scale
+| Distro | N/A |
 | Last updated | Unkown
-| End of life | 
-| Enrolled in COSI auth | 
-| NFS Mount | 
+| End of life | Unknown | 
 
 ## Notes
 

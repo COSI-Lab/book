@@ -1,6 +1,6 @@
 # Red Dwarf
 
-_updated: April 9, 2026_ 
+Red dwarf is a former research server. It was maybe used for wikimedia research and/or language processing research.
 
 | | |
 | :--- | :--- |
@@ -14,8 +14,8 @@ _updated: April 9, 2026_
 | :--- | :--- |
 | CPU |
 | RAM |
-| STORAGE |
-| CONNECTIVITY |
+| Storage |
+| Connectivity |
 
 ## Operating System
 
@@ -25,11 +25,5 @@ _updated: April 9, 2026_
 | Distro |
 | Last updated |
 | End of life |
-| Enrolled in COSI auth |
-| NFS Mount |
-
-## VMs
-
-_updated: April 9, 2026_
 
 ## Notes

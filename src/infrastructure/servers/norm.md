@@ -1,8 +1,6 @@
 # Norm
 
-_updated: Spril 9, 2024_
-
-Former resarch server, currently unused
+Former resarch server, currently unused. Likely has the same hardware as [Tiamat](./tiamat.md).
 
 | | |
 | :--- | :--- |
@@ -12,22 +10,15 @@ Former resarch server, currently unused
 
 ## Hardware
 
-| 
-| 
-| 
-| 
-| 
-| 
+This is a best guess of the current hardware based on Tiamat.
+
+| | |
+| :--- | :--- |
+| CPU | AMD Opteron 6220
+| RAM | 64 GB
+| Storage | 1TB
+| Connectivity | 10 Gbps
 
 ## Operating System
-
-|
-| 
-|
-| 
-| 
-|
-|
-|
 
 ## Notes

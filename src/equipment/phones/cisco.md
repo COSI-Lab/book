@@ -1,1 +1,0 @@
-# Cisco IP Phone

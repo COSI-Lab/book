@@ -14,27 +14,20 @@
 - [Racks](./infrastructure/racks.md)
 
 - [Servers](./infrastructure/servers/index.md)
-    - [Bacon](./infrastructure/servers/bacon.md)
     - [Beaker](./infrastructure/servers/beaker.md)
-    - [Caterpillar](./infrastructure/servers/caterpillar.md)
     - [Elephant](./infrastructure/servers/elephant.md)
-  	- [Eldwyn](./infrastructure/servers/eldwyn.md)
-    - [Erised](./infrastructure/servers/erised.md)
     - [Gromit](./infrastructure/servers/gromit.md)
     - [Hydra](./infrastructure/servers/hydra.md)
-    - [Janet](./infrastructure/servers/janet.md)
+    - [Janet (git)](./infrastructure/servers/janet.md)
     - [Kasper](./infrastructure/servers/kasper.md)
     - [Norm](./infrastructure/servers/norm.md)
     - [Prometheus](./infrastructure/servers/prometheus.md)
     - [Red Dwarf](./infrastructure/servers/red_dwarf.md)
     - [Shrimp](./infrastructure/servers/shrimp.md)
-    - [Talos](./infrastructure/servers/talos.md)
     - [TalTres](./infrastructure/servers/taltres.md)
     - [Tiamat](./infrastructure/servers/tiamat.md)
     - [Wallace](./infrastructure/servers/wallace.md)
     - [Ziltoid](./infrastructure/servers/ziltoid.md)
-
-- [Virtual Machines](./infrastructure/vms.md)
 
 - [Maintainers](./infrastructure/maintainers.md)
 
@@ -43,22 +36,16 @@
 - [Computers](./equipment/computers/index.md)
     - [COSI Build](./equipment/computers/cosi-build.md)
     - [ITL Build](./equipment/computers/itl-build.md)
-    - [Steggo](./equipment/computers/steggo.md)
-    - [Intel Mini](./equipment/computers/mini-intel.md)
-    - [arm64 Mini](./equipment/computers/mini-arm64.md)
-    - [iMac](./equipment/computers/imac.md)
 
 - [VR](./equipment/vr.md)
 
 - [Printers & Scanners](./equipment/printers/index.md)
-  - [Canon Printer](./equipment/printers/canon.md)
   - [Mashoonga](./equipment/printers/mashoonga.md)
 
 - [Phones](./equipment/phones/index.md)
 
 - [Robots](./equipment/robots/index.md)
     - [Husky](./equipment/robots/husky.md)
-    - [Donatello](./equipment/robots/donatello.md)
 
 - [Miscellaneous](./equipment/misc/index.md)
   - [Markers](./equipment/misc/markers.md)
@@ -68,31 +55,20 @@
 
 - [Services]()
     - [Authoritative DNS](./services/authoritative_dns.md)
-    - [Recursive DNS](./services/recursive_dns.md)
     - [DHCP](./services/dhcp.md)
     - [Firewall](./services/firewall.md)
-    - [NFS]()
-    - [Print](./services/print.md)
-    - [Asterisk (VOIP)](./services/asterisk.md)
-    - [XMPP (Prosody)](./services/xmpp.md)
-    - [Murmur (Mumble)](./services/murmur.md)
 
 - [Websites]()
     - [cslabs](./websites/cslabs.md)
     - [book](./websites/book.md)
-    - [files]()
-    - [random]()
     - [talks](./websites/talks.md)
 
 - [Mirror](./mirror/introduction.md)
     - [Hardware](./mirror/hardware.md)
-    - [Software]()
-    - [Services](./mirror/services.md)
 
 # Guides 
 
 - [Guides]() 
-    - [COSI Accounts]()
     - [Website Creation](./guides/website_creation.md)
 
 # Resources

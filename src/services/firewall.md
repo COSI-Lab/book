@@ -1,7 +1,5 @@
 # Firewall
 
-_updated: Feb 11, 2024_
-
 Since COSI has its own network, we need to run our own firewall. 
 Our firewall is a filtered bridge between our public and private VLANS; blocking 
 all traffic except to hosts we create holes for. Our firewall currently runs on

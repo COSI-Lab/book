@@ -1,22 +1,6 @@
 # IP Address Allocations
 
-All links on this page should point at the underlying physical (or virtual) _infrastructure_. Links do **not** redirect towards _services_.
-
 ## 128.153.144.0/24 Subnet
-### IP Address Listing
-_updated: October 24, 2024_
-
-| 128.153.144.# | Name |
-| :--- | :---
-| 1 | OIT Gateway |
-| 2 | OIT Echo 360 in the ITL |
-| 10 | COSI WiFi |
-| 21-28	| COSI Machines (1-8) |
-| 29 | 3D Printer Machine |
-| 40-65 | ITL Machines |
-| 100-250 | DHCP |
-
-### Layout
 
 | 128.153.144.# | Name |
 | :--- | :---
@@ -31,29 +15,6 @@ _updated: October 24, 2024_
 | 254 | VPN Entry Point |
 
 ## 128.153.145.0/24 Subnet
-### IP Address Listing
-_updated: October 24, 2024_
-
-| 128.153.145.# | Name |
-| :--- | :---
-| 1 | OIT Gateway |
-| 2 | [Kasper](../servers/kasper.md) |
-| 3 | [TalTres](../servers/taltres.md) |
-| 5 | [Ziltoid](../servers/ziltoid.md) |
-| 10 | [Bacon](../servers/bacon.md) |
-| 19 | [Mirror](../../mirror/introduction.md) |
-| 20 | [FCOLO](../network/switches.md) |
-| 20 | [FHILL](../network/switches.md) |
-| 38 | [Wallace](../servers/wallace.md) |
-| 39 | [Gromit](../servers/gromit.md) |
-| 41 | [Tiamat](../servers/tiamat.md) |
-| 42 | [Hydra](../servers/hydra.md) |
-| 43 | [Janet](../servers/janet.md) |
-| 52 | [Caterpillar](../servers/caterpillar.md) |
-| 53 | [TalTres](../servers/taltres.md) |
-| 90 | [Elephant](../servers/elephant.md) |
-
-### Allocations
 
 | 128.153.145.# | Name |
 | :---  | :---
@@ -65,8 +26,6 @@ _updated: October 24, 2024_
 | 230-254 | Research |
 
 ## 2605:6480:c051::/48 Subnet
-
-### Allocations
 
 | 2605:6480:c051 | :XXXX: | YYYY:YYYY:YYYY:YYYY |
 | :-:            | :-:  | :-: |

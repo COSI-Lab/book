@@ -1,7 +1,5 @@
 # Maintainers
 
-_updated: Jan 23, 2025_
-
 This page is a directory of current infrastructure maintainers and their SSH public keys.
 
 | Clarkson Username | SSH Public Key |

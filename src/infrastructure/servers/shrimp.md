@@ -1,7 +1,5 @@
 # Shrimp
 
-_updated: April 9, 2026_
-
 Shrimp is a NAS managed by Jeanna Matthews for Criminal Justice Software research. 
 
 | | |
@@ -12,7 +10,6 @@ Shrimp is a NAS managed by Jeanna Matthews for Criminal Justice Software researc
 
 ## Hardware
 
---Synology NAS
-
+Synology NAS
 
 ## Notes
