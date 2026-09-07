@@ -21,20 +21,17 @@ The switch is physically split into 3 groups of 8 SFP+ ports and 1 group
 containing the 2 QSFP+ ports. It also has a 100M Ethernet port for management.
 
 ```
-| 0 | 2 | 4 | 6 |   | 8 | 10 | 12 | 14 |   | 16 | 18 | 20 | 22 |   |  Q0  |   |      |
-|---|---|---|---|---|---|----|----|----|---|----|----|----|----|---|------|---|------|
-| 1 | 3 | 5 | 7 |   | 9 | 11 | 13 | 15 |   | 17 | 19 | 21 | 23 |   |  Q1  |   | MGMT |
+| 2 | 4 | 6 | 8 |   | 10 | 12 | 14 | 16 |   | 18 | 20 | 22 | 24 |   |  Q2  |   |      |
+|---|---|---|---|---|----|----|----|----|---|----|----|----|----|---|------|---|------|
+| 1 | 3 | 5 | 7 |   | 9  | 11 | 13 | 15 |   | 17 | 19 | 21 | 23 |   |  Q1  |   | MGMT |
 ```
 
-We've configured groups of ports to map to certain [VLANs](../network/vlans.md).
+We've configured groups of ports to map to certain [VLANs](../network/vlans.md). Ports not listed below are disabled.
 
-| Ports | VID | Name       | Speed |
-|-------|-----|------------|-------|
-| 0-7   | 2   | cosi\_priv | 10 G  |
-| 8-15  | 2   | cosi\_priv | 10 G  |
-| 16-23 | 1   | service    | 10 G  |
-| Q0-Q1 | 1   | service    | 40 G  |
-| MGMT  | 2   | cosi\_priv | 100 M |
+| Ports | VID   | Name       | Speed |
+|-------|-------|------------|-------|
+| 2     | Trunk |            | 10 G  |
+| 0-15  | 2     | cosi\_priv | 10 G  |
 
 ## FCOLO
 
@@ -54,19 +51,21 @@ The switch is physically split into 3 groups of 8 SFP+ ports and 1 group
 containing the 2 QSFP+ ports. It also has a 100M Ethernet port for management.
 
 ```
-| 0 | 2 | 4 | 6 |   | 8 | 10 | 12 | 14 |   | 16 | 18 | 20 | 22 |   |  Q0  |   |      |
-|---|---|---|---|---|---|----|----|----|---|----|----|----|----|---|------|---|------|
-| 1 | 3 | 5 | 7 |   | 9 | 11 | 13 | 15 |   | 17 | 19 | 21 | 23 |   |  Q1  |   | MGMT |
+| 2 | 4 | 6 | 8 |   | 10 | 12 | 14 | 16 |   | 18 | 20 | 22 | 24 |   |  Q2  |   |      |
+|---|---|---|---|---|----|----|----|----|---|----|----|----|----|---|------|---|------|
+| 1 | 3 | 5 | 7 |   | 9  | 11 | 13 | 15 |   | 17 | 19 | 21 | 23 |   |  Q1  |   | MGMT |
 ```
 
 We've configured groups of ports to map to certain [VLANs](../network/vlans.md).
 Traffic between cosi\_pub and cosi\_priv is controlled by the
-[firewall.](../../services/firewall.md)
+[firewall.](../../services/firewall.md). Ports not listed below are disabled.
 
-| Ports | VID | Name       | Speed |
-|-------|-----|------------|-------|
-| 0-7   | 3   | cosi\_pub  | 10 G  |
-| 8-15  | 2   | cosi\_priv | 10 G  |
-| 16-23 | 1   | service    | 10 G  |
-| Q0-Q1 | 1   | service    | 40 G  |
-| MGMT  | 2   | cosi\_priv | 100 M |
+| Ports | VID.  | Name       | Speed |
+|-------|-------|------------|-------|
+| 1     | 3     | cosi\_pub  | 10 G  |
+| 2     | Trunk |            | 10 G  |
+| 3-8   | 3     | cosi\_pub  | 10 G  |
+| 9-16  | 2     | cosi\_priv | 10 G  |
+
+### STP
+Kasper is currently configured as a filtered bridge between `cosi_pub` and `cosi_priv`. STP will detect this as a loop, because even though both ports are on separate VLANs, they are on the same bridge on the switch. To solve this STP has been disabled entirely on FCOLO.
