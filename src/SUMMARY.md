@@ -57,6 +57,7 @@
     - [Authoritative DNS](./services/authoritative_dns.md)
     - [DHCP](./services/dhcp.md)
     - [Firewall](./services/firewall.md)
+    - [GitLab](./services/gitlab.md)
 
 - [Websites]()
     - [cslabs](./websites/cslabs.md)
