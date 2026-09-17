@@ -10,7 +10,7 @@ edit-url-template = "https://git.cosi.clarkson.edu/cosi-meta/book/-/edit/main/{p
 git-repository-icon = "fas-code-fork"
 default-theme = "light"
 preferred-dark-theme = "coal"
-additional-css = ["custom.css"]
+additional-css = ["theme/custom.css"]
 
 [output.html.print]
 enable = false
