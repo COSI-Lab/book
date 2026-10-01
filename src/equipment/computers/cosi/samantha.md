@@ -23,12 +23,10 @@ Samantha is one of the workstation computers in the back of COSI, to the left of
 | | |
 | :--- | :--- |
 | OS | GNU/Linux
-| Distro | Ubuntu 24.04.3
-| DE | GNOME 46
-| Hostname | cosi-03
-| Last updated | Unknown
-| End of life | April 2029
+| Distro | Fedora 44
+| DE | KDE Plasma 6
+| Hostname | cosi-3
+| Last updated | September 2026
+| End of life | June 2027
 
 ## Notes
-
-The current OS appears to have been made to work with [Husky](../robots/husky.md), given the hostname and choice of Ubuntu.
