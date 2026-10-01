@@ -22,12 +22,15 @@ It functions as a filtered bridge between our public and private VLANs.
 
 | | |
 | :--- | :--- |
-| OS | GNU/Linux
-| Distro | Ubuntu 22.04
-| Last updated | Dec. 14th, 2023
-| End of life | April 2027
+| OS | FreeBSD
+| Distro | OPNsense 26.7
+| Last updated | September 2026
+| End of life | January 2027
 
 ## Services
 
 - [Firewall](../../services/firewall.md)
 
+## Notes
+
+Kasper formerly utilized nftables on Ubuntu as our firewall configuration, which is what much of the current firewall documentation references. These pages should be updated to reflect the shift to OPNsense.

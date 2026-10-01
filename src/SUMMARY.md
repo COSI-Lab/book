@@ -24,6 +24,7 @@
     - [Prometheus](./infrastructure/servers/prometheus.md)
     - [Red Dwarf](./infrastructure/servers/red_dwarf.md)
     - [Shrimp](./infrastructure/servers/shrimp.md)
+    - [Slop](./infrastructure/servers/slop.md)
     - [TalTres](./infrastructure/servers/taltres.md)
     - [Tiamat](./infrastructure/servers/tiamat.md)
     - [Wallace](./infrastructure/servers/wallace.md)
@@ -34,7 +35,16 @@
 # Equipment
 
 - [Computers](./equipment/computers/index.md)
-    - [COSI Build](./equipment/computers/cosi-build.md)
+    - [COSI](./equipment/computers/cosi/index.md)
+        - [Emulation](./equipment/computers/cosi/emulation.md)
+        - [Fridge](./equipment/computers/cosi/fridge.md)
+        - [Jesubelle](./equipment/computers/cosi/jesubelle.md)
+        - [Jimmy](./equipment/computers/cosi/jimmy.md)
+        - [Map](./equipment/computers/cosi/map.md)
+        - [Presenter](./equipment/computers/cosi/presenter.md)
+        - [Samantha](./equipment/computers/cosi/samantha.md)
+        - [Steggo](./equipment/computers/cosi/steggo.md)
+        - [Window](./equipment/computers/cosi/window.md)
     - [ITL Build](./equipment/computers/itl-build.md)
 
 - [VR](./equipment/vr.md)

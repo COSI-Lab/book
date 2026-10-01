@@ -38,11 +38,10 @@ Replace PATH with the **relative** path to /src/infrastructure/
 ```
 ## Rack 0
 
-_updated: March 6th, 2024_
+_updated: September 18th, 2026_
 
 | RU | Device |
 | :- | :----- |
-| 37 | TP-LINK TL-SG3428X (Rear) mrack0|
 | 36 | |
 | 35 | |
 | 34 | |
@@ -64,62 +63,63 @@ _updated: March 6th, 2024_
 | 18 | |
 | 17 | |
 | 16 | |
-| 15 | |
-| 14 | |
-| 13 | |
-| 12 | [Ampersand](../server/ampersand.md) |
-| 11 | [Ampersand](../server/ampersand.md) |
-| 10 | [Ampersand](../server/ampersand.md) |
-| 09 | [Ampersand](../server/ampersand.md) |
-| 08 | [Ampersand](../server/ampersand.md) |
-| 07 | [Ampersand](../server/ampersand.md) |
-| 06 | [Ampersand](../server/ampersand.md) |
-| 05 | [Ampersand](../server/ampersand.md) |
-| 04 | [Ampersand](../server/ampersand.md) |
-| 03 | [Ampersand](../server/ampersand.md) |
-| 02 | |
-| 01 | |
+| 15 | UPS |
+| 14 | UPS |
+| 13 | UPS |
+| 12 | UPS |
+| 11 | Bacon |
+| 10 | Bacon |
+| 09 | Ampersand |
+| 08 | Ampersand |
+| 07 | Ampersand |
+| 06 | Ampersand |
+| 05 | Ampersand |
+| 04 | Ampersand |
+| 03 | Ampersand |
+| 02 | Ampersand |
+| 01 | Ampersand |
+
 
 [top of rack](#rack-0) - [top of page](#)
 
 ## Rack 1
-_updated: April 9, 2026_
+_updated: September 18th, 2026_
 
 | RU | Device |
 | :- | :----- |
 | 36 | |
 | 35 | |
-| 34 | [Tiamat](../server/tiamat.md) |
-| 33 | [Hydra](../server/hydra.md) |
-| 32 | [Hydra](../server/hydra.md) |
-| 31 | [Hydra](../server/hydra.md) |
-| 30 | [Hydra](../server/hydra.md) |
+| 34 | [Tiamat](servers/tiamat.md) |
+| 33 | [Hydra](servers/hydra.md) |
+| 32 | [Hydra](servers/hydra.md) |
+| 31 | [Hydra](servers/hydra.md) |
+| 30 | [Hydra](servers/hydra.md) |
 | 29 | Hydra rails |
 | 28 | |
-| 27 | [Grand Dad] |
-| 26 | [Grand Dad] |
-| 25 | [KVM] |
-| 24 | [Shrimp] |
-| 23 | [WAP] |
-| 22 | [Caterpillar](../server/caterpillar.md) |
-| 21 | [Shrimp] |
-| 20 | [Shrimp] |
+| 27 | Grand Dad |
+| 26 | Grand Dad |
+| 25 | KVM |
+| 24 | |
+| 23 | [Shrimp](servers/shrimp.md) |
+| 22 | [Shrimp](servers/shrimp.md) |
+| 21 | [Shrimp](servers/shrimp.md) |
+| 20 | AP |
 | 19 | |
 | 18 | |
 | 17 | |
-| 16 | |
-| 15 | [UPS 4] |
-| 14 | [UPS 4] |
-| 13 | [UPS 4] |
-| 12 | [UPS 4] |
+| 16 | [Slop](servers/slop.md) |
+| 15 | [Slop](servers/slop.md) |
+| 14 | [Slop](servers/slop.md) |
+| 13 | [Slop](servers/slop.md) |
+| 12 | |
 | 11 | [UPS 4] |
 | 10 | [UPS 4] |
 | 09 | [UPS 4] |
-| 08 | [Norm] |
-| 07 | [Red Dwarf] |
-| 06 | [Red Dwarf] |
-| 05 | [Red Dwarf] |
-| 04 | [Red Dwarf] |
+| 08 | [Norm](servers/norm.md) |
+| 07 | [Red Dwarf](servers/red_dwarf.md) |
+| 06 | [Red Dwarf](servers/red_dwarf.md) |
+| 05 | [Red Dwarf](servers/red_dwarf.md) |
+| 04 | [Red Dwarf](servers/red_dwarf.md) |
 | 03 | |
 | 02 | [UPS 8](APC Smart-UPS C1500) |
 | 01 | [UPS 8](APC Smart-UPS C1500) |
@@ -127,20 +127,20 @@ _updated: April 9, 2026_
 [top of rack](#rack-1) - [top of page](#)
 
 ## Rack 2
-_updated: March 6th, 2024_
+_updated: September 18th, 2026_
 
 | RU | Device |
 | :- | :----- |
 | 42 | M2 (TP-LINK TL-SH3424) mrack2|
 | 41 |  |
 | 40 | [Janet](../infrastructure/servers/janet.md) |
-| 39 | [Bacon](../infrastructure/servers/bacon.md) |
-| 38 | [Bacon](../infrastructure/servers/bacon.md) |
-| 37 | [Elephant](../infrastructure/servers/elephant.md) |
-| 36 | [Elephant](../infrastructure/servers/elephant.md) |
-| 35 | [Erised](../infrastructure/servers/erised.md) |
-| 34 | [Erised](../infrastructure/servers/erised.md) |
-| 33 | [Erised](../infrastructure/servers/erised.md) |
+| 39 | |
+| 38 | |
+| 37 | [Elephant](servers/elephant.md) |
+| 36 | [Elephant](servers/elephant.md) |
+| 35 | [Beaker](servers/beaker.md) |
+| 34 | [Beaker](servers/beaker.md) |
+| 33 | [Beaker](servers/beaker.md) |
 | 32 | |
 | 31 | |
 | 30 | |
@@ -163,9 +163,9 @@ _updated: March 6th, 2024_
 | 13 | |
 | 12 | |
 | 11 | |
-| 10 | | 
-| 09 | |
-| 08 | |
+| 10 | UPS | 
+| 09 | UPS |
+| 08 | UPS |
 | 07 | Prometheus |
 | 06 | Prometheus |
 | 05 | Prometheus |
@@ -420,13 +420,13 @@ COSI has 1 rack in the university colocation at Old Main.
 | 20 | [Mirror](../mirror/introduction.md) |
 | 19 | [Mirror](../mirror/introduction.md) |
 | 18 | [Mirror](../mirror/introduction.md) |
-| 17 | [Kasper](../infrastructure/servers/kasper.md) |
-| 16 | [TalTres](../infrastructure/servers/taltres.md) |
-| 15 | [TalTres](../infrastructure/servers/taltres.md) |
-| 14 | [Gromit](../infrastructure/servers/gromit.md) |
-| 13 | [Gromit](../infrastructure/servers/gromit.md) |
-| 12 | [Wallace](../infrastructure/servers/wallace.md) |
-| 11 | [Wallace](../infrastructure/servers/wallace.md) |
+| 17 | [Kasper](servers/kasper.md) |
+| 16 | [TalTres](servers/taltres.md) |
+| 15 | [TalTres](servers/taltres.md) |
+| 14 | [Gromit](servers/gromit.md) |
+| 13 | [Gromit](servers/gromit.md) |
+| 12 | [Wallace](servers/wallace.md) |
+| 11 | [Wallace](servers/wallace.md) |
 | 10 | |
 | 09 | |
 | 08 | |
