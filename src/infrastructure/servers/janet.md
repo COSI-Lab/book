@@ -28,7 +28,7 @@ Janet is the lab's GitLab host. It runs on dedicated hardware to provide more re
 
 ## Services
 
-- [git.cosi.clarkson.edu](git.cosi.clarkson.edu)
+- [git.cosi.clarkson.edu](https://git.cosi.clarkson.edu)
 - GitLab CI runners (docker)
 
 ## Notes
