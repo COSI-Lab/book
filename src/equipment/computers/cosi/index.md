@@ -2,7 +2,7 @@
 
 ## COSI Build
 
-The “COSI Build” has hisorically refered to the two machines near the entrance of COSI at the window desk ([Jesubelle](./jesubelle.md) & [Samantha](./samantha.md)). These machines have primarily been used as workstations, and have run multiple different OSes throughout their lifetime.
+The “COSI Build” has hisorically referred to the two machines near the entrance of COSI at the window desk ([Jesubelle](./jesubelle.md) & [Samantha](./samantha.md)). These machines have primarily been used as workstations, and have run multiple different OSes throughout their lifetime.
 
 ## Other Computers
 

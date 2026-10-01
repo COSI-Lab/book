@@ -33,4 +33,4 @@ It functions as a filtered bridge between our public and private VLANs.
 
 ## Notes
 
-Kasper formerly utilized nftables on Ubuntu as our firewall configuration, which is what much of the current firewall documentation refrences. These pages should be updated to reflect the shift to OPNsense.
+Kasper formerly utilized nftables on Ubuntu as our firewall configuration, which is what much of the current firewall documentation references. These pages should be updated to reflect the shift to OPNsense.

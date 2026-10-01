@@ -34,4 +34,4 @@ Slop is a cobbled-together AI server, created from various PC parts from around 
 
 ## Notes
 
-Currently, Slop is only accessable from COSI's network.
+Currently, Slop is only accessible from COSI's network.

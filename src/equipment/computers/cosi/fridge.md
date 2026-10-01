@@ -32,4 +32,4 @@ Fridge is located on top of the soda fridge in COSI, and its main purpose is to 
 
 ## Notes
 
-Fridge has become quite infamous for its long uptime, likely arising from its purpose as a simple website veiwing computer. At time of writing, it stands at an impressive 582 Days of uptime, last shut down in Spring 2025 so its excessive 16GB of RAM could be used for another computer during a meeting.
+Fridge has become quite infamous for its long uptime, likely arising from its purpose as a simple website viewing computer. At time of writing, it stands at an impressive 582 Days of uptime, last shut down in Spring 2025 so its excessive 16GB of RAM could be used for another computer during a meeting.

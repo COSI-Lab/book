@@ -2,7 +2,7 @@
 
 Steggo is an **IBM PS/2 Model 25 SX**, which released in 1992. It appears to have been upgraded at some point, as it has more RAM than came standard with this model. 
 
-Steggo is primarilly utilized as a "can it run/do x" machine, with various interesting programs being written to floppy disks that sit nearby it.
+Steggo is primarily utilized as a "can it run/do x" machine, with various interesting programs being written to floppy disks that sit nearby it.
 
 | | |
 | :--- | :--- |
@@ -32,4 +32,4 @@ Steggo is primarilly utilized as a "can it run/do x" machine, with various inter
 
 Steggo has seemingly developed some screen burn-in over the years, which is most apparent when Steggo is off.
 
-Steggo is frequently used as a display machine for open house events (albiet it cannot always be run due to sparse power avaliability at said events).
+Steggo is frequently used as a display machine for open house events (albeit it cannot always be run due to sparse power availability at said events).
