@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: book
+  namespace: cosi
+  labels:
+    app: book
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: book
+  template:
+    metadata:
+      labels:
+        app: book
+    spec:
+      containers:
+        - name: book
+          image: registry.cosi.clarkson.edu/cosi-meta/book
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: book
+  namespace: cosi
+spec:
+  selector: {app: book}
+  ports:
+    - port: 80
+      targetPort: 80
+---
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: book-tls
+  namespace: cosi
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - kind: Rule
+      match: Host(`book2.cosi.clarkson.edu`)
+      services:
+        - name: book
+          port: 80
+  tls:
+    certResolver: le
+---
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: book-redirect
+  namespace: cosi
+spec:
+  entryPoints:
+    - web
+  routes:
+  - match: Host(`book2.cosi.clarkson.edu`)
+    kind: Rule
+    middlewares:
+    - name: https-redirect
+      namespace: cosi
+    services: # stupid ass bullshit
+        - name: noop@internal
+          kind: TraefikService
